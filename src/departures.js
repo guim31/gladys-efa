@@ -136,13 +136,15 @@ export function parseDepartures(events, now) {
     const properties = event.location?.properties ?? {};
     departures.push({
       // transportation.id is the line and direction, not the trip: two ICE to
-      // Köln at the same minute share it. The trip code and the platform tell
-      // them apart, and stay the same from one read to the next.
+      // Köln at the same minute share it. The trip code tells them apart and
+      // stays the same from one read to the next; the platform, which can
+      // change in real time, only when the network gives no trip code.
       key: [
         transportation.id ?? lineOf(transportation),
-        transportation.properties?.tripCode ?? '',
-        event.properties?.AVMSTripID ?? '',
-        event.location?.id ?? '',
+        transportation.properties?.tripCode ??
+          event.properties?.AVMSTripID ??
+          event.location?.id ??
+          '',
         event.departureTimePlanned,
       ].join('|'),
       line: lineOf(transportation),
