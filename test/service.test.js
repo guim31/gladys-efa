@@ -7,7 +7,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { NO_DEPARTURE_MINUTES } from '../src/devices.js';
-import { MAX_WATCHES, TRIGGERS } from '../src/service.js';
+import { MAX_WATCHES, TRIGGERS, relevantStops } from '../src/service.js';
 import {
   DUESSELDORF,
   KARLSRUHE,
@@ -67,6 +67,24 @@ test('search: by name or id, in the chosen network; failures in red', async (t) 
     fr(await failedAction(world, 'search_stops', { network: 'vvs', query: 'Stuttgart' })),
     'Le serveur du réseau est injoignable (www3.vvs.de: fetch failed). Réessayez dans un instant.',
   );
+});
+
+test('a name EFA does not know: its fuzzy matches are not offered', () => {
+  const stops = [
+    { id: 'de:05111:1', name: 'Uedorf, Werthstr.', label: 'Uedorf, Werthstr.' },
+    { id: 'de:05111:18235', name: 'Düsseldorf, Düsseldorf Hbf', label: 'Düsseldorf Hbf' },
+    { id: 'de:08111:6118', name: 'Stuttgart, Hauptbahnhof', label: 'Stuttgart, Hauptbahnhof' },
+  ];
+  assert.deepEqual(relevantStops(stops, 'Xyzzyqwert'), []);
+  assert.deepEqual(
+    relevantStops(stops, 'Duesseldorf Hbf').map((s) => s.id),
+    ['de:05111:18235'],
+  );
+  assert.deepEqual(
+    relevantStops(stops, 'stuttgart').map((s) => s.id),
+    ['de:08111:6118'],
+  );
+  assert.equal(relevantStops(stops, '20018235').length, 3);
 });
 
 test('add a stop: homonyms, unknown stop, line or mode, filters in the name, duplicates', async (t) => {

@@ -67,6 +67,30 @@ export function parseLines(text) {
   ].sort((a, b) => a.localeCompare(b, 'en', { numeric: true }));
 }
 
+// "ue" for "ü": "Duesseldorf" matches "Düsseldorf".
+const loose = (text) => words(text).replace(/ae/g, 'a').replace(/oe/g, 'o').replace(/ue/g, 'u');
+
+/**
+ * The stops of a search that share a word with the text typed: EFA answers a
+ * name it does not know with a hundred fuzzy matches ("Xyzzy" → "Uedorf,
+ * Werthstr."), some of them with a high match quality.
+ */
+export function relevantStops(stops, text) {
+  if (parseStopId(text) !== null) {
+    return stops;
+  }
+  const typed = loose(text)
+    .split(' ')
+    .filter((word) => word.length >= 3);
+  if (typed.length === 0) {
+    return stops;
+  }
+  return stops.filter((stop) => {
+    const name = loose(`${stop.name} ${stop.label}`);
+    return typed.some((word) => name.includes(word));
+  });
+}
+
 /** A watch read from /data or a device: a known network and a stop id. */
 const isWatch = (watch) =>
   Boolean(NETWORKS[watch?.network]) && typeof watch.id === 'string' && watch.id.length > 0;
@@ -603,7 +627,7 @@ export class EfaService {
     if (!text) {
       throw this.fail('searchNeedText');
     }
-    const stops = await this.call(() => this.efa.findStops(network, text));
+    const stops = relevantStops(await this.call(() => this.efa.findStops(network, text)), text);
     if (stops.length === 0) {
       throw this.fail('searchNone', { query: text });
     }
@@ -621,7 +645,7 @@ export class EfaService {
 
   /** The stop an action names: by id, by the only result, or by its exact name. */
   async resolveStop(network, text) {
-    const stops = await this.call(() => this.efa.findStops(network, text));
+    const stops = relevantStops(await this.call(() => this.efa.findStops(network, text)), text);
     const id = parseStopId(text);
     if (id !== null) {
       // A global id or a stop number: the server's best answer is that stop.
