@@ -1,0 +1,3982 @@
+{
+ "version": "11.0.6.72",
+ "systemMessages": [],
+ "locations": [
+  {
+   "id": "de:05111:18235",
+   "isGlobalId": true,
+   "name": "Düsseldorf, Düsseldorf Hbf",
+   "disassembledName": "Düsseldorf Hbf",
+   "type": "stop",
+   "parent": {
+    "id": "placeID:5111000:6",
+    "name": "Düsseldorf",
+    "type": "locality"
+   },
+   "properties": {
+    "additionalTariffData": {
+     "area": "",
+     "zones": "",
+     "layer1": "",
+     "layer2": ""
+    },
+    "stopId": "20018235",
+    "downloads": [
+     {
+      "type": "SM",
+      "url": "vrr/18235_D-Hauptbahnhof.pdf",
+      "size": 479
+     }
+    ]
+   }
+  }
+ ],
+ "stopEvents": [
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:5:7",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "7",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "7",
+     "platform": "7",
+     "platformName": "7",
+     "plannedPlatformName": "7"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T10:57:30Z",
+   "departureTimeBaseTimetable": "2026-11-22T10:57:30Z",
+   "departureTimeEstimated": "2026-11-22T11:00:42Z",
+   "transportation": {
+    "id": "rbg:71704: :H:j26",
+    "name": "Niederflurstrab 704",
+    "disassembledName": "704",
+    "number": "704",
+    "description": "D-Derend. Nord, Merziger Str. - Düsseldorf Hbf - Universität Nord/Christophstr.",
+    "product": {
+     "id": 18,
+     "class": 4,
+     "name": "Niederflurstrab",
+     "iconId": 4
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018099",
+     "name": "D-Uni Nord/Christophstraße",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 66,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:704:RBG-71-704",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018045",
+     "name": "D-Merziger Straße",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "RB_VIA.5711007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "isCancelled": true,
+   "realtimeStatus": [
+    "TRIP_CANCELLED",
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:93:16",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "16",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "realtimeStatus": [
+      "TRIP_CANCELLED"
+     ],
+     "stopId": "20018235",
+     "area": "93",
+     "platform": "16",
+     "platformName": "16",
+     "plannedPlatformName": "16"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T10:59:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T10:59:00Z",
+   "transportation": {
+    "id": "ddb:90RE5: :H:j26",
+    "name": "Regionalzug RE5",
+    "disassembledName": "RE5",
+    "number": "RE5",
+    "product": {
+     "id": 8,
+     "class": 13,
+     "name": "Regionalzug",
+     "iconId": 6
+    },
+    "operator": {
+     "code": "NX",
+     "id": "NX",
+     "name": "National Express"
+    },
+    "destination": {
+     "id": "15010117",
+     "name": "Koblenz Hauptbahnhof",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "RRX Rhein-Ruhr-Express",
+     "trainType": "RE",
+     "trainNumber": "28515",
+     "tripCode": 73,
+     "lineDisplay": "LINE",
+     "globalId": "de:nrw:re5:",
+     "FrequencyLine": "1"
+    },
+    "origin": {
+     "id": "20036918",
+     "name": "Wesel Bahnhof",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-11-20T14:18:00Z"
+     },
+     "priority": "normal",
+     "id": "ZTP-PROD-141525",
+     "version": 78,
+     "type": "tripMessage",
+     "properties": {
+      "publisher": "ems.comm.addinfo",
+      "infoType": "tripMessage",
+      "incidentDateTime": "20/11/2026 15:00 - 22/11/2026 12:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://ems.vrr.de/info-link/38c1d876-4364-5116-8201-fbf9baddff50",
+       "content": "Region Oberhausen Hbf aktuell beeinträchtigt. Das Ende können wir leider noch nicht abschätzen. Grund: Reparatur an einer Weiche. In der Folge kommt es wahrscheinlich zu Verspätungen. Die Züge fahren eventuell von einem anderen Gleis ab. Durchsagen beachten.",
+       "subtitle": "Region Oberhausen Hbf beeinträchtigt - Reparatur an einer Weiche",
+       "title": "Region Oberhausen Hbf beeinträchtigt - Reparatur an einer Weiche"
+      }
+     ]
+    },
+    {
+     "timestamps": {
+      "creation": "2026-08-18T06:30:00Z"
+     },
+     "priority": "normal",
+     "id": "ZTP-PROD-137395",
+     "version": 847,
+     "type": "tripMessage",
+     "properties": {
+      "publisher": "ems.comm.addinfo",
+      "infoType": "tripMessage",
+      "incidentDateTime": "01/09/2026 00:00 - 04/12/2026 20:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://ems.vrr.de/info-link/97416f0e-d154-52c3-a739-2b437f05897c",
+       "content": "Aufgrund von Brückenarbeiten, Gleis- und Weichenerneuerungen sowie Bahnsteigarbeiten kommt es auf der Linie RE 5 (RRX) vom 21.08.2026 (21:00 Uhr) bis zum 04.12.2026 (21:00 Uhr) zu Umleitungen und Teilausfällen zwischen Düsseldorf Hbf und Köln-Mülheim.",
+       "subtitle": "Maßnahmen und Fahrpläne: RE 5 (RRX)",
+       "title": "Maßnahmen und Fahrpläne: RE 5 (RRX)"
+      }
+     ]
+    },
+    {
+     "timestamps": {
+      "creation": "2026-11-22T02:14:00Z"
+     },
+     "priority": "normal",
+     "id": "ZTP-PROD-141578",
+     "version": 3,
+     "type": "tripMessage",
+     "properties": {
+      "publisher": "ems.comm.addinfo",
+      "infoType": "tripMessage",
+      "incidentDateTime": "22/11/2026 08:00 - 22/11/2026 13:45"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://ems.vrr.de/info-link/588890ad-da7e-503e-9216-b829d88f240b",
+       "content": "Auf der Linie RE 5 (RRX) kommt es zu Einschränkungen. Der Grund dafür ist ein kurzfristiger Personalausfall.",
+       "subtitle": "Einschränkungen auf der Linie RE 5 (RRX) - kurzfristiger Personalausfall",
+       "title": "Einschränkungen auf der Linie RE 5 (RRX) - kurzfristiger Personalausfall"
+      }
+     ]
+    }
+   ],
+   "hints": [
+    {
+     "content": "Linie RE5: WLAN verfügbar",
+     "providerCode": "A__WV",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    },
+    {
+     "content": "Linie RE5: Klimaanlage",
+     "providerCode": "A__KL",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    },
+    {
+     "content": "Kurzfristiger Personalausfall",
+     "providerCode": "ddb90RE5_H_IncidentCall73_20018235_1",
+     "type": "RTIncidentCall",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "28515",
+    "FrequencyLine": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:2:9",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "9",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "9",
+     "platform": "9",
+     "platformName": "9",
+     "plannedPlatformName": "9"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T10:59:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T10:59:00Z",
+   "departureTimeEstimated": "2026-11-22T10:59:00Z",
+   "transportation": {
+    "id": "rbg:72721: :R:j26",
+    "name": "Niederflurbus 721",
+    "disassembledName": "721",
+    "number": "721",
+    "description": "D-Tannenhof, Gothaer Weg - Düsseldorf Hbf - Nordfriedhof - D-Flughafen Terminal",
+    "product": {
+     "id": 13,
+     "class": 5,
+     "name": "Niederflurbus",
+     "iconId": 5
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018517",
+     "name": "D-Flughafen Terminal S U",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 432,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:721:RBG-72-721",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018819",
+     "name": "D-Gothaer Weg",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "RB_VIA.179007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "type": "platform",
+    "properties": {
+     "stopId": "20018235",
+     "area": "0"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:00:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:00:00Z",
+   "departureTimeEstimated": "2026-11-22T11:00:00Z",
+   "transportation": {
+    "id": "ddb:87RE4:I:H:j26",
+    "name": "Ersatzverkehr SEV RE 47",
+    "number": "SEV RE 47",
+    "product": {
+     "id": 6,
+     "class": 17,
+     "name": "Ersatzverkehr",
+     "iconId": 3
+    },
+    "operator": {
+     "code": "M2",
+     "id": "M2",
+     "name": "REGIOBAHN"
+    },
+    "destination": {
+     "id": "20013800",
+     "name": "Solingen, Hauptbahnhof",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "Schienenersatzverkehr",
+     "trainType": "SEV",
+     "trainNumber": "9518",
+     "tripCode": 25,
+     "lineDisplay": "LINE",
+     "FrequencyLine": "1"
+    },
+    "origin": {
+     "id": "20018235",
+     "name": "Düsseldorf Hbf",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Linie SEV RE47X: Ersatzverkehr",
+     "providerCode": "A__SV",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "9518#Bus",
+    "FrequencyLine": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:98:13",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "13",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "98",
+     "platform": "13",
+     "platformName": "13",
+     "plannedPlatformName": "13"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:00:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:00:00Z",
+   "departureTimeEstimated": "2026-11-22T11:09:00Z",
+   "transportation": {
+    "id": "ddb:920S8:B:H:j26",
+    "name": "S-Bahn S 8",
+    "disassembledName": "S8",
+    "number": "S 8",
+    "product": {
+     "id": 3,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "DBNW",
+     "id": "8003",
+     "name": "DB Regio AG NRW"
+    },
+    "destination": {
+     "id": "20011602",
+     "name": "Wuppertal Oberbarmen",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "30865",
+     "tripCode": 218,
+     "lineDisplay": "LINE",
+     "globalId": "de:nrw:s8:",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "20023007",
+     "name": "MG Hbf /Europaplatz",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-11-22T01:23:00Z"
+     },
+     "priority": "normal",
+     "id": "ZTP-PROD-141575",
+     "version": 36,
+     "type": "tripMessage",
+     "properties": {
+      "publisher": "ems.comm.addinfo",
+      "infoType": "tripMessage",
+      "incidentDateTime": "22/11/2026 01:30 - 22/11/2026 13:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://ems.vrr.de/info-link/6ad5aca3-fbed-5e29-83a5-c477ddd2e69f",
+       "content": "Region  Wuppertal Zoologischer Garten aktuell nicht befahrbar. Das Ende können wir leider noch nicht abschätzen. Grund: Reparatur an einer Weiche. Kurzfristig kann es zu Zugausfällen kommen. Ersatzverkehr (SEV) zwischen Wuppertal Hbf und Wuppertal-Vohwinkel. Bitte Reiseverbindung vor Abfahrt prüfen.",
+       "subtitle": "Region  Wuppertal Zoologischer Garten nicht befahrbar - Reparatur an einer Weiche",
+       "title": "Region  Wuppertal Zoologischer Garten nicht befahrbar - Reparatur an einer Weiche"
+      }
+     ]
+    }
+   ],
+   "hints": [
+    {
+     "content": "Verspätung aus vorheriger Fahrt",
+     "providerCode": "ddb920S8BH_IncidentCall218_20018235_1",
+     "type": "RTIncidentCall",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "30865-800354-8000253-112400",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:98:14",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "14",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "98",
+     "platform": "14",
+     "platformName": "14",
+     "plannedPlatformName": "14"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:00:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:00:00Z",
+   "departureTimeEstimated": "2026-11-22T11:00:00Z",
+   "transportation": {
+    "id": "ddb:920S6:B:R:j26",
+    "name": "S-Bahn S 6",
+    "disassembledName": "S6",
+    "number": "S 6",
+    "product": {
+     "id": 3,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "DB",
+     "id": "00",
+     "name": "DB AG"
+    },
+    "destination": {
+     "id": "20009289",
+     "name": "Essen Hauptbahnhof",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "30663",
+     "tripCode": 920,
+     "lineDisplay": "LINE",
+     "globalId": "de:nrw:s6:",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "20018235",
+     "name": "Düsseldorf Hbf",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "30663-8003S-8000085-120000",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "EXTRA_STOPS",
+    "DEVIATION",
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:4:11",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "11",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "11",
+     "platform": "11",
+     "platformName": "11",
+     "plannedPlatformName": "11"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:00:30Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:00:30Z",
+   "departureTimeEstimated": "2026-11-22T11:00:30Z",
+   "transportation": {
+    "id": "rbg:72738: :R:j26",
+    "name": "Niederflurbus 738",
+    "disassembledName": "738",
+    "number": "738",
+    "description": "Düsseldorf Hbf - Kettwiger Straße  - D-Gerresheim - Mettmann-Zentrum  - Mettmann, Jubiläumsplatz",
+    "product": {
+     "id": 13,
+     "class": 5,
+     "name": "Niederflurbus",
+     "iconId": 5
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20019019",
+     "name": "ME-Jubiläumsplatz",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 575,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:738:RBG-72-738",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018235",
+     "name": "Düsseldorf Hbf",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "RB_VIA.956007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:3:14",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "14",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "14",
+     "platform": "14",
+     "platformName": "14",
+     "plannedPlatformName": "14"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:01:30Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:01:30Z",
+   "departureTimeEstimated": "2026-11-22T11:03:42Z",
+   "transportation": {
+    "id": "rbg:72732: :R:j26",
+    "name": "Niederflurbus 732",
+    "disassembledName": "732",
+    "number": "732",
+    "description": "D-Eller, Vennhauser Allee - D-Eller Süd  - Oberbilker Markt  - Düsseldorf Hbf - Kirchplatz  - Hafen, Bremer Straße - D-Hafen, Lausward",
+    "product": {
+     "id": 13,
+     "class": 5,
+     "name": "Niederflurbus",
+     "iconId": 5
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018250",
+     "name": "D-Kirchplatz U",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 1113,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:732:RBG-72-732",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018261",
+     "name": "D-Vennhauser Allee",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "RB_VIA.547007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:6:1",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "1",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "1",
+     "platform": "1",
+     "platformName": "1",
+     "plannedPlatformName": "1"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:01:30Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:01:30Z",
+   "departureTimeEstimated": "2026-11-22T11:02:36Z",
+   "transportation": {
+    "id": "rbg:70079: :R:j26",
+    "name": "U-Bahn U79",
+    "disassembledName": "U79",
+    "number": "U79",
+    "description": "D-Universität Ost - Oberbilk - Düsseldorf Hbf - D-Kaiserswerth - Duisburg Hbf - DU-Meiderich Bf",
+    "product": {
+     "id": 0,
+     "class": 2,
+     "name": "U-Bahn",
+     "iconId": 1
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018151",
+     "name": "D-Wittlaer",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 3238,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:U79:RBG-70-79",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018296",
+     "name": "D-Uni Ost/Botanischer Garten",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2025-11-14T09:48:00Z"
+     },
+     "priority": "normal",
+     "id": "ems-42633",
+     "version": 1851,
+     "type": "lineInfo",
+     "properties": {
+      "publisher": "ems.comm.addinfo",
+      "infoType": "lineInfo",
+      "incidentDateTime": "14/11/2025 10:00 - 31/12/2500 01:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "Linien 701, 705, E701, U78, U79 - Haltestellenausfall - (H) Düsseldorf, Nordstraße U - Grund: Haltestellensperrung",
+       "url": "http://ems.vrr.de/info-link/fa11b505-89b5-5791-a6a9-57aece5fbe94",
+       "content": "<div>Die Landeshauptstadt und die Rheinbahn erneuern im U-Bahnhof &bdquo;Nordstra&szlig;e&ldquo; ab Sommer den Brandschutz der Haltestelle. Dazu wurden in den letzten Wochen vorbereitende Arbeiten durchgef&uuml;hrt. Dabei wurde nun ein Austritt von Schadstoffen festgestellt, sodass der U-Bahnhof &bdquo;Nordstra&szlig;e&ldquo; ab 21. Mai, bis auf Weiteres, nicht angefahren werden kann.<br />Die Bahnen k&ouml;nnen den U-Bahnhof weiterhin passieren, ohne dass dabei eine Gefahr f&uuml;r die Gesundheit besteht. Jedoch durchfahren die Bahnen aus Sicherheitsgr&uuml;nden die Haltestelle mit einer reduzierten Geschwindigkeit. Der Ein- und Ausstieg an der Haltestelle ist bis auf Weiteres nicht m&ouml;glich.<br />Der oberirdische Fahrgastbetrieb der Stra&szlig;enbahnlinien 701 und 705 ist von der Einschr&auml;nkung der U-Bahnlinien U78 und U79 nicht betroffen.</div>",
+       "subtitle": "U-Bahnen halten bis auf Weiteres nicht am U-Bahnhof \"Nordstraße\"",
+       "title": "U-Bahnen halten bis auf Weiteres nicht am U-Bahnhof \"Nordstraße\"",
+       "additionalText": "<div>Die beschriebenen &Auml;nderungen sind in der elektronischen Fahrplanauskunft (EFA) ber&uuml;cksichtigt.</div>",
+       "smsText": "Linien 701, 705, E701, U78, U79 - Haltestellenausfall - (H) Düsseldorf, Nordstraße U - Grund: Haltestellensperrung"
+      }
+     ]
+    },
+    {
+     "timestamps": {
+      "creation": "2026-11-16T23:26:00Z"
+     },
+     "priority": "normal",
+     "id": "314539",
+     "version": 1,
+     "type": "lineInfo",
+     "properties": {
+      "infoType": "lineInfo",
+      "incidentDateTime": "16/11/2026 00:58 - 28/12/2026 23:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=314539",
+       "content": "<a href=\"https://www.rheinbahn.de/Vorweihnachtsverkehr\">Hier alle Infos</a>",
+       "subtitle": "Stressfrei und ohne Parkplatzsorgen",
+       "title": "Mit der Rheinbahn durch die Vorweihnachtszeit:",
+       "wapText": "In der Vorweihnachtszeit erweitert die Rheinbahn ihr Angebot für Besucherinnen und Besucher der Innenstadt.",
+       "smsText": "In der Vorweihnachtszeit erweitert die Rheinbahn ihr Angebot für Besucherinnen und Besucher der Innenstadt."
+      }
+     ]
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "RB_VIA.4698007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:97:12",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "12",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "97",
+     "platform": "12",
+     "platformName": "12",
+     "plannedPlatformName": "12"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:02:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:02:00Z",
+   "departureTimeEstimated": "2026-11-22T11:05:00Z",
+   "transportation": {
+    "id": "ddb:920S8:B:R:j26",
+    "name": "S-Bahn S 8",
+    "disassembledName": "S8",
+    "number": "S 8",
+    "product": {
+     "id": 3,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "DBNW",
+     "id": "8003",
+     "name": "DB Regio AG NRW"
+    },
+    "destination": {
+     "id": "20023007",
+     "name": "MG Hbf /Europaplatz",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "30862",
+     "tripCode": 689,
+     "lineDisplay": "LINE",
+     "globalId": "de:nrw:s8:",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "20011602",
+     "name": "Wuppertal Oberbarmen",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-11-22T01:23:00Z"
+     },
+     "priority": "normal",
+     "id": "ZTP-PROD-141575",
+     "version": 36,
+     "type": "tripMessage",
+     "properties": {
+      "publisher": "ems.comm.addinfo",
+      "infoType": "tripMessage",
+      "incidentDateTime": "22/11/2026 01:30 - 22/11/2026 13:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://ems.vrr.de/info-link/6ad5aca3-fbed-5e29-83a5-c477ddd2e69f",
+       "content": "Region  Wuppertal Zoologischer Garten aktuell nicht befahrbar. Das Ende können wir leider noch nicht abschätzen. Grund: Reparatur an einer Weiche. Kurzfristig kann es zu Zugausfällen kommen. Ersatzverkehr (SEV) zwischen Wuppertal Hbf und Wuppertal-Vohwinkel. Bitte Reiseverbindung vor Abfahrt prüfen.",
+       "subtitle": "Region  Wuppertal Zoologischer Garten nicht befahrbar - Reparatur an einer Weiche",
+       "title": "Region  Wuppertal Zoologischer Garten nicht befahrbar - Reparatur an einer Weiche"
+      }
+     ]
+    }
+   ],
+   "hints": [
+    {
+     "content": "Verspätung eines vorausfahrenden Zuges",
+     "providerCode": "ddb920S8BR_IncidentCall689_20018235_1",
+     "type": "RTIncidentCall",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "30862-800354-8006719-111800",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:7:4",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "4",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "2",
+     "platform": "4",
+     "platformName": "4",
+     "plannedPlatformName": "4"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:02:30Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:02:30Z",
+   "departureTimeEstimated": "2026-11-22T11:02:30Z",
+   "transportation": {
+    "id": "rbg:70075: :H:j26",
+    "name": "U-Bahn U75",
+    "disassembledName": "U75",
+    "number": "U75",
+    "description": "Neuss Hbf - D-Heerdt - Heinr.-Heine-Allee  - Düsseldorf Hbf - D-Eller Mitte  - D-Eller, Vennhauser Allee",
+    "product": {
+     "id": 0,
+     "class": 2,
+     "name": "U-Bahn",
+     "iconId": 1
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018261",
+     "name": "D-Vennhauser Allee",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 68,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:U75:RBG-70-75",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20020055",
+     "name": "Neuss Hauptbahnhof",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-11-22T10:39:00Z"
+     },
+     "priority": "normal",
+     "id": "314802",
+     "version": 2,
+     "type": "lineInfo",
+     "properties": {
+      "infoType": "lineInfo",
+      "incidentDateTime": "22/11/2026 11:40 - 22/11/2026 12:40"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=314802",
+       "content": "Die Störung im Bereich Neuss Hbf wurde behoben. Auf der Linie U75 kann es noch vereinzelt zu Verzögerungen kommen.",
+       "subtitle": "Linie U75: Fahrzeugstörung im Bereich Neuss Hbf.",
+       "title": "Linie U75:",
+       "wapText": "Die Störung im Bereich Neuss Hbf wurde behoben. Auf der Linie U75 kann es noch vereinzelt zu Verzögerungen kommen.",
+       "smsText": "Die Störung im Bereich Neuss Hbf wurde behoben. Auf der Linie U75 kann es noch vereinzelt zu Verzögerungen kommen."
+      }
+     ]
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "RB_VIA.5282007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:5:6",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "6",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "6",
+     "platform": "6",
+     "platformName": "6",
+     "plannedPlatformName": "6"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:02:30Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:02:30Z",
+   "departureTimeEstimated": "2026-11-22T11:02:30Z",
+   "transportation": {
+    "id": "rbg:71704: :R:j26",
+    "name": "Niederflurstrab 704",
+    "disassembledName": "704",
+    "number": "704",
+    "description": "Universität Nord/Christophstr. - Düsseldorf Hbf - D-Derendorf Nord, Merziger Straße",
+    "product": {
+     "id": 18,
+     "class": 4,
+     "name": "Niederflurstrab",
+     "iconId": 4
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018045",
+     "name": "D-Merziger Straße",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 653,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:704:RBG-71-704",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018099",
+     "name": "D-Uni Nord/Christophstraße",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "RB_VIA.5657007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:3:13",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "13",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "13",
+     "platform": "13",
+     "platformName": "13",
+     "plannedPlatformName": "13"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:02:30Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:02:30Z",
+   "departureTimeEstimated": "2026-11-22T11:02:30Z",
+   "transportation": {
+    "id": "rbg:72721: :H:j26",
+    "name": "Niederflurbus 721",
+    "disassembledName": "721",
+    "number": "721",
+    "description": "D-Flughafen Terminal   - Nordfriedhof - Düsseldorf Hbf - D-Tannenhof, Gothaer Weg",
+    "product": {
+     "id": 13,
+     "class": 5,
+     "name": "Niederflurbus",
+     "iconId": 5
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018819",
+     "name": "D-Gothaer Weg",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 165,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:721:RBG-72-721",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018517",
+     "name": "D-Flughafen Terminal S U",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "RB_VIA.147007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:94:17",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "17",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "94",
+     "platform": "17",
+     "platformName": "17",
+     "plannedPlatformName": "17"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:03:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:03:00Z",
+   "departureTimeEstimated": "2026-11-22T11:04:00Z",
+   "transportation": {
+    "id": "ddb:90RE5: :R:j26",
+    "name": "Regionalzug RE 5 (RRX)",
+    "disassembledName": "RE5",
+    "number": "RE 5 (RRX)",
+    "product": {
+     "id": 8,
+     "class": 13,
+     "name": "Regionalzug",
+     "iconId": 6
+    },
+    "operator": {
+     "code": "NX",
+     "id": "NX",
+     "name": "National Express"
+    },
+    "destination": {
+     "id": "20036918",
+     "name": "Wesel Bahnhof",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "RRX Rhein-Ruhr-Express",
+     "trainType": "RE",
+     "trainNumber": "28514",
+     "tripCode": 318,
+     "lineDisplay": "LINE",
+     "globalId": "de:nrw:re5:",
+     "FrequencyLine": "1"
+    },
+    "origin": {
+     "id": "15010117",
+     "name": "Koblenz Hauptbahnhof",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-08-18T06:30:00Z"
+     },
+     "priority": "normal",
+     "id": "ZTP-PROD-137395",
+     "version": 847,
+     "type": "tripMessage",
+     "properties": {
+      "publisher": "ems.comm.addinfo",
+      "infoType": "tripMessage",
+      "incidentDateTime": "01/09/2026 00:00 - 04/12/2026 20:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://ems.vrr.de/info-link/97416f0e-d154-52c3-a739-2b437f05897c",
+       "content": "Aufgrund von Brückenarbeiten, Gleis- und Weichenerneuerungen sowie Bahnsteigarbeiten kommt es auf der Linie RE 5 (RRX) vom 21.08.2026 (21:00 Uhr) bis zum 04.12.2026 (21:00 Uhr) zu Umleitungen und Teilausfällen zwischen Düsseldorf Hbf und Köln-Mülheim.",
+       "subtitle": "Maßnahmen und Fahrpläne: RE 5 (RRX)",
+       "title": "Maßnahmen und Fahrpläne: RE 5 (RRX)"
+      }
+     ]
+    }
+   ],
+   "hints": [
+    {
+     "content": "Linie RE5: WLAN verfügbar",
+     "providerCode": "A__WV",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    },
+    {
+     "content": "Linie RE5: Klimaanlage",
+     "providerCode": "A__KL",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "28514",
+    "FrequencyLine": "1"
+   }
+  },
+  {
+   "location": {
+    "id": "de:05111:18235:94:17",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "17",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "94",
+     "platform": "17",
+     "platformName": "17",
+     "plannedPlatformName": "17"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:03:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:03:00Z",
+   "transportation": {
+    "id": "ddb:870S1:A:H:j26",
+    "name": "Ersatzverkehr SEV S1",
+    "number": "SEV S1",
+    "product": {
+     "id": 6,
+     "class": 17,
+     "name": "Ersatzverkehr",
+     "iconId": 3
+    },
+    "operator": {
+     "code": "DBNW",
+     "id": "8003",
+     "name": "DB Regio AG NRW"
+    },
+    "destination": {
+     "id": "20013800",
+     "name": "Solingen, Hauptbahnhof",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "Schienenersatzverkehr",
+     "trainType": "SEV",
+     "trainNumber": "301105",
+     "tripCode": 248,
+     "lineDisplay": "LINE",
+     "FrequencyLine": "1"
+    },
+    "origin": {
+     "id": "20018235",
+     "name": "Düsseldorf Hbf",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Linie SEV S1: Ersatzverkehr",
+     "providerCode": "A__SV",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "FrequencyLine": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:93:16",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "16",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "93",
+     "platform": "16",
+     "platformName": "16",
+     "plannedPlatformName": "16"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:05:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:05:00Z",
+   "departureTimeEstimated": "2026-11-22T11:08:00Z",
+   "transportation": {
+    "id": "ddb:98X41: :H:j26",
+    "name": "ICE 627 InterCityExpress",
+    "number": "627",
+    "description": "Dortmund - Essen - Köln - Frankfurt - Würzburg - Nürnberg - München",
+    "product": {
+     "id": 0,
+     "class": 16,
+     "name": "Zug",
+     "iconId": 6
+    },
+    "operator": {
+     "code": "DBFV",
+     "id": "80",
+     "name": "DB Fernverkehr AG"
+    },
+    "destination": {
+     "id": "80001020",
+     "name": "Nürnberg Hbf",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "InterCityExpress",
+     "trainType": "ICE",
+     "trainNumber": "627",
+     "tripCode": 218,
+     "specialFares": "ICE_ROUTE",
+     "lineDisplay": "TRAIN",
+     "FrequencyLine": "1",
+     "attributes": [
+      "HIGHSPEEDTRAIN",
+      "LONG_DISTANCE_TRAINS",
+      "SUPPLEMENT"
+     ]
+    },
+    "origin": {
+     "id": "20009289",
+     "name": "Essen Hauptbahnhof",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Komfort Check-in verfügbar - wenn möglich bitte einchecken",
+     "providerCode": "A__CK",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    },
+    {
+     "content": "Fahrradmitnahme reservierungspflichtig",
+     "providerCode": "A__FR",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "627-80-8000098-113700",
+    "FrequencyLine": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "EXTRA_TRIP"
+   ],
+   "location": {
+    "id": "de:05111:18235:98:13",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "13",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "realtimeStatus": [
+      "EXTRA_TRIP"
+     ],
+     "stopId": "20018235",
+     "area": "98",
+     "platform": "13",
+     "platformName": "13",
+     "plannedPlatformName": "13"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:05:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:05:00Z",
+   "transportation": {
+    "id": "ddb:920S8:B:H:j26",
+    "name": "SEV SEV S 8",
+    "disassembledName": "S8",
+    "number": "SEV S 8",
+    "product": {
+     "id": 3,
+     "class": 1,
+     "name": "SEV",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "DBNW",
+     "id": "8003",
+     "name": "DB Regio AG NRW"
+    },
+    "destination": {
+     "id": "20013970",
+     "name": "Haan-Gruiten",
+     "type": "stop"
+    },
+    "properties": {
+     "trainType": "SEV",
+     "trainNumber": "308652",
+     "tripCode": 65493,
+     "lineDisplay": "LINE",
+     "globalId": "de:nrw:s8:",
+     "FrequencyLine": "1"
+    },
+    "origin": {
+     "id": "20018235",
+     "name": "Düsseldorf Hbf",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "308652-B2-8000085-120500",
+    "FrequencyLine": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:5:7",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "7",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "7",
+     "platform": "7",
+     "platformName": "7",
+     "plannedPlatformName": "7"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:05:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:05:00Z",
+   "departureTimeEstimated": "2026-11-22T11:05:00Z",
+   "transportation": {
+    "id": "rbg:71707: :H:j26",
+    "name": "Niederflurstrab 707",
+    "disassembledName": "707",
+    "number": "707",
+    "description": "D-Unterrath  - Jacobistraße - Düsseldorf Hbf - Bilker Kirche - D-Medienhafen, Kesselstraße",
+    "product": {
+     "id": 18,
+     "class": 4,
+     "name": "Niederflurstrab",
+     "iconId": 4
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20019829",
+     "name": "D-Medienhafen, Kesselstraße",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 834,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:707:RBG-71-707",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018206",
+     "name": "D-Unterrath S",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-11-11T11:45:00Z"
+     },
+     "priority": "normal",
+     "id": "308154",
+     "version": 2,
+     "type": "lineInfo",
+     "properties": {
+      "infoType": "lineInfo",
+      "incidentDateTime": "26/05/2026 07:00 - 31/12/2026 04:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=308154",
+       "content": "<a href=\"https://www.rheinbahn.de/Jacobistrasse\">Hier alle Infos</a>",
+       "subtitle": "Haltestelle \"Jacobistraße, Steig 2\" wird verlegt",
+       "title": "Linien 707, 752, 754, SB55 und NE1:",
+       "wapText": "Wegen Bauarbeiten wird die Haltestelle \"Jacobistraße, Steig 2\" in Richtung Schloss Jägerhof der Linien 707, 752, 754, SB55 und NE1 verlegt - ab Dienstag, 26. Mai, 7 Uhr, voraussichtlich bis Ende Dezember.",
+       "smsText": "Wegen Bauarbeiten wird die Haltestelle \"Jacobistraße, Steig 2\" in Richtung Schloss Jägerhof der Linien 707, 752, 754, SB55 und NE1 verlegt - ab Dienstag, 26. Mai, 7 Uhr, voraussichtlich bis Ende Dezember."
+      }
+     ]
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "RB_VIA.6097007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:98:13",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "13",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "98",
+     "platform": "13",
+     "platformName": "13",
+     "plannedPlatformName": "13"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:06:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:06:00Z",
+   "departureTimeEstimated": "2026-11-22T11:06:00Z",
+   "transportation": {
+    "id": "ddb:92E28: :R:j26",
+    "name": "S-Bahn S 28",
+    "disassembledName": "S28",
+    "number": "S 28",
+    "description": "Kaarster See - Düsseldorf - Neanderthal - Wuppertal",
+    "product": {
+     "id": 3,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "M2",
+     "id": "M2",
+     "name": "REGIOBAHN"
+    },
+    "destination": {
+     "id": "20011376",
+     "name": "Wuppertal Hbf",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "77197",
+     "tripCode": 988,
+     "lineDisplay": "LINE",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "20020626",
+     "name": "Kaarst Kaarster See",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-11-22T01:23:00Z"
+     },
+     "priority": "normal",
+     "id": "ZTP-PROD-141575",
+     "version": 36,
+     "type": "tripMessage",
+     "properties": {
+      "publisher": "ems.comm.addinfo",
+      "infoType": "tripMessage",
+      "incidentDateTime": "22/11/2026 01:30 - 22/11/2026 13:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://ems.vrr.de/info-link/6ad5aca3-fbed-5e29-83a5-c477ddd2e69f",
+       "content": "Region  Wuppertal Zoologischer Garten aktuell nicht befahrbar. Das Ende können wir leider noch nicht abschätzen. Grund: Reparatur an einer Weiche. Kurzfristig kann es zu Zugausfällen kommen. Ersatzverkehr (SEV) zwischen Wuppertal Hbf und Wuppertal-Vohwinkel. Bitte Reiseverbindung vor Abfahrt prüfen.",
+       "subtitle": "Region  Wuppertal Zoologischer Garten nicht befahrbar - Reparatur an einer Weiche",
+       "title": "Region  Wuppertal Zoologischer Garten nicht befahrbar - Reparatur an einer Weiche"
+      }
+     ]
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "77197#S",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:7:4",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "4",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "2",
+     "platform": "4",
+     "platformName": "4",
+     "plannedPlatformName": "4"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:06:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:06:00Z",
+   "departureTimeEstimated": "2026-11-22T11:08:18Z",
+   "transportation": {
+    "id": "rbg:70076: :H:j26",
+    "name": "U-Bahn U76",
+    "disassembledName": "U76",
+    "number": "U76",
+    "description": "Krefeld, Rheinstraße - Meerbusch - D-Lörick - Heinrich-Heine-Allee  - Düsseldorf Hbf - D-Oberbilk   - Holthausen",
+    "product": {
+     "id": 0,
+     "class": 2,
+     "name": "U-Bahn",
+     "iconId": 1
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018266",
+     "name": "D-Holthausen",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 125,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:U76:RBG-70-76",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018140",
+     "name": "D-Lörick",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-10-28T16:23:00Z"
+     },
+     "priority": "normal",
+     "id": "314063",
+     "version": 1,
+     "type": "lineInfo",
+     "properties": {
+      "infoType": "lineInfo",
+      "incidentDateTime": "02/11/2026 21:00 - 18/12/2026 04:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=314063",
+       "content": "<a href=\"https://www.rheinbahn.de/Sperrung_Loerick_Krefeld\">Hier alle Infos</a>",
+       "subtitle": "Änderungen für die Stadtbahnlinien U70 und U76",
+       "title": "Rheinbahn investiert in Barrierefreiheit und eine zukunftsfähige Infrastruktur:",
+       "wapText": "Wegen Fahrleitungsarbeiten zwischen den Haltestellen \"Lörick\" und \"Meerbusch, Haus Meer\" sind auf der Linie U76 im November und Dezember teilweise Busse statt Bahnen im Einsatz.",
+       "smsText": "Wegen Fahrleitungsarbeiten zwischen den Haltestellen \"Lörick\" und \"Meerbusch, Haus Meer\" sind auf der Linie U76 im November und Dezember teilweise Busse statt Bahnen im Einsatz."
+      }
+     ]
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "RB_VIA.4472007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:98:14",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "14",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "98",
+     "platform": "14",
+     "platformName": "14",
+     "plannedPlatformName": "14"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:07:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:07:00Z",
+   "departureTimeEstimated": "2026-11-22T11:07:00Z",
+   "transportation": {
+    "id": "ddb:920S1:C:R:j26",
+    "name": "S-Bahn S 1",
+    "disassembledName": "S1",
+    "number": "S 1",
+    "product": {
+     "id": 3,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "DBNW",
+     "id": "8003",
+     "name": "DB Regio AG NRW"
+    },
+    "destination": {
+     "id": "20000131",
+     "name": "Dortmund Hbf",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "30199",
+     "tripCode": 942,
+     "lineDisplay": "LINE",
+     "globalId": "de:nrw:s1:",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "20018235",
+     "name": "Düsseldorf Hbf",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Linie S1: WLAN verfügbar",
+     "providerCode": "A__WV",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "30199-800337-8000085-120700",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:5:8",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "8",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "8",
+     "platform": "8",
+     "platformName": "8",
+     "plannedPlatformName": "8"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:07:30Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:07:30Z",
+   "departureTimeEstimated": "2026-11-22T11:07:30Z",
+   "transportation": {
+    "id": "rbg:71709: :H:j26",
+    "name": "Niederflurstrab 709",
+    "disassembledName": "709",
+    "number": "709",
+    "description": "D-Gerresheim, Krankenhaus - Grafenberg - Düsseldorf Hbf - NE-Stadthalle - Neuss Hbf - NE-Theodor-Heuss-Platz",
+    "product": {
+     "id": 18,
+     "class": 4,
+     "name": "Niederflurstrab",
+     "iconId": 4
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20020471",
+     "name": "Neuss Theodor-Heuss-Platz",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 1529,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:709:RBG-71-709",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018683",
+     "name": "D-G'heim, Krankenhaus",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "RB_VIA.6367007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:5:5",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "5",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "5",
+     "platform": "5",
+     "platformName": "5",
+     "plannedPlatformName": "5"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:07:30Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:07:30Z",
+   "departureTimeEstimated": "2026-11-22T11:07:30Z",
+   "transportation": {
+    "id": "rbg:71709: :R:j26",
+    "name": "Niederflurstrab 709",
+    "disassembledName": "709",
+    "number": "709",
+    "description": "NE-Theodor-Heuss-Platz - Neuss Hbf - NE-Stadthalle - Düsseldorf Hbf - Grafenberg - D-Gerresheim, Krankenhaus",
+    "product": {
+     "id": 18,
+     "class": 4,
+     "name": "Niederflurstrab",
+     "iconId": 4
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018683",
+     "name": "D-G'heim, Krankenhaus",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 1891,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:709:RBG-71-709",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20020471",
+     "name": "Neuss Theodor-Heuss-Platz",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "RB_VIA.6277007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:4:12",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "12",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "12",
+     "platform": "12",
+     "platformName": "12",
+     "plannedPlatformName": "12"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:08:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:08:00Z",
+   "departureTimeEstimated": "2026-11-22T11:08:00Z",
+   "transportation": {
+    "id": "rbg:72834: :R:j26",
+    "name": "Niederflurbus 834",
+    "disassembledName": "834",
+    "number": "834",
+    "description": "Düsseldorf Hbf - Mörsenbroich - Nordfriedhof - D-Theodor-Heuss-Brücke",
+    "product": {
+     "id": 13,
+     "class": 5,
+     "name": "Niederflurbus",
+     "iconId": 5
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018205",
+     "name": "D-Theodor-Heuss-Brücke",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 549,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:834:RBG-72-834",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018235",
+     "name": "Düsseldorf Hbf",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "RB_VIA.2802007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:90:5",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "5",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "90",
+     "platform": "5",
+     "platformName": "5",
+     "plannedPlatformName": "5"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:08:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:08:00Z",
+   "departureTimeEstimated": "2026-11-22T11:08:00Z",
+   "transportation": {
+    "id": "ddb:90E10: :R:j26",
+    "name": "Regionalzug RE 10",
+    "disassembledName": "RE10",
+    "number": "RE 10",
+    "description": "Düsseldorf - Meerbusch-Osterath - Krefeld - Kleve",
+    "product": {
+     "id": 8,
+     "class": 13,
+     "name": "Regionalzug",
+     "iconId": 6
+    },
+    "operator": {
+     "code": "RRB",
+     "id": "RR",
+     "name": "Rhein-Ruhr-Bahn (Transdev)"
+    },
+    "destination": {
+     "id": "20035739",
+     "name": "Kleve Bahnhof",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "Regional-Express",
+     "trainType": "RE",
+     "trainNumber": "82268",
+     "tripCode": 294,
+     "lineDisplay": "LINE",
+     "FrequencyLine": "1"
+    },
+    "origin": {
+     "id": "20018235",
+     "name": "Düsseldorf Hbf",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Linie RE10: Kein Transport von Sperrgepäck möglich",
+     "providerCode": "A__SK",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "82268/2026-11-22",
+    "FrequencyLine": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:97:12",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "12",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "97",
+     "platform": "12",
+     "platformName": "12",
+     "plannedPlatformName": "12"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:08:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:08:00Z",
+   "departureTimeEstimated": "2026-11-22T11:08:00Z",
+   "transportation": {
+    "id": "ddb:92S11: :H:j26",
+    "name": "S-Bahn S 11",
+    "disassembledName": "S11",
+    "number": "S 11",
+    "product": {
+     "id": 3,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "DB",
+     "id": "00",
+     "name": "DB AG"
+    },
+    "destination": {
+     "id": "22005208",
+     "name": "Bergisch Gladbach (S)",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "32182",
+     "tripCode": 191,
+     "lineDisplay": "LINE",
+     "globalId": "de:nrw:s11:",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "20018517",
+     "name": "D-Flughafen Terminal S U",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "32182-8003S-8001580-115400",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:6:1",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "1",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "1",
+     "platform": "1",
+     "platformName": "1",
+     "plannedPlatformName": "1"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:09:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:09:00Z",
+   "departureTimeEstimated": "2026-11-22T11:09:00Z",
+   "transportation": {
+    "id": "rbg:70080: :R:j26",
+    "name": "U-Bahn U80",
+    "disassembledName": "U80",
+    "number": "U80",
+    "description": "Düsseldorf Hbf - Heinrich-Heine-Allee  - D-Flughafen Terminal",
+    "product": {
+     "id": 0,
+     "class": 2,
+     "name": "U-Bahn",
+     "iconId": 1
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018517",
+     "name": "D-Flughafen Terminal S U",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 205,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:U80:RBG-70-80",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018235",
+     "name": "Düsseldorf Hbf",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "RB_VIA.5355007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:6:3",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "3",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "1",
+     "platform": "3",
+     "platformName": "3",
+     "plannedPlatformName": "3"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:09:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:09:00Z",
+   "departureTimeEstimated": "2026-11-22T11:09:00Z",
+   "transportation": {
+    "id": "rbg:70076: :R:j26",
+    "name": "U-Bahn U76",
+    "disassembledName": "U76",
+    "number": "U76",
+    "description": "D-Holthausen - D-Oberbilk   - Düsseldorf Hbf - H.-Heine-Allee  - D-Lörick - Meerbusch - Krefeld, Rheinstraße",
+    "product": {
+     "id": 0,
+     "class": 2,
+     "name": "U-Bahn",
+     "iconId": 1
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20021001",
+     "name": "Krefeld Rheinstraße",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 907,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:U76:RBG-70-76",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018266",
+     "name": "D-Holthausen",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-10-28T16:23:00Z"
+     },
+     "priority": "normal",
+     "id": "314063",
+     "version": 1,
+     "type": "lineInfo",
+     "properties": {
+      "infoType": "lineInfo",
+      "incidentDateTime": "02/11/2026 21:00 - 18/12/2026 04:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=314063",
+       "content": "<a href=\"https://www.rheinbahn.de/Sperrung_Loerick_Krefeld\">Hier alle Infos</a>",
+       "subtitle": "Änderungen für die Stadtbahnlinien U70 und U76",
+       "title": "Rheinbahn investiert in Barrierefreiheit und eine zukunftsfähige Infrastruktur:",
+       "wapText": "Wegen Fahrleitungsarbeiten zwischen den Haltestellen \"Lörick\" und \"Meerbusch, Haus Meer\" sind auf der Linie U76 im November und Dezember teilweise Busse statt Bahnen im Einsatz.",
+       "smsText": "Wegen Fahrleitungsarbeiten zwischen den Haltestellen \"Lörick\" und \"Meerbusch, Haus Meer\" sind auf der Linie U76 im November und Dezember teilweise Busse statt Bahnen im Einsatz."
+      }
+     ]
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "RB_VIA.4357007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "location": {
+    "id": "de:05111:18235:94:17",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "17",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "94",
+     "platform": "17",
+     "platformName": "17",
+     "plannedPlatformName": "17"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:10:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:10:00Z",
+   "transportation": {
+    "id": "ddb:870S6: :R:j26",
+    "name": "Ersatzverkehr SEV S6",
+    "number": "SEV S6",
+    "product": {
+     "id": 6,
+     "class": 17,
+     "name": "Ersatzverkehr",
+     "iconId": 3
+    },
+    "operator": {
+     "code": "DBNW",
+     "id": "8003",
+     "name": "DB Regio AG NRW"
+    },
+    "destination": {
+     "id": "20019479",
+     "name": "Langenfeld (Rheinl) S",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "Schienenersatzverkehr",
+     "trainType": "SEV",
+     "trainNumber": "6348",
+     "tripCode": 524,
+     "lineDisplay": "LINE",
+     "FrequencyLine": "1"
+    },
+    "origin": {
+     "id": "20018235",
+     "name": "Düsseldorf Hbf",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Linie SEV S6: Ersatzverkehr",
+     "providerCode": "A__SV",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "FrequencyLine": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:5:6",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "6",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "6",
+     "platform": "6",
+     "platformName": "6",
+     "plannedPlatformName": "6"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:11:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:11:00Z",
+   "departureTimeEstimated": "2026-11-22T11:11:12Z",
+   "transportation": {
+    "id": "rbg:71707: :R:j26",
+    "name": "Niederflurstrab 707",
+    "disassembledName": "707",
+    "number": "707",
+    "description": "D-Medienhafen, Kesselstraße - Bilker Kirche - Düsseldorf Hbf - Jacobistraße - D-Unterrath",
+    "product": {
+     "id": 18,
+     "class": 4,
+     "name": "Niederflurstrab",
+     "iconId": 4
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018206",
+     "name": "D-Unterrath S",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 1799,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:707:RBG-71-707",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20019829",
+     "name": "D-Medienhafen, Kesselstraße",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-11-11T11:45:00Z"
+     },
+     "priority": "normal",
+     "id": "308154",
+     "version": 2,
+     "type": "lineInfo",
+     "properties": {
+      "infoType": "lineInfo",
+      "incidentDateTime": "26/05/2026 07:00 - 31/12/2026 04:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=308154",
+       "content": "<a href=\"https://www.rheinbahn.de/Jacobistrasse\">Hier alle Infos</a>",
+       "subtitle": "Haltestelle \"Jacobistraße, Steig 2\" wird verlegt",
+       "title": "Linien 707, 752, 754, SB55 und NE1:",
+       "wapText": "Wegen Bauarbeiten wird die Haltestelle \"Jacobistraße, Steig 2\" in Richtung Schloss Jägerhof der Linien 707, 752, 754, SB55 und NE1 verlegt - ab Dienstag, 26. Mai, 7 Uhr, voraussichtlich bis Ende Dezember.",
+       "smsText": "Wegen Bauarbeiten wird die Haltestelle \"Jacobistraße, Steig 2\" in Richtung Schloss Jägerhof der Linien 707, 752, 754, SB55 und NE1 verlegt - ab Dienstag, 26. Mai, 7 Uhr, voraussichtlich bis Ende Dezember."
+      }
+     ]
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "RB_VIA.6030007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:4:12",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "12",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "12",
+     "platform": "12",
+     "platformName": "12",
+     "plannedPlatformName": "12"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:12:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:12:00Z",
+   "departureTimeEstimated": "2026-11-22T11:12:00Z",
+   "transportation": {
+    "id": "rbg:72732: :H:j26",
+    "name": "Niederflurbus 732",
+    "disassembledName": "732",
+    "number": "732",
+    "description": "D-Hafen, Lausward - Hafen, Bremer Straße - Kirchplatz  - Düsseldorf Hbf - Oberbilker Markt  - D-Eller Süd  - D-Eller, Vennhauser Allee",
+    "product": {
+     "id": 13,
+     "class": 5,
+     "name": "Niederflurbus",
+     "iconId": 5
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018261",
+     "name": "D-Vennhauser Allee",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 491,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:732:RBG-72-732",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018248",
+     "name": "D-Franziusstraße",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "RB_VIA.530007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:90:4",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "4",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "90",
+     "platform": "4",
+     "platformName": "4",
+     "plannedPlatformName": "4"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:12:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:12:00Z",
+   "departureTimeEstimated": "2026-11-22T11:19:00Z",
+   "transportation": {
+    "id": "ddb:90RE6: :H:j26",
+    "name": "Regionalzug RE 6 (RRX)",
+    "disassembledName": "RE6",
+    "number": "RE 6 (RRX)",
+    "product": {
+     "id": 8,
+     "class": 13,
+     "name": "Regionalzug",
+     "iconId": 6
+    },
+    "operator": {
+     "code": "NX",
+     "id": "NX",
+     "name": "National Express"
+    },
+    "destination": {
+     "id": "22000892",
+     "name": "Flughafen Köln/Bonn Bf",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "RRX Rhein-Ruhr-Express",
+     "trainType": "RE",
+     "trainNumber": "89716",
+     "tripCode": 170,
+     "lineDisplay": "LINE",
+     "globalId": "de:nrw:re6:",
+     "FrequencyLine": "1"
+    },
+    "origin": {
+     "id": "23004213",
+     "name": "Minden (Westf)",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-11-20T14:18:00Z"
+     },
+     "priority": "normal",
+     "id": "ZTP-PROD-141525",
+     "version": 78,
+     "type": "tripMessage",
+     "properties": {
+      "publisher": "ems.comm.addinfo",
+      "infoType": "tripMessage",
+      "incidentDateTime": "20/11/2026 15:00 - 22/11/2026 12:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://ems.vrr.de/info-link/38c1d876-4364-5116-8201-fbf9baddff50",
+       "content": "Region Oberhausen Hbf aktuell beeinträchtigt. Das Ende können wir leider noch nicht abschätzen. Grund: Reparatur an einer Weiche. In der Folge kommt es wahrscheinlich zu Verspätungen. Die Züge fahren eventuell von einem anderen Gleis ab. Durchsagen beachten.",
+       "subtitle": "Region Oberhausen Hbf beeinträchtigt - Reparatur an einer Weiche",
+       "title": "Region Oberhausen Hbf beeinträchtigt - Reparatur an einer Weiche"
+      }
+     ]
+    }
+   ],
+   "hints": [
+    {
+     "content": "Linie RE6: WLAN verfügbar",
+     "providerCode": "A__WV",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    },
+    {
+     "content": "Linie RE6: Klimaanlage",
+     "providerCode": "A__KL",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    },
+    {
+     "content": "Verspätung eines vorausfahrenden Zuges",
+     "providerCode": "ddb90RE6_H_IncidentCall170_20018235_1",
+     "type": "RTIncidentCall",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "89716",
+    "FrequencyLine": "1"
+   }
+  },
+  {
+   "realtimeStatus": [],
+   "location": {
+    "id": "de:05111:18235:91:7",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "7",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "occupancy": "MANY_SEATS",
+     "stopId": "20018235",
+     "area": "91",
+     "platform": "7",
+     "platformName": "7",
+     "plannedPlatformName": "7"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:12:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:12:00Z",
+   "transportation": {
+    "id": "ddb:90E13: :H:j26",
+    "name": "Regionalzug RE13",
+    "disassembledName": "RE13",
+    "number": "RE13",
+    "description": "Venlo - Mönchengladbach - Düsseldorf - Wuppertal - Hagen - Unna - Hamm",
+    "product": {
+     "id": 8,
+     "class": 13,
+     "name": "Regionalzug",
+     "iconId": 6
+    },
+    "operator": {
+     "code": "ERB",
+     "id": "R2",
+     "name": "eurobahn"
+    },
+    "destination": {
+     "id": "24007756",
+     "name": "Hamm (Westf.) Hbf",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "Maas-Wupper-Express",
+     "trainType": "RE",
+     "trainNumber": "20077",
+     "tripCode": 52,
+     "lineDisplay": "LINE",
+     "FrequencyLine": "1"
+    },
+    "origin": {
+     "id": "21009676",
+     "name": "Venlo, Bf",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-11-22T01:23:00Z"
+     },
+     "priority": "normal",
+     "id": "ZTP-PROD-141575",
+     "version": 36,
+     "type": "tripMessage",
+     "properties": {
+      "publisher": "ems.comm.addinfo",
+      "infoType": "tripMessage",
+      "incidentDateTime": "22/11/2026 01:30 - 22/11/2026 13:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://ems.vrr.de/info-link/6ad5aca3-fbed-5e29-83a5-c477ddd2e69f",
+       "content": "Region  Wuppertal Zoologischer Garten aktuell nicht befahrbar. Das Ende können wir leider noch nicht abschätzen. Grund: Reparatur an einer Weiche. Kurzfristig kann es zu Zugausfällen kommen. Ersatzverkehr (SEV) zwischen Wuppertal Hbf und Wuppertal-Vohwinkel. Bitte Reiseverbindung vor Abfahrt prüfen.",
+       "subtitle": "Region  Wuppertal Zoologischer Garten nicht befahrbar - Reparatur an einer Weiche",
+       "title": "Region  Wuppertal Zoologischer Garten nicht befahrbar - Reparatur an einer Weiche"
+      }
+     ]
+    }
+   ],
+   "hints": [
+    {
+     "content": "Linie RE13: Klimaanlage",
+     "providerCode": "A__KL",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    },
+    {
+     "content": "Verspätung eines vorausfahrenden Zuges",
+     "providerCode": "ddb90E13_H_IncidentCall52_20018235_1",
+     "type": "RTIncidentCall",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "20077",
+    "FrequencyLine": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "EXTRA_STOPS",
+    "DEVIATION",
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:94:17",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "17",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "94",
+     "platform": "17",
+     "platformName": "17",
+     "plannedPlatformName": "17"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:12:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:12:00Z",
+   "departureTimeEstimated": "2026-11-22T11:12:00Z",
+   "transportation": {
+    "id": "ddb:96X35: :R:j26",
+    "name": "IC 2202 Norderney",
+    "number": "2202",
+    "description": "(Konstanz / Stuttgart - Mannheim -) Koblenz - Köln - Norddeich (/ Bremerhaven)",
+    "product": {
+     "id": 0,
+     "class": 15,
+     "name": "Zug",
+     "iconId": 6
+    },
+    "operator": {
+     "code": "DBFV",
+     "id": "80",
+     "name": "DB Fernverkehr AG"
+    },
+    "destination": {
+     "id": "28215762",
+     "name": "Norddeich(Norden) Mole",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "Norderney",
+     "trainType": "IC",
+     "trainNumber": "2202",
+     "tripCode": 196,
+     "specialFares": "ROUTE_OUTSIDE_OF_TRANSPORT_AUTHORITY_AREA",
+     "lineDisplay": "TRAIN",
+     "FrequencyLine": "1",
+     "attributes": [
+      "LONG_DISTANCE_TRAINS",
+      "SUPPLEMENT",
+      "DIFFERENT_FARES"
+     ]
+    },
+    "origin": {
+     "id": "22000008",
+     "name": "Köln Hbf",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Fahrradmitnahme reservierungspflichtig",
+     "providerCode": "A__FR",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    },
+    {
+     "content": "Komfort Check-in verfügbar - wenn möglich bitte einchecken",
+     "providerCode": "A__CK",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "2202-80-8000207-114600",
+    "FrequencyLine": "1",
+    "DIFFERENT_FARES": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:5:5",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "5",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "5",
+     "platform": "5",
+     "platformName": "5",
+     "plannedPlatformName": "5"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:12:30Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:12:30Z",
+   "departureTimeEstimated": "2026-11-22T11:12:30Z",
+   "transportation": {
+    "id": "rbg:71708: :R:j26",
+    "name": "Niederflurstrab 708",
+    "disassembledName": "708",
+    "number": "708",
+    "description": "D-Polizeipräsidium - Düsseldorf Hbf - Brehmplatz - D-Mörsenbroich, Heinrichstraße",
+    "product": {
+     "id": 18,
+     "class": 4,
+     "name": "Niederflurstrab",
+     "iconId": 4
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018211",
+     "name": "D-Heinrichstraße",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 180,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:708:RBG-71-708",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018247",
+     "name": "D-Polizeipräsidium",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "RB_VIA.6216007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:5:7",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "7",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "7",
+     "platform": "7",
+     "platformName": "7",
+     "plannedPlatformName": "7"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:12:30Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:12:30Z",
+   "departureTimeEstimated": "2026-11-22T11:12:30Z",
+   "transportation": {
+    "id": "rbg:71704: :H:j26",
+    "name": "Niederflurstrab 704",
+    "disassembledName": "704",
+    "number": "704",
+    "description": "D-Derend. Nord, Merziger Str. - Düsseldorf Hbf - Universität Nord/Christophstr.",
+    "product": {
+     "id": 18,
+     "class": 4,
+     "name": "Niederflurstrab",
+     "iconId": 4
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018099",
+     "name": "D-Uni Nord/Christophstraße",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 68,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:704:RBG-71-704",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018045",
+     "name": "D-Merziger Straße",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "RB_VIA.5600007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:6:3",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "3",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "1",
+     "platform": "3",
+     "platformName": "3",
+     "plannedPlatformName": "3"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:12:30Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:12:30Z",
+   "departureTimeEstimated": "2026-11-22T11:12:30Z",
+   "transportation": {
+    "id": "rbg:70075: :R:j26",
+    "name": "U-Bahn U75",
+    "disassembledName": "U75",
+    "number": "U75",
+    "description": "D-Eller, Vennhauser Allee - D-Eller Mitte  - Düsseldorf Hbf -  Heinr.-Heine-Allee  - D-Heerdt - Neuss Hbf",
+    "product": {
+     "id": 0,
+     "class": 2,
+     "name": "U-Bahn",
+     "iconId": 1
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20020055",
+     "name": "Neuss Hauptbahnhof",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 735,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:U75:RBG-70-75",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20018261",
+     "name": "D-Vennhauser Allee",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-11-22T10:39:00Z"
+     },
+     "priority": "normal",
+     "id": "314802",
+     "version": 2,
+     "type": "lineInfo",
+     "properties": {
+      "infoType": "lineInfo",
+      "incidentDateTime": "22/11/2026 11:40 - 22/11/2026 12:40"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=314802",
+       "content": "Die Störung im Bereich Neuss Hbf wurde behoben. Auf der Linie U75 kann es noch vereinzelt zu Verzögerungen kommen.",
+       "subtitle": "Linie U75: Fahrzeugstörung im Bereich Neuss Hbf.",
+       "title": "Linie U75:",
+       "wapText": "Die Störung im Bereich Neuss Hbf wurde behoben. Auf der Linie U75 kann es noch vereinzelt zu Verzögerungen kommen.",
+       "smsText": "Die Störung im Bereich Neuss Hbf wurde behoben. Auf der Linie U75 kann es noch vereinzelt zu Verzögerungen kommen."
+      }
+     ]
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "RB_VIA.5247007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:93:16",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "16",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "20018235",
+     "area": "93",
+     "platform": "16",
+     "platformName": "16",
+     "plannedPlatformName": "16"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:13:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:13:00Z",
+   "departureTimeEstimated": "2026-11-22T11:14:00Z",
+   "transportation": {
+    "id": "ddb:98X51: :H:j26",
+    "name": "ICE 1748 InterCityExpress",
+    "number": "1748",
+    "description": "Dresden - Leipzig - Dortmund - Köln",
+    "product": {
+     "id": 0,
+     "class": 16,
+     "name": "Zug",
+     "iconId": 6
+    },
+    "operator": {
+     "code": "DBFV",
+     "id": "80",
+     "name": "DB Fernverkehr AG"
+    },
+    "destination": {
+     "id": "22000008",
+     "name": "Köln Hbf",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "InterCityExpress",
+     "trainType": "ICE",
+     "trainNumber": "1748",
+     "tripCode": 19,
+     "specialFares": "ICE_ROUTE",
+     "lineDisplay": "TRAIN",
+     "FrequencyLine": "1",
+     "attributes": [
+      "HIGHSPEEDTRAIN",
+      "LONG_DISTANCE_TRAINS",
+      "SUPPLEMENT"
+     ]
+    },
+    "origin": {
+     "id": "37000400",
+     "name": "Leipzig Hbf",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-11-21T23:35:00Z"
+     },
+     "priority": "normal",
+     "id": "DBProd-2723157",
+     "version": 1,
+     "type": "tripMessage",
+     "properties": {
+      "publisher": "ems.comm.addinfo",
+      "infoType": "tripMessage",
+      "incidentDateTime": "22/11/2026 06:53 - 22/11/2026 22:24"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://ems.vrr.de/info-link/05cc295a-8684-53e2-89f9-2defc47f78dc",
+       "content": "Anderes Fahrzeug. Bordrestaurant/Bordbistro Wagen 7. Ersatzstellplätze für Fahrräder in Wagen 1. Rollstuhlgerechte Einrichtung in Wagen 6. Bei erforderlichen Umbuchungen an Mobilitätsservice-Zentrale wenden.",
+       "subtitle": "Information.",
+       "title": "Information."
+      }
+     ]
+    }
+   ],
+   "hints": [
+    {
+     "content": "Fahrradmitnahme reservierungspflichtig",
+     "providerCode": "A__FR",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    },
+    {
+     "content": "Komfort Check-in verfügbar - wenn möglich bitte einchecken",
+     "providerCode": "A__CK",
+     "type": "Timetable",
+     "properties": {
+      "subnet": "ddb"
+     }
+    },
+    {
+     "content": "Reparatur an der Strecke",
+     "providerCode": "ddb98X51_H_IncidentCall19_20018235_1",
+     "type": "RTIncidentCall",
+     "properties": {
+      "subnet": "ddb"
+     }
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "1748-80-8010205-065300",
+    "FrequencyLine": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "EXTRA_TRIP",
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "16",
+    "type": "platform",
+    "properties": {
+     "realtimeStatus": [
+      "EXTRA_TRIP"
+     ],
+     "stopId": "20018235",
+     "area": "0",
+     "platform": "16",
+     "platformName": "16",
+     "plannedPlatformName": "16"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:13:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:13:00Z",
+   "departureTimeEstimated": "2026-11-22T11:13:00Z",
+   "transportation": {
+    "id": "ddb:98X51: :H:j26",
+    "name": "ICE",
+    "description": "Dresden - Leipzig - Dortmund - Köln",
+    "product": {
+     "id": 0,
+     "class": 16,
+     "name": "ICE",
+     "iconId": 6
+    },
+    "operator": {
+     "code": "DBFV",
+     "id": "80",
+     "name": "DB Fernverkehr AG"
+    },
+    "destination": {
+     "id": "22000008",
+     "name": "Köln Hbf",
+     "type": "stop"
+    },
+    "properties": {
+     "trainType": "ICE",
+     "tripCode": 65533,
+     "specialFares": "ICE_ROUTE",
+     "lineDisplay": "TRAIN",
+     "FrequencyLine": "1",
+     "attributes": [
+      "HIGHSPEEDTRAIN",
+      "LONG_DISTANCE_TRAINS",
+      "SUPPLEMENT"
+     ]
+    },
+    "origin": {
+     "id": "37000400",
+     "name": "Leipzig Hbf",
+     "type": "stop"
+    }
+   },
+   "properties": {
+    "AVMSTripID": "2802-800875000000#!ADD!#VMT-DDS#!ADD!#rcsued-server#",
+    "FrequencyLine": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:05111:18235:7:2",
+    "isGlobalId": true,
+    "name": "Düsseldorf Hbf",
+    "disassembledName": "2",
+    "type": "platform",
+    "pointType": "PLATFORM",
+    "properties": {
+     "stopId": "20018235",
+     "area": "2",
+     "platform": "2",
+     "platformName": "2",
+     "plannedPlatformName": "2"
+    },
+    "parent": {
+     "id": "de:05111:18235",
+     "isGlobalId": true,
+     "name": "Düsseldorf Hbf",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:5111000:6",
+      "name": "Düsseldorf",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "20018235"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:13:30Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:13:30Z",
+   "departureTimeEstimated": "2026-11-22T11:14:30Z",
+   "transportation": {
+    "id": "rbg:70079: :H:j26",
+    "name": "U-Bahn U79",
+    "disassembledName": "U79",
+    "number": "U79",
+    "description": "DU-Meiderich Bf - Duisburg Hbf - D-Kaiserswerth - Düsseldorf Hbf - Oberbilk - D-Universität Ost",
+    "product": {
+     "id": 0,
+     "class": 2,
+     "name": "U-Bahn",
+     "iconId": 1
+    },
+    "operator": {
+     "code": "RBG",
+     "id": "70",
+     "name": "Rheinbahn"
+    },
+    "destination": {
+     "id": "20018296",
+     "name": "D-Uni Ost/Botanischer Garten",
+     "type": "stop"
+    },
+    "properties": {
+     "isSTT": true,
+     "tripCode": 3076,
+     "lineDisplay": "LINE",
+     "globalId": "de:vrr:U79:RBG-70-79",
+     "FrequencyLine": "1",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE"
+     ]
+    },
+    "origin": {
+     "id": "20016056",
+     "name": "Duisburg Meiderich Bf",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2025-11-14T09:48:00Z"
+     },
+     "priority": "normal",
+     "id": "ems-42633",
+     "version": 1851,
+     "type": "lineInfo",
+     "properties": {
+      "publisher": "ems.comm.addinfo",
+      "infoType": "lineInfo",
+      "incidentDateTime": "14/11/2025 10:00 - 31/12/2500 01:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "Linien 701, 705, E701, U78, U79 - Haltestellenausfall - (H) Düsseldorf, Nordstraße U - Grund: Haltestellensperrung",
+       "url": "http://ems.vrr.de/info-link/fa11b505-89b5-5791-a6a9-57aece5fbe94",
+       "content": "<div>Die Landeshauptstadt und die Rheinbahn erneuern im U-Bahnhof &bdquo;Nordstra&szlig;e&ldquo; ab Sommer den Brandschutz der Haltestelle. Dazu wurden in den letzten Wochen vorbereitende Arbeiten durchgef&uuml;hrt. Dabei wurde nun ein Austritt von Schadstoffen festgestellt, sodass der U-Bahnhof &bdquo;Nordstra&szlig;e&ldquo; ab 21. Mai, bis auf Weiteres, nicht angefahren werden kann.<br />Die Bahnen k&ouml;nnen den U-Bahnhof weiterhin passieren, ohne dass dabei eine Gefahr f&uuml;r die Gesundheit besteht. Jedoch durchfahren die Bahnen aus Sicherheitsgr&uuml;nden die Haltestelle mit einer reduzierten Geschwindigkeit. Der Ein- und Ausstieg an der Haltestelle ist bis auf Weiteres nicht m&ouml;glich.<br />Der oberirdische Fahrgastbetrieb der Stra&szlig;enbahnlinien 701 und 705 ist von der Einschr&auml;nkung der U-Bahnlinien U78 und U79 nicht betroffen.</div>",
+       "subtitle": "U-Bahnen halten bis auf Weiteres nicht am U-Bahnhof \"Nordstraße\"",
+       "title": "U-Bahnen halten bis auf Weiteres nicht am U-Bahnhof \"Nordstraße\"",
+       "additionalText": "<div>Die beschriebenen &Auml;nderungen sind in der elektronischen Fahrplanauskunft (EFA) ber&uuml;cksichtigt.</div>",
+       "smsText": "Linien 701, 705, E701, U78, U79 - Haltestellenausfall - (H) Düsseldorf, Nordstraße U - Grund: Haltestellensperrung"
+      }
+     ]
+    },
+    {
+     "timestamps": {
+      "creation": "2026-11-16T23:26:00Z"
+     },
+     "priority": "normal",
+     "id": "314539",
+     "version": 1,
+     "type": "lineInfo",
+     "properties": {
+      "infoType": "lineInfo",
+      "incidentDateTime": "16/11/2026 00:58 - 28/12/2026 23:00"
+     },
+     "infoLinks": [
+      {
+       "urlText": "",
+       "url": "http://www.rheinbahn.de/Seiten/MeldungsDetail.aspx?Nr=314539",
+       "content": "<a href=\"https://www.rheinbahn.de/Vorweihnachtsverkehr\">Hier alle Infos</a>",
+       "subtitle": "Stressfrei und ohne Parkplatzsorgen",
+       "title": "Mit der Rheinbahn durch die Vorweihnachtszeit:",
+       "wapText": "In der Vorweihnachtszeit erweitert die Rheinbahn ihr Angebot für Besucherinnen und Besucher der Innenstadt.",
+       "smsText": "In der Vorweihnachtszeit erweitert die Rheinbahn ihr Angebot für Besucherinnen und Besucher der Innenstadt."
+      }
+     ]
+    }
+   ],
+   "properties": {
+    "AVMSTripID": "RB_VIA.4640007",
+    "FrequencyLine": "1",
+    "PlanLowFloorVehicle": "1"
+   }
+  }
+ ]
+}

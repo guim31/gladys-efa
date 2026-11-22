@@ -1,0 +1,128 @@
+{
+ "version": "11.0.6.72",
+ "systemMessages": [
+  {
+   "type": "error",
+   "module": "BROKER",
+   "code": -8011,
+   "text": ""
+  }
+ ],
+ "locations": [
+  {
+   "id": "de:05111:18235",
+   "isGlobalId": true,
+   "name": "Düsseldorf, Düsseldorf Hbf",
+   "disassembledName": "Düsseldorf Hbf",
+   "type": "stop",
+   "matchQuality": 1000,
+   "isBest": true,
+   "parent": {
+    "id": "placeID:5111000:6",
+    "name": "Düsseldorf",
+    "type": "locality"
+   },
+   "properties": {
+    "additionalTariffData": {
+     "area": "",
+     "zones": "",
+     "layer1": "",
+     "layer2": ""
+    },
+    "stopId": "20018235",
+    "mainLocality": "Düsseldorf"
+   }
+  },
+  {
+   "id": "poiID:276759:5111000:-1:Radstation Düsseldorf Hauptbahnhof:Düsseldorf:Radstation Düsseldorf Hauptbahnhof:ANY:POI:756390:5339975:MRCV:nrw",
+   "name": "Düsseldorf, Radstation Düsseldorf Hauptbahnhof",
+   "disassembledName": "Radstation Düsseldorf Hauptbahnhof",
+   "type": "poi",
+   "matchQuality": 244,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5111000:-1",
+    "name": "Düsseldorf",
+    "type": "locality"
+   }
+  },
+  {
+   "id": "poiID:11877:5111000:-1:Parkhaus Hauptbahnhof P3:Düsseldorf:Parkhaus Hauptbahnhof P3:ANY:POI:756424:5339875:MRCV:nrw",
+   "name": "Düsseldorf, Parkhaus Hauptbahnhof P3",
+   "disassembledName": "Parkhaus Hauptbahnhof P3",
+   "type": "poi",
+   "matchQuality": 243,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5111000:-1",
+    "name": "Düsseldorf",
+    "type": "locality"
+   }
+  },
+  {
+   "id": "poiID:286558:5111000:-1:B&R, Düsseldorf Hauptbahnhof:Düsseldorf:B&R, Düsseldorf Hauptbahnhof:ANY:POI:756459:5339889:MRCV:nrw",
+   "name": "Düsseldorf, B&R, Düsseldorf Hauptbahnhof",
+   "disassembledName": "B&R, Düsseldorf Hauptbahnhof",
+   "type": "poi",
+   "matchQuality": 246,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5111000:-1",
+    "name": "Düsseldorf",
+    "type": "locality"
+   }
+  },
+  {
+   "id": "poiID:331128:5111000:-1:Hotel-Trio am Hauptbahnhof:Düsseldorf:Hotel-Trio am Hauptbahnhof:ANY:POI:755910:5340004:MRCV:nrw",
+   "name": "Düsseldorf, Hotel-Trio am Hauptbahnhof",
+   "disassembledName": "Hotel-Trio am Hauptbahnhof",
+   "type": "poi",
+   "matchQuality": 243,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5111000:-1",
+    "name": "Düsseldorf",
+    "type": "locality"
+   }
+  },
+  {
+   "id": "poiID:301811:5111000:-1:Hauptbahnhof Düsseldorf:Düsseldorf:Hauptbahnhof Düsseldorf:ANY:POI:756403:5339904:MRCV:nrw",
+   "name": "Düsseldorf, Hauptbahnhof Düsseldorf",
+   "disassembledName": "Hauptbahnhof Düsseldorf",
+   "type": "poi",
+   "matchQuality": 250,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5111000:-1",
+    "name": "Düsseldorf",
+    "type": "locality"
+   }
+  },
+  {
+   "id": "poiID:273386:5111000:-1:Rheinbahn KundenCenter Hauptbahnhof:Düsseldorf:Rheinbahn KundenCenter Hauptbahnhof:ANY:POI:756112:5339515:MRCV:nrw",
+   "name": "Düsseldorf, Rheinbahn KundenCenter Hauptbahnhof",
+   "disassembledName": "Rheinbahn KundenCenter Hauptbahnhof",
+   "type": "poi",
+   "matchQuality": 241,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5111000:-1",
+    "name": "Düsseldorf",
+    "type": "locality"
+   }
+  },
+  {
+   "id": "poiID:75816:5111000:-1:Parkhaus am Hauptbahnhof:Düsseldorf:Parkhaus am Hauptbahnhof:ANY:POI:755674:5339360:MRCV:nrw",
+   "name": "Düsseldorf, Parkhaus am Hauptbahnhof",
+   "disassembledName": "Parkhaus am Hauptbahnhof",
+   "type": "poi",
+   "matchQuality": 243,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5111000:-1",
+    "name": "Düsseldorf",
+    "type": "locality"
+   }
+  }
+ ]
+}

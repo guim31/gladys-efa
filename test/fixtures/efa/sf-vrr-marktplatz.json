@@ -1,0 +1,157 @@
+{
+ "version": "11.0.6.72",
+ "systemMessages": [
+  {
+   "type": "error",
+   "module": "BROKER",
+   "code": -8011,
+   "text": ""
+  }
+ ],
+ "locations": [
+  {
+   "id": "de:05770:9757",
+   "isGlobalId": true,
+   "name": "Petershagen/Kr.Mind., Marktplatz",
+   "disassembledName": "Marktplatz",
+   "type": "stop",
+   "matchQuality": 888,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5770028:29",
+    "name": "Petershagen/Kr.Mind.",
+    "type": "locality"
+   },
+   "properties": {
+    "additionalTariffData": {
+     "area": "",
+     "zones": "",
+     "layer1": "",
+     "layer2": ""
+    },
+    "stopId": "23009757",
+    "mainLocality": "Petershagen/Kr.Mind."
+   }
+  },
+  {
+   "id": "de:05766:3887",
+   "isGlobalId": true,
+   "name": "Oerlinghausen, Marktplatz",
+   "disassembledName": "Marktplatz",
+   "type": "stop",
+   "matchQuality": 888,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5766056:4",
+    "name": "Oerlinghausen",
+    "type": "locality"
+   },
+   "properties": {
+    "additionalTariffData": {
+     "area": "",
+     "zones": "",
+     "layer1": "",
+     "layer2": ""
+    },
+    "stopId": "23003887",
+    "mainLocality": "Oerlinghausen"
+   }
+  },
+  {
+   "id": "de:05958:12060",
+   "isGlobalId": true,
+   "name": "Medebach, Marktplatz",
+   "disassembledName": "Marktplatz",
+   "type": "stop",
+   "matchQuality": 888,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5958028:7",
+    "name": "Medebach",
+    "type": "locality"
+   },
+   "properties": {
+    "additionalTariffData": {
+     "area": "",
+     "zones": "",
+     "layer1": "",
+     "layer2": ""
+    },
+    "stopId": "24012060",
+    "mainLocality": "Medebach"
+   }
+  },
+  {
+   "id": "de:05170:36206",
+   "isGlobalId": true,
+   "name": "Wesel, Feldmark Marktplatz",
+   "disassembledName": "Feldmark Marktplatz",
+   "type": "stop",
+   "matchQuality": 916,
+   "isBest": true,
+   "parent": {
+    "id": "placeID:5170048:34",
+    "name": "Wesel",
+    "type": "locality"
+   },
+   "properties": {
+    "additionalTariffData": {
+     "area": "",
+     "zones": "",
+     "layer1": "",
+     "layer2": ""
+    },
+    "stopId": "20036206",
+    "mainLocality": "Wesel"
+   }
+  },
+  {
+   "id": "de:05758:1135",
+   "isGlobalId": true,
+   "name": "Bünde, Marktplatz",
+   "disassembledName": "Marktplatz",
+   "type": "stop",
+   "matchQuality": 888,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5758004:6",
+    "name": "Bünde",
+    "type": "locality"
+   },
+   "properties": {
+    "additionalTariffData": {
+     "area": "",
+     "zones": "",
+     "layer1": "",
+     "layer2": ""
+    },
+    "stopId": "23001135",
+    "mainLocality": "Bünde"
+   }
+  },
+  {
+   "id": "de:05774:7143",
+   "isGlobalId": true,
+   "name": "Altenbeken, Am Marktplatz",
+   "disassembledName": "Am Marktplatz",
+   "type": "stop",
+   "matchQuality": 883,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5774004:1",
+    "name": "Altenbeken",
+    "type": "locality"
+   },
+   "properties": {
+    "additionalTariffData": {
+     "area": "",
+     "zones": "",
+     "layer1": "",
+     "layer2": ""
+    },
+    "stopId": "23207143",
+    "mainLocality": "Altenbeken"
+   }
+  }
+ ]
+}

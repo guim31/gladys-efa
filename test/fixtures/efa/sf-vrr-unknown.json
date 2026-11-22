@@ -1,0 +1,73 @@
+{
+ "version": "11.0.6.72",
+ "systemMessages": [
+  {
+   "type": "error",
+   "module": "BROKER",
+   "code": -8011,
+   "text": ""
+  }
+ ],
+ "locations": [
+  {
+   "id": "suburbID:55534115:801:Wildenschwert (CZ):::",
+   "name": "Wildenschwert (CZ)",
+   "type": "suburb",
+   "matchQuality": 112,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:55534115:801",
+    "name": "Wildenschwert (CZ)",
+    "type": "locality"
+   }
+  },
+  {
+   "id": "suburbID:5382072:16:Werthhoven:794503:5447164:MRCV",
+   "name": "Werthhoven",
+   "type": "suburb",
+   "matchQuality": 77,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5382072:16",
+    "name": "Werthhoven",
+    "type": "locality"
+   }
+  },
+  {
+   "id": "suburbID:5170012:27:Wertherbruch:::",
+   "name": "Wertherbruch",
+   "type": "suburb",
+   "matchQuality": 76,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:5170012:27",
+    "name": "Wertherbruch",
+    "type": "locality"
+   }
+  },
+  {
+   "id": "suburbID:9778137:1:Ettringen (Wertach):1185978:5875799:MRCV",
+   "name": "Ettringen (Wertach)",
+   "type": "suburb",
+   "matchQuality": 112,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:9778137:1",
+    "name": "Ettringen (Wertach)",
+    "type": "locality"
+   }
+  },
+  {
+   "id": "suburbID:9773182:3:Geratshofen (Wertingen):1189839:5801772:MRCV",
+   "name": "Geratshofen (Wertingen)",
+   "type": "suburb",
+   "matchQuality": 82,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:9773182:3",
+    "name": "Geratshofen (Wertingen)",
+    "type": "locality"
+   }
+  }
+ ]
+}

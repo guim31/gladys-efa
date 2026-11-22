@@ -1,67 +1,194 @@
-# Template de démonstration
+# EFA departures (VRR, VVS, KVV…)
 
-Ceci est la documentation utilisateur de l'intégration. Gladys ré-héberge ce
-fichier et affiche un lien **Documentation** permanent vers lui dans l'écran
-de configuration (dans la langue de l'utilisateur, avec l'anglais en repli) —
-c'est au moment de configurer que l'utilisateur en a le plus besoin. Gardez
-les courtes indications d'accueil dans les blocs `section` du `config_schema`
-du manifest ; mettez ici le pas-à-pas détaillé (captures d'écran, dépannage…).
+Les prochains départs de vos arrêts en Allemagne et en Autriche dans Gladys : trains, S-Bahn,
+U-Bahn et Stadtbahn, trams, bus et bateaux, avec retards, suppressions et perturbations, en temps
+réel.
+
+Les données viennent du calculateur d'itinéraire public de chaque réseau de transport, bâti sur le
+logiciel **EFA** (Mentz) : VRR (Rhin-Ruhr), VVS (Stuttgart), KVV (Karlsruhe), MVV (Munich) et les
+autres réseaux listés plus bas. **Ni compte, ni clé.** Cette intégration n'est affiliée ni à Mentz
+ni à aucun de ces réseaux.
 
 ## Ce que vous obtenez
 
-Six appareils de démonstration apparaissent après l'installation : une
-station météo (vraies données Open-Meteo), un interrupteur, une lampe
-variable, une prise connectée avec mesure de puissance, un détecteur de
-mouvement et une caméra.
+- **Un appareil par arrêt suivi** (filtrable par lignes, direction ou mode de transport) : prochain
+  départ et départ suivant (minutes), retard du prochain départ (minutes), sa ligne et sa
+  destination (texte), et si une perturbation concerne les départs gardés (oui/non).
+- **Un widget de tableau de bord** avec les prochains départs d'un arrêt : heure, minutes, retard,
+  départs supprimés en rouge, perturbations en tête.
+- **Quatre déclencheurs de scène** : c'est l'heure de partir, départ en retard, départ supprimé,
+  nouvelle perturbation.
+- **Une action de scène** qui lit les prochains départs d'un arrêt, avec une phrase prête à envoyer
+  par message ou sur une enceinte.
+
+## Prérequis
+
+- Gladys Assistant 5.3.0 ou plus récent.
+- Un accès à Internet depuis la machine de Gladys.
+- Un arrêt de l'un de ces réseaux (chaque serveur a été vérifié le 22 novembre 2026) :
+
+| Réseau       | Zone                                     | Serveur                  |
+| ------------ | ---------------------------------------- | ------------------------ |
+| VRR          | Rhin-Ruhr (Düsseldorf, Essen, Dortmund…) | `efa.vrr.de`             |
+| VVS          | Stuttgart                                | `www3.vvs.de`            |
+| KVV          | Karlsruhe                                | `projekte.kvv-efa.de`    |
+| MVV          | Munich                                   | `efa.mvv-muenchen.de`    |
+| VRN          | Rhin-Neckar (Mannheim, Heidelberg…)      | `www.vrn.de`             |
+| bwegt        | tout le Bade-Wurtemberg                  | `www.efa-bw.de`          |
+| DING         | Ulm                                      | `www.ding.eu`            |
+| Bayern (BEG) | toute la Bavière (Nuremberg compris)     | `bahnland-bayern.de`     |
+| VVO          | Dresde                                   | `efa.vvo-online.de`      |
+| NWL          | Westphalie-Lippe (Münster, Bielefeld…)   | `westfalenfahrplan.de`   |
+| VMV          | Mecklembourg-Poméranie-Occidentale       | `fahrplanauskunft-mv.de` |
+| Linz AG      | Linz (Autriche)                          | `www.linzag.at`          |
+
+Différence avec les voisines du store : l'intégration **Deutsche Bahn**
+(`LM1LC3N7/gladys-deutsche-bahn`) suit les trains de la DB ; celle-ci lit le tableau des départs du
+réseau local, celui affiché à l'arrêt, avec ses U-Bahn, trams et bus et les messages du réseau.
+**Transitous** et **gladys-gtfs** lisent des flux GTFS, partout dans le monde, avec le temps réel
+quand un flux le fournit ; ici, le temps réel est celui du réseau lui-même.
+
+## Installation
+
+1. Dans Gladys, ouvrez **Intégrations → Installer depuis GitHub**.
+2. Collez `https://github.com/guim31/gladys-efa` et installez.
+3. Ouvrez l'onglet **Configuration** de l'intégration.
 
 ## Configuration
 
-1. Ouvrez l'onglet **Configuration** de l'intégration.
-2. Renseignez la **latitude** et la **longitude** que la station météo de
-   démonstration doit observer (Paris par défaut), et choisissez votre unité
-   de température. L'**intervalle de rafraîchissement** règle la fréquence
-   de lecture de la station météo et de la puissance de la prise : toutes
-   les 5 minutes par défaut, toutes les minutes au plus.
-3. Enregistrez : les appareils apparaissent dans l'onglet **Découverte**,
-   prêts à être ajoutés.
+### Réglages
 
-Le réglage **Préférer la connexion locale** pilote la prise de
-démonstration : elle affiche en badge le canal réellement utilisé (local ou
-cloud), avec un point orange quand elle fonctionne en mode dégradé (local
-refusé, bascule cloud).
+- **Langue des textes** : langue des noms de fonctionnalités (fixés à la création de l'appareil) et
+  des phrases de scène. Les réseaux écrivent leurs messages en allemand : ils sont montrés tels
+  quels.
+- **Fréquence de mise à jour** : 1 minute (par défaut) ou 2 minutes. Une requête par appareil créé.
 
-## Actions
+### Ajouter un arrêt
 
-- **Tester le fournisseur météo** — effectue une requête en direct vers
-  Open-Meteo et affiche la température et l'humidité actuelles sous le
-  bouton.
-- **Identifier un appareil** — choisissez un de vos appareils dans la liste
-  et il se signale (la lampe de démonstration « clignote » dans les logs).
+1. **Chercher un arrêt** : choisissez le réseau, saisissez un nom (`Düsseldorf Hbf`,
+   `Stuttgart Hauptbahnhof`…). La réponse liste les arrêts correspondants avec leur identifiant,
+   par exemple `Düsseldorf Hbf [de:05111:18235]`.
+2. **Ajouter un arrêt** : choisissez de nouveau le réseau et saisissez l'identifiant (ou le nom
+   exact s'il est unique). Filtres facultatifs :
+   - **Lignes** : `U79, 704` ne garde que ces lignes, telles qu'écrites sur le véhicule (`RE5`,
+     `S1`, `SEV RE 47`…), séparées par des virgules. Elles sont vérifiées sur les prochains départs.
+   - **Direction** : `Duisburg` ne garde que les départs dont la destination contient ce texte
+     (accents et casse ignorés).
+   - **Mode** : train, S-Bahn, U-Bahn / Stadtbahn, tram, bus ou bateau, pour les grands pôles. Ce
+     filtre est appliqué par le serveur : le tableau voit donc plus loin.
+3. Ouvrez l'onglet **Découverte** et ajoutez l'appareil à Gladys.
 
-## Scènes
+Le même arrêt avec d'autres filtres donne un autre appareil : ajoutez la U79 vers Duisburg et la
+U79 vers le centre pour suivre les deux sens. Jusqu'à 10 arrêts peuvent être suivis.
 
-L'intégration ajoute ses propres cartes à l'éditeur de scènes (Gladys 5.1
-ou plus récent), dans la catégorie **Intégrations** :
+### Retirer un arrêt, voir l'état
 
-- **Mouvement détecté** (déclencheur) — lance la scène quand un détecteur
-  de démonstration voit bouger quelque chose. Choisissez éventuellement le
-  détecteur et ce qui a bougé (personne, animal) ; laissés vides, toute
-  détection correspond. Les actions suivantes peuvent lire ce qui a bougé
-  avec `{{triggerEvent.data.target}}`.
-- **Identifier un appareil** (action) — fait se signaler l'appareil choisi.
-  Elle indique si l'appareil a pu se signaler, pour que les actions
-  suivantes puissent en dépendre.
+- **Retirer un arrêt** : saisissez son nom tel qu'affiché par l'état (`Düsseldorf Hbf (U79)`) ou
+  son identifiant. Son appareil reste dans Gladys jusqu'à ce que vous le supprimiez.
+- **Voir ce qui est suivi** : les arrêts, si leur appareil existe, la dernière lecture et la
+  dernière erreur.
 
-## Tableau de bord
+## Appareils
 
-Ajoutez le widget **État de la démo** à un tableau de bord : il affiche en
-direct la température de la station météo et la puissance de la prise du
-bureau, la connexion utilisée par la prise (en orange si dégradée) et la
-position observée. Son bouton **Identifier la lampe** fait se signaler la
-lampe de démonstration.
+| Fonctionnalité       | Type              | Contenu                                                       |
+| -------------------- | ----------------- | ------------------------------------------------------------- |
+| Prochain départ      | durée (min)       | minutes avant le prochain départ qui circule (0 = maintenant) |
+| Départ suivant       | durée (min)       | minutes avant le suivant                                      |
+| Retard               | durée (min)       | retard du prochain départ (0 à l'heure ou en avance)          |
+| Ligne et destination | texte             | `U79 → D-Wittlaer`                                            |
+| Perturbation         | binaire (oui/non) | une perturbation concerne un départ gardé par les filtres     |
+
+Les départs supprimés sont sautés par les comptes à rebours. Sans départ annoncé, les comptes à
+rebours affichent 1440 minutes. Seuls les départs gardés par les filtres comptent.
+
+Une **perturbation** est un message temps réel sur un trajet, un message de priorité haute, ou un
+message écrit dans les dernières 24 heures. Les réseaux attachent aussi des notes de longue durée à
+chaque départ d'une ligne (travaux, accessibilité, parfois des offres saisonnières) : elles ne
+comptent pas, pour que la fonctionnalité ne reste pas allumée des mois.
+
+## Widget de tableau de bord
+
+**Prochains départs** : choisissez un arrêt. Le widget montre ses huit prochains départs (ligne,
+destination, heure estimée, minutes, retard) : vert en temps réel, orange à partir de deux minutes
+de retard, rouge si supprimé, gris pour un horaire théorique. La légende montre les perturbations.
+Le titre est le nom donné à l'appareil dans Gladys.
+
+## Déclencheurs de scène
+
+Chaque déclencheur peut être limité à un arrêt et à une ligne (exactement comme sur le véhicule).
+
+- **C'est l'heure de partir** : un départ part dans le nombre de minutes choisi (1 à 20). Une fois
+  par départ, quand son compte à rebours atteint ce nombre. Un départ vu pour la première fois dans
+  la fenêtre ne déclenche pas.
+- **Départ en retard** : un départ a au moins le retard choisi (1 à 60 minutes). Une fois par départ
+  et par seuil.
+- **Départ supprimé** : un prochain départ est supprimé. Une fois par départ.
+- **Nouvelle perturbation** : une nouvelle perturbation concerne un départ de l'arrêt. Une fois par
+  message et par ligne.
+
+Variables transmises à la scène : arrêt, ligne, mode (`TRAIN`, `SUBURBAN`, `SUBWAY`, `TRAM`, `BUS`,
+`FERRY`, `OTHER`), destination, quai, heures prévue et estimée, minutes, retard ; pour une
+perturbation, son résumé et ses détails (en allemand). Ce qui existe déjà au démarrage de
+l'intégration n'est pas annoncé ; les suppressions et messages déjà annoncés ne le sont pas de
+nouveau après un redémarrage.
+
+## Actions de scène
+
+**Lire les prochains départs** : choisissez un arrêt, éventuellement une ligne. Sorties : une phrase
+(`U79 vers D-Wittlaer à Düsseldorf Hbf : dans 2 et 14 min`), l'arrêt, la ligne, la destination, les
+minutes à attendre, les minutes jusqu'au suivant, le retard, l'heure estimée, le quai, temps réel
+(1/0), perturbation (1/0). La phrase suit la langue de la configuration.
+
+## Exemples de scènes
+
+- **Partir pour le tram** : déclencheur « C'est l'heure de partir », arrêt Düsseldorf Hbf (704),
+  7 min → envoyer « Ton tram part dans {{minutes}} min du quai {{platform}} » et faire clignoter la
+  lumière de l'entrée.
+- **Point du matin** : à 7 h en semaine, action « Lire les prochains départs » → envoyer sa phrase
+  sur l'enceinte de la cuisine.
+- **Prévenir d'une S-Bahn supprimée** : déclencheur « Départ supprimé », arrêt Karlsruhe Marktplatz
+  (S4) → envoyer un message avec la destination et l'heure prévue.
+
+## Données, rafraîchissement et quotas
+
+Les serveurs EFA sont les back-ends publics des calculateurs d'itinéraire et des tableaux de
+départs des réseaux eux-mêmes. Ils ne demandent pas de clé, et aucun ne publie de conditions écrites
+pour les applications tierces : plusieurs réseaux (VRR, VVS, KVV, MVV…) publient leurs horaires en
+open data, les tableaux temps réel sont montrés ici comme leurs sites les montrent. L'intégration
+reste légère : une requête par appareil créé et par rafraîchissement (au plus une par minute), les
+arrêts lus l'un après l'autre, espacés d'une demi-seconde, une requête refusée (HTTP 429 ou 503)
+retentée deux fois ; rien n'est lu pour un arrêt que vous n'avez pas créé dans Gladys. Les départs
+sont le temps réel du réseau quand le véhicule est suivi, sinon l'horaire théorique. Données © les
+réseaux concernés.
 
 ## Dépannage
 
-L'intégration journalise tout ce qu'elle fait : consultez les logs de
-l'intégration depuis l'interface Gladys (ou `docker logs` sur l'hôte) avec
-`LOG_LEVEL=debug` pour le détail complet.
+- **Aucun appareil dans Découverte** : ajoutez d'abord l'arrêt, avec « Ajouter un arrêt ».
+- **« Le serveur du réseau est injoignable »** : la machine de Gladys n'a pas accès à Internet, ou
+  le serveur du réseau est en panne. L'intégration réessaie à chaque rafraîchissement et signale le
+  retour.
+- **Un filtre de ligne est refusé** : la réponse liste les lignes des prochains départs ; saisissez
+  la ligne telle qu'elle y est écrite. Une ligne peu fréquente peut être absente à ce moment :
+  réessayez plus tard, ou ajoutez l'arrêt avec un filtre de mode.
+- **Plusieurs arrêts ont le même nom** (`Karlsruhe, Marktplatz (Pyramide U)` et
+  `Karlsruhe, Marktplatz (Kaiserstraße U)`) : utilisez l'identifiant donné par « Chercher un arrêt ».
+- **Un déclencheur ne se déclenche pas** : vérifiez la ligne (exactement comme écrite) et que
+  l'appareil existe dans Gladys : seuls les appareils créés sont lus.
+
+## Limites
+
+- Développée sans habiter ces régions, contre les vrais serveurs EFA de VRR, VVS et KVV : vos
+  retours sont les bienvenus.
+- Les noms de fonctionnalités sont fixés à la création de l'appareil.
+- Les messages sont en allemand, jamais traduits.
+- Un serveur renvoie les 40 prochains départs d'un arrêt (100 avec un filtre) : dans un grand pôle,
+  cela fait 15 à 40 minutes d'avance. Utilisez un filtre de ligne ou de mode pour une ligne peu
+  fréquente.
+- Le VGN (Nuremberg) n'est pas listé : son serveur ne donne pas de temps réel ; utilisez
+  **Bayern (BEG)**, qui couvre Nuremberg en temps réel.
+
+## Crédits
+
+Données : les réseaux de transport listés plus haut, via leurs serveurs EFA (Mentz). Inspirée des
+intégrations communautaires de Home Assistant pour les départs EFA et de l'intégration
+`gladys-sl-stockholm`.
