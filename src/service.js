@@ -291,7 +291,7 @@ export class EfaService {
   refresh(options = {}) {
     if (this.inflight) {
       // A read in progress may predate a device just created: read again after it.
-      return this.inflight.then(() => this.refresh(options));
+      return this.inflight.catch(() => {}).then(() => this.refresh(options));
     }
     this.inflight = this.doRefresh(options).finally(() => {
       this.inflight = null;

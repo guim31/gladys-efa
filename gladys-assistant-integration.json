@@ -165,7 +165,7 @@
         "de": "Listet die Haltestellen zu einem Namen mit ihrer Kennung auf.",
         "es": "Muestra las paradas que coinciden con un nombre, con su identificador."
       },
-      "timeout_seconds": 60,
+      "timeout_seconds": 120,
       "fields": [
         {
           "key": "network",
@@ -321,7 +321,7 @@
         "de": "Verfolgt eine Haltestelle: ihr Gerät erscheint dann im Tab „Entdecken“. Dieselbe Haltestelle mit anderen Filtern ergibt ein weiteres Gerät.",
         "es": "Sigue una parada: su dispositivo aparece luego en la pestaña Descubrir. La misma parada con otros filtros da otro dispositivo."
       },
-      "timeout_seconds": 60,
+      "timeout_seconds": 120,
       "fields": [
         {
           "key": "network",

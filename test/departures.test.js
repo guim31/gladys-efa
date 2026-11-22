@@ -58,6 +58,8 @@ test('Düsseldorf Hbf: lines, modes, platforms, delays, the cancelled RE5', () =
   assert.ok(departures.some((d) => d.line === 'ICE 627' && d.destination === 'Nürnberg Hbf'));
   assert.ok(departures.some((d) => d.line === 'IC 2202'));
   assert.equal(running(departures).length, 39);
+  // Two ICE to Köln at 12:13 share their line id: still two keys.
+  assert.equal(new Set(departures.map((d) => d.key)).size, 40);
 });
 
 test('Stuttgart and Karlsruhe: Stadtbahn as U-Bahn, the cancelled RE8 and S4', () => {

@@ -135,8 +135,16 @@ export function parseDepartures(events, now) {
     const transportation = event.transportation ?? {};
     const properties = event.location?.properties ?? {};
     departures.push({
-      // The trip id of the network with its planned time: unique for the day.
-      key: `${transportation.id ?? lineOf(transportation)}|${event.departureTimePlanned}`,
+      // transportation.id is the line and direction, not the trip: two ICE to
+      // Köln at the same minute share it. The trip code and the platform tell
+      // them apart, and stay the same from one read to the next.
+      key: [
+        transportation.id ?? lineOf(transportation),
+        transportation.properties?.tripCode ?? '',
+        event.properties?.AVMSTripID ?? '',
+        event.location?.id ?? '',
+        event.departureTimePlanned,
+      ].join('|'),
       line: lineOf(transportation),
       mode: modeOfClass(transportation.product?.class),
       destination: String(transportation.destination?.name ?? '').trim() || '?',
