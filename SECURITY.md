@@ -30,6 +30,13 @@ Gladys before reporting a problem.
 
 In scope: the code of this repository and the Docker image it publishes.
 
+The integration needs no account and stores no secret. It writes a single file,
+`/data/watch.json`: the watched stops and their filters, and the cancellations
+and traffic messages already announced to the scenes (forgotten after 48
+hours). It only calls the public EFA servers of the transport networks listed
+in the documentation (`efa.vrr.de`, `www3.vvs.de`, `projekte.kvv-efa.de`…)
+over HTTPS, and opens no port.
+
 Out of scope: Gladys Assistant itself (see its
 [security policy](https://github.com/GladysAssistant/Gladys/security/policy)),
-and the third-party services and devices the integration talks to.
+and the EFA servers the integration talks to.

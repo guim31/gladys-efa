@@ -31,16 +31,23 @@ pushing.
 ## Architecture
 
 ```
-index.js                          SDK wiring only: handlers registered before connect()
-src/devices/index.js              registry of the device blueprints + dispatch helpers
-src/devices/<type>.js             one device type per file (buildDevice, onPoll, onSetValue...)
+index.js                          SDK wiring only: registerHandlers() then connect()
+src/app.js                        every SDK handler -> service; configuration actions
+src/service.js                    watch list, refresh timer, devices/states, scene triggers, actions
+src/efa.js                        EFA client: networks, stop finder, departure monitor, retries
+src/departures.js                 EFA answers -> departures (delay, cancellation, filters), messages
+src/devices.js                    Gladys device of a watched stop, its states
 src/scenes.js                     scene action handlers (manifest `scene_actions`)
 src/widgets.js                    dashboard widget handlers (manifest `widgets`)
+src/messages.js                   texts sent from the container (en, fr, de, es)
+src/errors.js                     ActionFailure: a failed action, shown in red by Gladys
+src/store.js                      /data/watch.json (atomic, coalesced writes)
 src/config.js                     DEFAULT_CONFIG (mirrors the manifest defaults) + normalization
-src/weather.js                    example driver (Open-Meteo)
-gladys-assistant-integration.json manifest: name, config_schema, actions, image...
-docs/en.md, docs/fr.md            user documentation, re-hosted by Gladys (mandatory)
-test/                             node --test, against the SDK's fake Gladys (integration-sdk/testing)
+gladys-assistant-integration.json manifest: config, actions, widget, scene triggers and action
+docs/{en,fr,de,es}.md             user documentation, re-hosted by Gladys (en and fr mandatory)
+test/helpers/world.js             fake Gladys + fake EFA servers on the fixtures + manual clock + /data
+test/helpers/scenario.js          cancellation, delay and disruption staged on the real departures
+test/fixtures/efa                 real EFA answers of 22/11/2026 ~12:00 (Düsseldorf, Stuttgart, Karlsruhe)
 .github/scripts/release.mjs       release helpers (manifest bump, changelog), tested in test/
 ```
 
@@ -78,8 +85,9 @@ test/                             node --test, against the SDK's fake Gladys (in
   `type: "provider"`: 5.1.0). `test/manifest.test.js` ties the manifest to the
   code (defaults, action, scene and widget handlers): change both sides
   together.
-- **User-facing text** is bilingual (English and French): action messages,
-  manifest texts, and `docs/en.md` / `docs/fr.md`, kept in sync.
+- **User-facing text** is in four languages (English, French, German with
+  "du", Spanish with "usted"): action messages, manifest texts, feature names
+  and `docs/{en,fr,de,es}.md`, kept in sync (`test/i18n.test.js`).
 - **Style.** Prettier formats, ESLint catches mistakes. Comments explain why,
   in English. Tests never touch the network.
 
@@ -259,3 +267,39 @@ long, et sur un « Sie »/« Ihr… » de politesse en allemand. Le store exige 
 - Docs `en`, `fr`, `de`, `es` avec les mêmes sections.
 - Chauffe, ouverture, sécurité : ne rien rendre pilotable « comme un thermostat » ou par un assistant
   vocal quand une erreur serait dangereuse (leçon d'OctoPrint).
+
+# Intégration EFA (notes de développement, 22/11/2026)
+
+Structure reprise de `gladys-sl-stockholm` (un appareil par arrêt et jeu de filtres, quatre
+déclencheurs, un widget, une action de scène).
+
+## API EFA (Mentz), sans clé, vérifiées le 22/11/2026
+
+- `<base>XML_STOPFINDER_REQUEST?outputFormat=rapidJSON&type_sf=any&name_sf=…&SpEncId=0` : arrêts
+  (`type: "stop"`), mais aussi rues, POI, quartiers : filtrer. Un id global (`de:05111:18235`) ou un
+  numéro d'arrêt (`20018235`) est résolu en un seul arrêt.
+- `<base>XML_DM_REQUEST?…&mode=direct&type_dm=stop&name_dm=<id>&useRealtime=1&limit=N` : `stopEvents`
+  avec `departureTimePlanned`/`departureTimeEstimated` **en UTC (`Z`)** (contrairement à `serverTime`,
+  heure locale sans fuseau), `isCancelled` / `realtimeStatus: ["TRIP_CANCELLED"]`, quai dans
+  `location.properties.platform`, classe de produit `transportation.product.class` (0/13-16 trains,
+  1 S-Bahn, 2-3 U-Bahn/Stadtbahn, 4 tram, 5-7/10/17/19 bus, 9 bateau, 11 « autre », par ex. le tram
+  historique de Stuttgart). Arrêt inconnu : `200` avec `locations: []`. Filtre de mode côté serveur :
+  `includedMeans=checkbox&inclMOT_<classe>=on`.
+- Les trains grandes lignes n'ont pas de `disassembledName` : ligne = `trainType` + `number`
+  (« ICE 627 ») ; le SEV a `number: "SEV RE 47"` (pas de doublon du type).
+- **Messages** : chaque départ porte ses `infos` (pas besoin de `XML_ADDINFO_REQUEST`). Les réseaux y
+  attachent des notes permanentes (travaux, accessibilité, même une offre de Noël de la Rheinbahn) en
+  `lineInfo` priorité `normal` : elles ne comptent pas comme perturbation. Comptent : `tripMessage`
+  (incidents temps réel de VRR), priorité `high`/`veryHigh` (VVS), ou création < 24 h (VRR écrit une
+  panne de véhicule en simple `lineInfo`). Le titre VVS n'est souvent que « Linien U1, U5… » : le
+  résumé prend alors `urlText`/la première phrase.
+- 40 départs ne couvrent qu'environ 15 min à Düsseldorf Hbf : 100 dès qu'un filtre existe.
+- Réseaux écartés : VGN (`efa.vgn.de`, aucun temps réel ; BEG couvre Nuremberg avec), SVV Salzbourg
+  et AVV Augsbourg (pas de réponse), VVT, RMV (404), Tyrol du Sud (hors périmètre).
+
+## Choix
+
+- Champ `network` (select requis) dans « Chercher » et « Ajouter » : les actions n'appliquent aucun
+  défaut. `external_id` = réseau + id global + filtres.
+- Au plus 10 arrêts, une requête par arrêt, l'une après l'autre, 500 ms d'écart ; 429/503 retentés
+  après 2 puis 5 s ; intervalle 1 ou 2 min.

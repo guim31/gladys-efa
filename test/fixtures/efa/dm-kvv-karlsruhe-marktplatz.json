@@ -1,0 +1,4032 @@
+{
+ "version": "11.0.6.72",
+ "systemMessages": [],
+ "locations": [
+  {
+   "id": "de:08212:1011",
+   "isGlobalId": true,
+   "name": "Karlsruhe, Marktplatz (Pyramide U)",
+   "disassembledName": "Marktplatz (Pyramide U)",
+   "type": "stop",
+   "parent": {
+    "id": "placeID:8212000:15",
+    "name": "Karlsruhe",
+    "type": "locality"
+   },
+   "properties": {
+    "stopId": "7001011"
+   }
+  }
+ ],
+ "stopEvents": [
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:91:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "91",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T10:57:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T10:57:00Z",
+   "departureTimeEstimated": "2026-11-22T11:01:36Z",
+   "transportation": {
+    "id": "kvv:22305:E:H:s26",
+    "name": "S-Bahn S5",
+    "disassembledName": "S5",
+    "number": "S5",
+    "description": "Pforzheim -  Wörth",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "7000107",
+     "name": "Knielingen Rheinbergstraße",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "84972",
+     "tripCode": 5146,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S05_:"
+    },
+    "origin": {
+     "id": "7001626",
+     "name": "Pforzheim Hbf",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN, WC",
+     "providerCode": "42",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S05_:.kvv-22-305-E.18.T3.191.s26",
+    "AVMSTripID": "84972-1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:92:2",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 2(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "92",
+     "platform": "2(U)",
+     "platformName": "Gleis 2(U)",
+     "plannedPlatformName": "Gleis 2(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:01:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:01:00Z",
+   "departureTimeEstimated": "2026-11-22T11:02:18Z",
+   "transportation": {
+    "id": "kvv:22305:E:R:s26",
+    "name": "S-Bahn S5",
+    "disassembledName": "S5",
+    "number": "S5",
+    "description": "Wörth - Pforzheim",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "7001626",
+     "name": "Pforzheim Hbf",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "84985",
+     "tripCode": 4604,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S05_:"
+    },
+    "origin": {
+     "id": "7000107",
+     "name": "Knielingen Rheinbergstraße",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN",
+     "providerCode": "41",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S05_:.kvv-22-305-E.18.T3.51.s26",
+    "AVMSTripID": "84985-1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:1:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "1",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:02:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:02:00Z",
+   "departureTimeEstimated": "2026-11-22T11:02:36Z",
+   "transportation": {
+    "id": "kvv:21012:E:H:s26",
+    "name": "S-Bahn S2",
+    "disassembledName": "S2",
+    "number": "S2",
+    "description": "Spöck - Rheinstetten",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "VBK",
+     "id": "02",
+     "name": "Verkehrsbetriebe Karlsruhe GmbH"
+    },
+    "destination": {
+     "name": "Rheinstetten",
+     "type": "stop"
+    },
+    "properties": {
+     "tripCode": 1602,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S02_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7032033",
+     "name": "Blankenloch Nord",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Niederflurwagen",
+     "providerCode": "02",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S02_:.kvv-21-12-E.14.T3.67.s26",
+    "AVMSTripID": "38954#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:2:2",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 2(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "2",
+     "platform": "2(U)",
+     "platformName": "Gleis 2(U)",
+     "plannedPlatformName": "Gleis 2(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:04:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:04:00Z",
+   "departureTimeEstimated": "2026-11-22T11:04:00Z",
+   "transportation": {
+    "id": "kvv:22301:E:R:s26",
+    "name": "S-Bahn S1",
+    "disassembledName": "S1",
+    "number": "S1",
+    "description": "Hochstetten - Bad Herrenalb",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "name": "Bad Herrenalb",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "37020",
+     "tripCode": 317,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S01_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001157",
+     "name": "Hochstetten",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, Klimaanlage",
+     "providerCode": "17",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S01_:.kvv-22-301-E.6.T3.37.s26",
+    "AVMSTripID": "37020-40015#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1011:93:3",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 3(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001011",
+     "area": "93",
+     "platform": "3(U)",
+     "platformName": "Gleis 3(U)",
+     "plannedPlatformName": "Gleis 3(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:04:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:04:00Z",
+   "departureTimeEstimated": "2026-11-22T11:04:24Z",
+   "transportation": {
+    "id": "kvv:22308:E:H:s26",
+    "name": "S-Bahn S8",
+    "disassembledName": "S8",
+    "number": "S8",
+    "description": "Karlsruhe - Freudenstadt",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "7301050",
+     "name": "Freudenstadt Hauptbahnhof",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "85641",
+     "tripCode": 791,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S08_:"
+    },
+    "origin": {
+     "id": "7000007",
+     "name": "KA Tullastraße/Alter Schlachthof",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN, WC",
+     "providerCode": "42",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S08_:.kvv-22-308-E.17.T3.145.s26",
+    "AVMSTripID": "85641-2"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1011:3:3",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 3(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001011",
+     "area": "3",
+     "platform": "3(U)",
+     "platformName": "Gleis 3(U)",
+     "plannedPlatformName": "Gleis 3(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:06:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:06:00Z",
+   "departureTimeEstimated": "2026-11-22T11:06:00Z",
+   "transportation": {
+    "id": "kvv:22301:E:R:s26",
+    "name": "S-Bahn S1",
+    "disassembledName": "S1",
+    "number": "S1",
+    "description": "Hochstetten - Bad Herrenalb",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "name": "Bad Herrenalb",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "37020",
+     "tripCode": 317,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S01_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001157",
+     "name": "Hochstetten",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, Klimaanlage",
+     "providerCode": "17",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S01_:.kvv-22-301-E.6.T3.37.s26",
+    "AVMSTripID": "37020-40015#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:91:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "91",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:07:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:07:00Z",
+   "departureTimeEstimated": "2026-11-22T11:08:36Z",
+   "transportation": {
+    "id": "kvv:22351:E:H:s26",
+    "name": "S-Bahn S51",
+    "disassembledName": "S51",
+    "number": "S51",
+    "description": "Pforzheim - Germersheim",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "6009085",
+     "name": "Germersheim, Bahnhof",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "84896",
+     "tripCode": 1012,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S51_:"
+    },
+    "origin": {
+     "id": "7002008",
+     "name": "Berghausen (Baden)",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN, WC, Klimaanlage",
+     "providerCode": "16",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S51_:.kvv-22-351-E.18.T3.48.s26",
+    "AVMSTripID": "84896-2"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1011:4:4",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 4(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001011",
+     "area": "4",
+     "platform": "4(U)",
+     "platformName": "Gleis 4(U)",
+     "plannedPlatformName": "Gleis 4(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:12:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:12:00Z",
+   "departureTimeEstimated": "2026-11-22T11:15:06Z",
+   "transportation": {
+    "id": "kvv:22311:E:H:s26",
+    "name": "S-Bahn S11",
+    "disassembledName": "S11",
+    "number": "S11",
+    "description": "Ittersbach - Hochstetten",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "name": "Hochstetten",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "27015",
+     "tripCode": 490,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S11_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001410",
+     "name": "Ittersbach Rathaus",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, Klimaanlage",
+     "providerCode": "17",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S11_:.kvv-22-311-E.7.T3.116.s26",
+    "AVMSTripID": "27015-40122#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:1:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "1",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:12:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:12:00Z",
+   "departureTimeEstimated": "2026-11-22T11:12:30Z",
+   "transportation": {
+    "id": "kvv:21001:E:H:s26",
+    "name": "Straßenbahn 1",
+    "disassembledName": "1",
+    "number": "1",
+    "description": "Durlach - Neureut-Heide",
+    "product": {
+     "id": 0,
+     "class": 4,
+     "name": "Straßenbahn",
+     "iconId": 4
+    },
+    "operator": {
+     "code": "VBK",
+     "id": "02",
+     "name": "Verkehrsbetriebe Karlsruhe GmbH"
+    },
+    "destination": {
+     "name": "Heide",
+     "type": "stop"
+    },
+    "properties": {
+     "tripCode": 991,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00001_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7000802",
+     "name": "Durlach Bahnhof",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-10-27T06:42:00Z"
+     },
+     "priority": "normal",
+     "id": "100004526_KVV_ICSKVV",
+     "version": 4,
+     "type": "lineInfo",
+     "properties": {
+      "infoType": "lineInfo"
+     },
+     "infoLinks": [
+      {
+       "urlText": "Karlsruhe: Bauarbeiten im VBK-Netz (Phase 5)",
+       "url": "http://projekte.kvv-efa.de:80/cm/XSLT_CM_SHOWADDINFO_REQUEST?infoID=100004526_KVV_ICSKVV&seqID=4",
+       "subtitle": "Karlsruhe: Bauarbeiten im VBK-Netz (Phase 5)",
+       "title": "Linien: S12, 1, 2, 4, 5, 6, 21, 24, 26, 30, 31, 42, NL1, NL2, NL3, SEV",
+       "htmlText": "<p>(kue) Im Zeitraum nach den Herbstferien, somit<br />&nbsp;<br /><span style=\"color: #c30a37;\"><strong>von&nbsp;</strong></span><span style=\"color: #c30a37;\"><strong>Samstag</strong></span><span style=\"color: #c30a37;\"><strong>, 31.&nbsp;</strong></span><span style=\"color: #c30a37;\"><strong>Oktober </strong></span><span style=\"color: #c30a37;\"><strong>2026 (01:00 Uhr),</strong></span><br /><span style=\"color: #c30a37;\"><strong>bis Montag, 23. November 2026 (03:30 Uhr),</strong></span><br />&nbsp;<br />gilt Phase 5 der Bauarbeiten in der zweiten Jahresh&auml;lfte 2026.<br />&nbsp;<br /><strong>Grund:</strong> Gleis- und Weichenerneuerungen, Sanierungsarbeiten in der Waldstadt</p>\n<p><strong>Gesperrte Streckenabschnitte und somit kein Bahnverkehr zwischen:</strong><br />&nbsp;<br />&bull; Durlach Turmberg &uuml;ber Schlossplatz und Friedrichschule &ndash; Auer Stra&szlig;e&nbsp;<br />&bull; Wolfartsweier Nord &ndash; Z&uuml;ndh&uuml;tle &ndash; Auer Stra&szlig;e<br />&bull; Europ&auml;ische Schule &ndash; J&auml;gerhaus &ndash; F&auml;cherbad &ndash; Hirtenweg&nbsp;<br />&bull; Mathystra&szlig;e &ndash; Otto-Sachs-Stra&szlig;e &ndash; Lessingstra&szlig;e &ndash; Weinbrennerplatz<br />&nbsp;<br /><strong>Es ergeben sich folgende &Auml;nderungen der Linien (jeweils in beide Fahrtrichtungen):</strong><br />&nbsp;<br /><strong>S-Bahn</strong><br />&nbsp;<br />S4&nbsp;</p>\n<ul>\n<li>Zug 85472 Ab Heilbronn Pf&uuml;hlpark (ab 23:40 Uhr) sowie Zug 85541 Karlsruhe Albtalbahnhof (ab 01:16 Uhr); verkehren nur in N&auml;chten auf Montag bis Freitag<br />werden zwischen \"Durlacher Tor (Durlacher Allee)\" und \"R&uuml;ppurrer Tor (R&uuml;ppurrer Stra&szlig;e)\" &uuml;ber die Kapellenstra&szlig;e umgeleitet.</li>\n</ul>\n<p>S5&nbsp;</p>\n<ul>\n<li>Zug 84784 S&ouml;llingen Reetzstra&szlig;e (ab 01:02 Uhr); verkehrt nur in N&auml;chten von Montag bis Freitag:&nbsp;<br />Wird ab \"Durlacher Tor (Durlacher Allee)\" &uuml;ber die Kapellenstra&szlig;e zum \"R&uuml;ppurrer Tor (R&uuml;ppurrer Stra&szlig;e)\" umgeleitet.</li>\n</ul>\n<p>S12</p>\n<ul>\n<li>Ittersbach &ndash; Albtalbahnhof &ndash; Kolpingplatz &ndash; Karlstor (Karlstra&szlig;e und Kriegsstra&szlig;e) &ndash; R&uuml;ppurrer Tor (Kriegsstra&szlig;e) &ndash; S&uuml;dostbahn &ndash; Tullastra&szlig;e</li>\n</ul>\n<p><br /><strong>Tram</strong><br />&nbsp;<br />Linie 1</p>\n<ul>\n<li>Verkehrt von der Karlsruher Innenstadt kommend ab der Haltestelle \"Unterm&uuml;hlstra&szlig;e\" bis \"Durlach Bahnhof\"&nbsp;</li>\n</ul>\n<p>Linie 2</p>\n<ul>\n<li>&nbsp;Knielingen Nord &ndash; Yorckstra&szlig;e &ndash; Schillerstra&szlig;e &ndash; Weinbrennerplatz &ndash; K&uuml;hler Krug &ndash; Entenfang &ndash; Rheinhafen</li>\n</ul>\n<p>Linie 4</p>\n<ul>\n<li>Verkehrt regul&auml;r nur zwischen Hirtenweg und Oberreut</li>\n</ul>\n<p>Linie 5</p>\n<ul>\n<li>Verkehrt nur auf dem Abschnitt Tullastra&szlig;e &ndash; Karlstor/ Bundesgerichtshof &ndash; Europaplatz (oben)</li>\n</ul>\n<p>Linie 6</p>\n<ul>\n<li>Pendelverkehr zwischen Tivoli &ndash; Hauptbahnhof (Vorplatz) &ndash; ZKM &ndash; Arbeitsagentur</li>\n</ul>\n<p>Linie 8</p>\n<ul>\n<li>Die Linie 8 entf&auml;llt auf ihrem kompletten Laufweg</li>\n</ul>\n<p><strong>Nightliner</strong><br />&nbsp;<br />NL1</p>\n<ul>\n<li>Verkehrt auf dem regul&auml;ren Fahrweg nur zwischen Hirtenweg und Neureut-Heide&nbsp;<br />Kein Verkehr in Richtung Waldstadt &ndash; Europ&auml;ische Schule.</li>\n</ul>\n<p>NL2</p>\n<ul>\n<li>Von der Karlsruher Innenstadt kommend Umleitung ab Auer Stra&szlig;e bis Durlach Bahnhof&nbsp;<br />Zus&auml;tzlich Umleitung zwischen Ebertstra&szlig;e und Karlstor &uuml;ber Kolpingplatz und Mathystra&szlig;e</li>\n</ul>\n<p>NL3</p>\n<ul>\n<li>Wegen der Sperrung zwischen Turmberg und Auer Stra&szlig;e wird die Linie NL3 bis Durlach Bahnhof verl&auml;ngert. <br />Hierf&uuml;r nutzt sie zwischen Turmberg und Durlach Bahnhof den Linienweg der 31. <br />Die Haltestelle Turmberg wird nur in Fahrtrichtung Stupferich bedient. Anschlie&szlig;end verkehrt die Linie wieder auf ihrem regul&auml;ren Linienweg.</li>\n</ul>\n<p>&nbsp;<br /><strong>Schienenersatzverkehr (SEV)</strong></p>\n<p>Folgende Buslinien ersetzen die Bahnen:</p>\n<table style=\"border-collapse: collapse; width: 49.9505%; height: 143px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14</td>\n<td style=\"width: 77.0307%;\">Waldstadt Zentrum - Hirtenweg</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14X</td>\n<td style=\"width: 77.0307%;\">Waldstadt Zentrum - Durlacher Tor</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14N</td>\n<td style=\"width: 77.0307%;\">Europ&auml;ische Schule - Hirtenweg (Nachtverkehr)</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 15</td>\n<td style=\"width: 77.0307%;\">Europ&auml;ische Schule - Waldstadt Zentrum</td>\n</tr>\n</tbody>\n</table>\n<p>Hinweis: Die Fahrradmitnahme in den SEV-Bussen ist nicht m&ouml;glich.</p>\n<p>&nbsp;<br /><strong>&Auml;nderungen bei den Buslinien:</strong><br />&nbsp;<br />Bus 21:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e wird die Linie 21 &uuml;ber die bisherige Endhaltestelle Durlach Turmberg hinaus &uuml;ber die Haltestellen &bdquo;Ochsentorstra&szlig;e&ldquo; und &bdquo;An der Fayence&ldquo; bis \"Durlach Bahnhof\" umgeleitet.</li>\n</ul>\n<p>Bus 24:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e wird die Linie 24 zwischen \"Blattwiesenstra&szlig;e\" und \"Durlach Turmberg\" &uuml;ber \"Durlach Bahnhof\" entlang des Fahrwegs der Linie 31 umgeleitet.</li>\n</ul>\n<p>Bus 24A:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e und der daraus resultierenden Umleitung der Linie 24 wird diese Linie zwischen \"Durlach Turmberg\" (Steig C) und \"Durlach Bahnhof\" verst&auml;rkt.</li>\n</ul>\n<p>Linie 26:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e und der Gymnasiumstra&szlig;e wird die Linie 26 weitr&auml;umig &uuml;ber die Haltestelle &bdquo;Rommelstra&szlig;e&ldquo; umgeleitet.</li>\n</ul>\n<p>Linie 30:</p>\n<ul>\n<li>Alle Fahrten werden von der Haltestelle \"Elbinger Stra&szlig;e West\" bis zur \"Europ&auml;ischen Schule\" verl&auml;ngert.</li>\n</ul>\n<p>Linie 31:</p>\n<ul>\n<li>Umleitung in Richtung \"Durlach Bahnhof\" zwischen \"Waldstadt Zentrum\", \"F&auml;cherbad\" und \"Hallesche Allee\".</li>\n</ul>\n<p>Linie 42/42A:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Wolfartsweier Nord - Auer Stra&szlig;e wird die Linie 42 durch die zus&auml;tzliche Verst&auml;rkerlinie 42A erg&auml;nzt.<br />Somit ergeben sich zus&auml;tzliche Fahrtm&ouml;glichkeiten zwischen Durlach Bahnhof und Durlach-Aue.</li>\n</ul>\n<p><strong>Besonderheiten an den Haltestellen</strong></p>\n<p>Baustellenbedingt kann die Haltestelle &bdquo;<strong>Durlach Schlossplatz</strong>&ldquo; von den Linien 21, 23, 24, 26 und NL3 nicht bedient werden.</p>\n<p>&Uuml;bersicht der Abfahrtssteige an der Haltestelle \"<strong>Durlach Bahnhof</strong>\"<br />Steig A (am Kiosk): Fahrten &uuml;ber bzw. nach Turmberg (Linien 21, 24, 24A, 31, NL3 und 18)<br />Steig B: Fahrten zum Durlacher Tor bzw. nach Killisfeld (Linien 42 und 42A)<br />Steig C: Fahrten nach Ettlingen (Linie 107)<br />Steig D: Fahrten &uuml;ber Br&uuml;hlstra&szlig;e und Z&uuml;ndh&uuml;tle (Linien 24 und 24A)<br />Steig E: Express- und Schulfahrten (Linien 18 und 31X)<br />&nbsp;<br />Aufgrund von Umleitungen und zus&auml;tzlichem Umstieg auf Ersatzbusse planen Sie bitte mehr Fahrzeit ein.</p>",
+       "wapText": "Karlsruhe: Vom 31.10. bis 23.11.2026 Bauarbeiten im VBK-Netz (Phase 5)",
+       "additionalLinks": [
+        {
+         "id": "4",
+         "url": "https://www.kvv.de/fileadmin/user_upload/kvv/Dateien/Pressemitteilungen/Baustellen-Flyer_VBK_Phase-2-3-5_2026.pdf",
+         "urlText": "Baustellenflyer",
+         "subtitle": "Baustellenflyer",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        },
+        {
+         "id": "14",
+         "url": "https://www.kvv.de/fileadmin/user_upload/kvv/Dateien/Fahrplaene_Netzplaene/Schiene/2026-10-31_-_Bauarbeiten-in-der-zweiten-Jahreshaelfte__P5_.pdf",
+         "urlText": "Liniennetzplan (Phase 5)",
+         "subtitle": "Liniennetzplan (Phase 5)",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        },
+        {
+         "id": "5",
+         "url": "https://www.kvv.de/unternehmen/kvv-news/detail/bauarbeiten-in-der-waldstadt-in-durlach-und-wolfartsweier-sowie-in-der-gartenstrasse-brauerstrasse-1.html",
+         "urlText": "Weitere Informationen",
+         "subtitle": "Weitere Informationen",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        }
+       ],
+       "attachments": [
+        {
+         "ID": "1",
+         "path": "\\\\localhost\\mentzdv\\wwwroot\\ICS_Uploads\\100004526_KVV_ICSKVV\\Linienverlaufsplaene_Phase-5.pdf",
+         "fileName": "Linienverlaufsplaene_Phase-5.pdf",
+         "virtPath": "https://projekte.kvv-efa.de/ICS_Uploads/100004526_KVV_ICSKVV/Linienverlaufsplaene_Phase-5.pdf",
+         "linkText": "Fahrwege der Busse und Ersatzverkehre (Phase 5)",
+         "linkTarget": "_blank",
+         "size": 2001749
+        },
+        {
+         "ID": "2",
+         "path": "\\\\localhost\\mentzdv\\wwwroot\\ICS_Uploads\\100004526_KVV_ICSKVV\\Umgebungsplaene_Phase-5.pdf",
+         "fileName": "Umgebungsplaene_Phase-5.pdf",
+         "virtPath": "https://projekte.kvv-efa.de/ICS_Uploads/100004526_KVV_ICSKVV/Umgebungsplaene_Phase-5.pdf",
+         "linkText": "Umgebungspläne der Haltestellen",
+         "linkTarget": "_blank",
+         "size": 3105587
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "hints": [
+    {
+     "content": "Niederflurwagen",
+     "providerCode": "01",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00001_:.kvv-21-1-E.6.T3.61.s26",
+    "AVMSTripID": "38307#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:1:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "1",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:13:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:13:00Z",
+   "departureTimeEstimated": "2026-11-22T11:16:06Z",
+   "transportation": {
+    "id": "kvv:22311:E:H:s26",
+    "name": "S-Bahn S11",
+    "disassembledName": "S11",
+    "number": "S11",
+    "description": "Ittersbach - Hochstetten",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "name": "Hochstetten",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "27015",
+     "tripCode": 490,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S11_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001410",
+     "name": "Ittersbach Rathaus",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, Klimaanlage",
+     "providerCode": "17",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S11_:.kvv-22-311-E.7.T3.116.s26",
+    "AVMSTripID": "27015-40122#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1011:93:3",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 3(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001011",
+     "area": "93",
+     "platform": "3(U)",
+     "platformName": "Gleis 3(U)",
+     "plannedPlatformName": "Gleis 3(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:14:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:14:00Z",
+   "departureTimeEstimated": "2026-11-22T11:14:00Z",
+   "transportation": {
+    "id": "kvv:22304:E:H:s26",
+    "name": "S-Bahn S4",
+    "disassembledName": "S4",
+    "number": "S4",
+    "description": "Öhringen - Heilbronn - Karlsruhe",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "7001201",
+     "name": "Karlsruhe Albtalbahnhof",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "85520",
+     "tripCode": 1759,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S04_:"
+    },
+    "origin": {
+     "id": "7032092",
+     "name": "Flehingen",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN, WC, Klimaanlage",
+     "providerCode": "16",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S04_:.kvv-22-304-E.17.T3.219.s26",
+    "AVMSTripID": "85520-1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:2:2",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 2(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "2",
+     "platform": "2(U)",
+     "platformName": "Gleis 2(U)",
+     "plannedPlatformName": "Gleis 2(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:16:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:16:00Z",
+   "departureTimeEstimated": "2026-11-22T11:19:06Z",
+   "transportation": {
+    "id": "kvv:21012:E:R:s26",
+    "name": "S-Bahn S2",
+    "disassembledName": "S2",
+    "number": "S2",
+    "description": "Rheinstetten - Spöck",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "VBK",
+     "id": "02",
+     "name": "Verkehrsbetriebe Karlsruhe GmbH"
+    },
+    "destination": {
+     "name": "Spöck",
+     "type": "stop"
+    },
+    "properties": {
+     "tripCode": 91,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S02_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001501",
+     "name": "Mörsch Bach-West",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Niederflurwagen",
+     "providerCode": "02",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S02_:.kvv-21-12-E.14.T3.15.s26",
+    "AVMSTripID": "38989#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:91:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "91",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:17:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:17:00Z",
+   "departureTimeEstimated": "2026-11-22T11:17:00Z",
+   "transportation": {
+    "id": "kvv:22305:E:H:s26",
+    "name": "S-Bahn S5",
+    "disassembledName": "S5",
+    "number": "S5",
+    "description": "Pforzheim -  Wörth",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "6015514",
+     "name": "Wörth, Badepark",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "84828",
+     "tripCode": 5010,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S05_:"
+    },
+    "origin": {
+     "id": "7001617",
+     "name": "Söllingen (b. Karlsruhe)",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN, WC, Klimaanlage",
+     "providerCode": "16",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S05_:.kvv-22-305-E.18.T3.197.s26",
+    "AVMSTripID": "84828-1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:92:2",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 2(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "92",
+     "platform": "2(U)",
+     "platformName": "Gleis 2(U)",
+     "plannedPlatformName": "Gleis 2(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:21:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:21:00Z",
+   "departureTimeEstimated": "2026-11-22T11:21:06Z",
+   "transportation": {
+    "id": "kvv:22305:E:R:s26",
+    "name": "S-Bahn S5",
+    "disassembledName": "S5",
+    "number": "S5",
+    "description": "Wörth - Pforzheim",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "7001626",
+     "name": "Pforzheim Hbf",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "85067",
+     "tripCode": 4720,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S05_:"
+    },
+    "origin": {
+     "id": "6015514",
+     "name": "Wörth, Badepark",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN, WC",
+     "providerCode": "42",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S05_:.kvv-22-305-E.18.T3.53.s26",
+    "AVMSTripID": "85067-1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:1:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "1",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:22:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:22:00Z",
+   "departureTimeEstimated": "2026-11-22T11:22:00Z",
+   "transportation": {
+    "id": "kvv:21012:E:H:s26",
+    "name": "S-Bahn S2",
+    "disassembledName": "S2",
+    "number": "S2",
+    "description": "Spöck - Rheinstetten",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "VBK",
+     "id": "02",
+     "name": "Verkehrsbetriebe Karlsruhe GmbH"
+    },
+    "destination": {
+     "name": "Rheinstetten",
+     "type": "stop"
+    },
+    "properties": {
+     "tripCode": 1304,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S02_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7003013",
+     "name": "Hagsfeld Reitschulschlag",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Niederflurwagen",
+     "providerCode": "02",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S02_:.kvv-21-12-E.14.T3.68.s26",
+    "AVMSTripID": "38957#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:2:2",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 2(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "2",
+     "platform": "2(U)",
+     "platformName": "Gleis 2(U)",
+     "plannedPlatformName": "Gleis 2(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:24:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:24:00Z",
+   "departureTimeEstimated": "2026-11-22T11:24:00Z",
+   "transportation": {
+    "id": "kvv:22311:E:R:s26",
+    "name": "S-Bahn S11",
+    "disassembledName": "S11",
+    "number": "S11",
+    "description": "Hochstetten - Ittersbach",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "name": "Ittersbach Rathaus",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "27012",
+     "tripCode": 199,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S11_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001157",
+     "name": "Hochstetten",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, Klimaanlage",
+     "providerCode": "17",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S11_:.kvv-22-311-E.7.T3.26.s26",
+    "AVMSTripID": "27012-40086#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1011:93:3",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 3(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001011",
+     "area": "93",
+     "platform": "3(U)",
+     "platformName": "Gleis 3(U)",
+     "plannedPlatformName": "Gleis 3(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:24:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:24:00Z",
+   "departureTimeEstimated": "2026-11-22T11:24:00Z",
+   "transportation": {
+    "id": "kvv:22307:E:H:s26",
+    "name": "S-Bahn S7",
+    "disassembledName": "S7",
+    "number": "S7",
+    "description": "Karlsruhe - Achern",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "7433013",
+     "name": "Achern",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "85573",
+     "tripCode": 264,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S07_:"
+    },
+    "origin": {
+     "id": "7000007",
+     "name": "KA Tullastraße/Alter Schlachthof",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN",
+     "providerCode": "41",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S07_:.kvv-22-307-E.17.T3.58.s26",
+    "AVMSTripID": "85573-2"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1011:94:4",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 4(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001011",
+     "area": "94",
+     "platform": "4(U)",
+     "platformName": "Gleis 4(U)",
+     "plannedPlatformName": "Gleis 4(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:24:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:24:00Z",
+   "departureTimeEstimated": "2026-11-22T11:24:00Z",
+   "transportation": {
+    "id": "kvv:22304:E:R:s26",
+    "name": "S-Bahn S4",
+    "disassembledName": "S4",
+    "number": "S4",
+    "description": "Karlsruhe - Heilbronn - Öhringen",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "5400173",
+     "name": "Heilbronn Pfühlpark",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "85439",
+     "tripCode": 544,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S04_:"
+    },
+    "origin": {
+     "id": "7001201",
+     "name": "Karlsruhe Albtalbahnhof",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN, WC, Klimaanlage",
+     "providerCode": "16",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S04_:.kvv-22-304-E.17.T3.53.s26",
+    "AVMSTripID": "85439-1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1011:3:3",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 3(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001011",
+     "area": "3",
+     "platform": "3(U)",
+     "platformName": "Gleis 3(U)",
+     "plannedPlatformName": "Gleis 3(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:26:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:26:00Z",
+   "departureTimeEstimated": "2026-11-22T11:26:00Z",
+   "transportation": {
+    "id": "kvv:22311:E:R:s26",
+    "name": "S-Bahn S11",
+    "disassembledName": "S11",
+    "number": "S11",
+    "description": "Hochstetten - Ittersbach",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "name": "Ittersbach Rathaus",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "27012",
+     "tripCode": 199,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S11_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001157",
+     "name": "Hochstetten",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, Klimaanlage",
+     "providerCode": "17",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S11_:.kvv-22-311-E.7.T3.26.s26",
+    "AVMSTripID": "27012-40086#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:2:2",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 2(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "2",
+     "platform": "2(U)",
+     "platformName": "Gleis 2(U)",
+     "plannedPlatformName": "Gleis 2(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:26:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:26:00Z",
+   "departureTimeEstimated": "2026-11-22T11:26:00Z",
+   "transportation": {
+    "id": "kvv:21001:E:R:s26",
+    "name": "Straßenbahn 1",
+    "disassembledName": "1",
+    "number": "1",
+    "description": "Neureut-Heide - Durlach",
+    "product": {
+     "id": 0,
+     "class": 4,
+     "name": "Straßenbahn",
+     "iconId": 4
+    },
+    "operator": {
+     "code": "VBK",
+     "id": "02",
+     "name": "Verkehrsbetriebe Karlsruhe GmbH"
+    },
+    "destination": {
+     "name": "Durlach Bahnhof",
+     "type": "stop"
+    },
+    "properties": {
+     "tripCode": 114,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00001_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7000013",
+     "name": "Neureut-Heide",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-10-27T06:42:00Z"
+     },
+     "priority": "normal",
+     "id": "100004526_KVV_ICSKVV",
+     "version": 4,
+     "type": "lineInfo",
+     "properties": {
+      "infoType": "lineInfo"
+     },
+     "infoLinks": [
+      {
+       "urlText": "Karlsruhe: Bauarbeiten im VBK-Netz (Phase 5)",
+       "url": "http://projekte.kvv-efa.de:80/cm/XSLT_CM_SHOWADDINFO_REQUEST?infoID=100004526_KVV_ICSKVV&seqID=4",
+       "subtitle": "Karlsruhe: Bauarbeiten im VBK-Netz (Phase 5)",
+       "title": "Linien: S12, 1, 2, 4, 5, 6, 21, 24, 26, 30, 31, 42, NL1, NL2, NL3, SEV",
+       "htmlText": "<p>(kue) Im Zeitraum nach den Herbstferien, somit<br />&nbsp;<br /><span style=\"color: #c30a37;\"><strong>von&nbsp;</strong></span><span style=\"color: #c30a37;\"><strong>Samstag</strong></span><span style=\"color: #c30a37;\"><strong>, 31.&nbsp;</strong></span><span style=\"color: #c30a37;\"><strong>Oktober </strong></span><span style=\"color: #c30a37;\"><strong>2026 (01:00 Uhr),</strong></span><br /><span style=\"color: #c30a37;\"><strong>bis Montag, 23. November 2026 (03:30 Uhr),</strong></span><br />&nbsp;<br />gilt Phase 5 der Bauarbeiten in der zweiten Jahresh&auml;lfte 2026.<br />&nbsp;<br /><strong>Grund:</strong> Gleis- und Weichenerneuerungen, Sanierungsarbeiten in der Waldstadt</p>\n<p><strong>Gesperrte Streckenabschnitte und somit kein Bahnverkehr zwischen:</strong><br />&nbsp;<br />&bull; Durlach Turmberg &uuml;ber Schlossplatz und Friedrichschule &ndash; Auer Stra&szlig;e&nbsp;<br />&bull; Wolfartsweier Nord &ndash; Z&uuml;ndh&uuml;tle &ndash; Auer Stra&szlig;e<br />&bull; Europ&auml;ische Schule &ndash; J&auml;gerhaus &ndash; F&auml;cherbad &ndash; Hirtenweg&nbsp;<br />&bull; Mathystra&szlig;e &ndash; Otto-Sachs-Stra&szlig;e &ndash; Lessingstra&szlig;e &ndash; Weinbrennerplatz<br />&nbsp;<br /><strong>Es ergeben sich folgende &Auml;nderungen der Linien (jeweils in beide Fahrtrichtungen):</strong><br />&nbsp;<br /><strong>S-Bahn</strong><br />&nbsp;<br />S4&nbsp;</p>\n<ul>\n<li>Zug 85472 Ab Heilbronn Pf&uuml;hlpark (ab 23:40 Uhr) sowie Zug 85541 Karlsruhe Albtalbahnhof (ab 01:16 Uhr); verkehren nur in N&auml;chten auf Montag bis Freitag<br />werden zwischen \"Durlacher Tor (Durlacher Allee)\" und \"R&uuml;ppurrer Tor (R&uuml;ppurrer Stra&szlig;e)\" &uuml;ber die Kapellenstra&szlig;e umgeleitet.</li>\n</ul>\n<p>S5&nbsp;</p>\n<ul>\n<li>Zug 84784 S&ouml;llingen Reetzstra&szlig;e (ab 01:02 Uhr); verkehrt nur in N&auml;chten von Montag bis Freitag:&nbsp;<br />Wird ab \"Durlacher Tor (Durlacher Allee)\" &uuml;ber die Kapellenstra&szlig;e zum \"R&uuml;ppurrer Tor (R&uuml;ppurrer Stra&szlig;e)\" umgeleitet.</li>\n</ul>\n<p>S12</p>\n<ul>\n<li>Ittersbach &ndash; Albtalbahnhof &ndash; Kolpingplatz &ndash; Karlstor (Karlstra&szlig;e und Kriegsstra&szlig;e) &ndash; R&uuml;ppurrer Tor (Kriegsstra&szlig;e) &ndash; S&uuml;dostbahn &ndash; Tullastra&szlig;e</li>\n</ul>\n<p><br /><strong>Tram</strong><br />&nbsp;<br />Linie 1</p>\n<ul>\n<li>Verkehrt von der Karlsruher Innenstadt kommend ab der Haltestelle \"Unterm&uuml;hlstra&szlig;e\" bis \"Durlach Bahnhof\"&nbsp;</li>\n</ul>\n<p>Linie 2</p>\n<ul>\n<li>&nbsp;Knielingen Nord &ndash; Yorckstra&szlig;e &ndash; Schillerstra&szlig;e &ndash; Weinbrennerplatz &ndash; K&uuml;hler Krug &ndash; Entenfang &ndash; Rheinhafen</li>\n</ul>\n<p>Linie 4</p>\n<ul>\n<li>Verkehrt regul&auml;r nur zwischen Hirtenweg und Oberreut</li>\n</ul>\n<p>Linie 5</p>\n<ul>\n<li>Verkehrt nur auf dem Abschnitt Tullastra&szlig;e &ndash; Karlstor/ Bundesgerichtshof &ndash; Europaplatz (oben)</li>\n</ul>\n<p>Linie 6</p>\n<ul>\n<li>Pendelverkehr zwischen Tivoli &ndash; Hauptbahnhof (Vorplatz) &ndash; ZKM &ndash; Arbeitsagentur</li>\n</ul>\n<p>Linie 8</p>\n<ul>\n<li>Die Linie 8 entf&auml;llt auf ihrem kompletten Laufweg</li>\n</ul>\n<p><strong>Nightliner</strong><br />&nbsp;<br />NL1</p>\n<ul>\n<li>Verkehrt auf dem regul&auml;ren Fahrweg nur zwischen Hirtenweg und Neureut-Heide&nbsp;<br />Kein Verkehr in Richtung Waldstadt &ndash; Europ&auml;ische Schule.</li>\n</ul>\n<p>NL2</p>\n<ul>\n<li>Von der Karlsruher Innenstadt kommend Umleitung ab Auer Stra&szlig;e bis Durlach Bahnhof&nbsp;<br />Zus&auml;tzlich Umleitung zwischen Ebertstra&szlig;e und Karlstor &uuml;ber Kolpingplatz und Mathystra&szlig;e</li>\n</ul>\n<p>NL3</p>\n<ul>\n<li>Wegen der Sperrung zwischen Turmberg und Auer Stra&szlig;e wird die Linie NL3 bis Durlach Bahnhof verl&auml;ngert. <br />Hierf&uuml;r nutzt sie zwischen Turmberg und Durlach Bahnhof den Linienweg der 31. <br />Die Haltestelle Turmberg wird nur in Fahrtrichtung Stupferich bedient. Anschlie&szlig;end verkehrt die Linie wieder auf ihrem regul&auml;ren Linienweg.</li>\n</ul>\n<p>&nbsp;<br /><strong>Schienenersatzverkehr (SEV)</strong></p>\n<p>Folgende Buslinien ersetzen die Bahnen:</p>\n<table style=\"border-collapse: collapse; width: 49.9505%; height: 143px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14</td>\n<td style=\"width: 77.0307%;\">Waldstadt Zentrum - Hirtenweg</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14X</td>\n<td style=\"width: 77.0307%;\">Waldstadt Zentrum - Durlacher Tor</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14N</td>\n<td style=\"width: 77.0307%;\">Europ&auml;ische Schule - Hirtenweg (Nachtverkehr)</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 15</td>\n<td style=\"width: 77.0307%;\">Europ&auml;ische Schule - Waldstadt Zentrum</td>\n</tr>\n</tbody>\n</table>\n<p>Hinweis: Die Fahrradmitnahme in den SEV-Bussen ist nicht m&ouml;glich.</p>\n<p>&nbsp;<br /><strong>&Auml;nderungen bei den Buslinien:</strong><br />&nbsp;<br />Bus 21:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e wird die Linie 21 &uuml;ber die bisherige Endhaltestelle Durlach Turmberg hinaus &uuml;ber die Haltestellen &bdquo;Ochsentorstra&szlig;e&ldquo; und &bdquo;An der Fayence&ldquo; bis \"Durlach Bahnhof\" umgeleitet.</li>\n</ul>\n<p>Bus 24:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e wird die Linie 24 zwischen \"Blattwiesenstra&szlig;e\" und \"Durlach Turmberg\" &uuml;ber \"Durlach Bahnhof\" entlang des Fahrwegs der Linie 31 umgeleitet.</li>\n</ul>\n<p>Bus 24A:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e und der daraus resultierenden Umleitung der Linie 24 wird diese Linie zwischen \"Durlach Turmberg\" (Steig C) und \"Durlach Bahnhof\" verst&auml;rkt.</li>\n</ul>\n<p>Linie 26:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e und der Gymnasiumstra&szlig;e wird die Linie 26 weitr&auml;umig &uuml;ber die Haltestelle &bdquo;Rommelstra&szlig;e&ldquo; umgeleitet.</li>\n</ul>\n<p>Linie 30:</p>\n<ul>\n<li>Alle Fahrten werden von der Haltestelle \"Elbinger Stra&szlig;e West\" bis zur \"Europ&auml;ischen Schule\" verl&auml;ngert.</li>\n</ul>\n<p>Linie 31:</p>\n<ul>\n<li>Umleitung in Richtung \"Durlach Bahnhof\" zwischen \"Waldstadt Zentrum\", \"F&auml;cherbad\" und \"Hallesche Allee\".</li>\n</ul>\n<p>Linie 42/42A:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Wolfartsweier Nord - Auer Stra&szlig;e wird die Linie 42 durch die zus&auml;tzliche Verst&auml;rkerlinie 42A erg&auml;nzt.<br />Somit ergeben sich zus&auml;tzliche Fahrtm&ouml;glichkeiten zwischen Durlach Bahnhof und Durlach-Aue.</li>\n</ul>\n<p><strong>Besonderheiten an den Haltestellen</strong></p>\n<p>Baustellenbedingt kann die Haltestelle &bdquo;<strong>Durlach Schlossplatz</strong>&ldquo; von den Linien 21, 23, 24, 26 und NL3 nicht bedient werden.</p>\n<p>&Uuml;bersicht der Abfahrtssteige an der Haltestelle \"<strong>Durlach Bahnhof</strong>\"<br />Steig A (am Kiosk): Fahrten &uuml;ber bzw. nach Turmberg (Linien 21, 24, 24A, 31, NL3 und 18)<br />Steig B: Fahrten zum Durlacher Tor bzw. nach Killisfeld (Linien 42 und 42A)<br />Steig C: Fahrten nach Ettlingen (Linie 107)<br />Steig D: Fahrten &uuml;ber Br&uuml;hlstra&szlig;e und Z&uuml;ndh&uuml;tle (Linien 24 und 24A)<br />Steig E: Express- und Schulfahrten (Linien 18 und 31X)<br />&nbsp;<br />Aufgrund von Umleitungen und zus&auml;tzlichem Umstieg auf Ersatzbusse planen Sie bitte mehr Fahrzeit ein.</p>",
+       "wapText": "Karlsruhe: Vom 31.10. bis 23.11.2026 Bauarbeiten im VBK-Netz (Phase 5)",
+       "additionalLinks": [
+        {
+         "id": "4",
+         "url": "https://www.kvv.de/fileadmin/user_upload/kvv/Dateien/Pressemitteilungen/Baustellen-Flyer_VBK_Phase-2-3-5_2026.pdf",
+         "urlText": "Baustellenflyer",
+         "subtitle": "Baustellenflyer",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        },
+        {
+         "id": "14",
+         "url": "https://www.kvv.de/fileadmin/user_upload/kvv/Dateien/Fahrplaene_Netzplaene/Schiene/2026-10-31_-_Bauarbeiten-in-der-zweiten-Jahreshaelfte__P5_.pdf",
+         "urlText": "Liniennetzplan (Phase 5)",
+         "subtitle": "Liniennetzplan (Phase 5)",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        },
+        {
+         "id": "5",
+         "url": "https://www.kvv.de/unternehmen/kvv-news/detail/bauarbeiten-in-der-waldstadt-in-durlach-und-wolfartsweier-sowie-in-der-gartenstrasse-brauerstrasse-1.html",
+         "urlText": "Weitere Informationen",
+         "subtitle": "Weitere Informationen",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        }
+       ],
+       "attachments": [
+        {
+         "ID": "1",
+         "path": "\\\\localhost\\mentzdv\\wwwroot\\ICS_Uploads\\100004526_KVV_ICSKVV\\Linienverlaufsplaene_Phase-5.pdf",
+         "fileName": "Linienverlaufsplaene_Phase-5.pdf",
+         "virtPath": "https://projekte.kvv-efa.de/ICS_Uploads/100004526_KVV_ICSKVV/Linienverlaufsplaene_Phase-5.pdf",
+         "linkText": "Fahrwege der Busse und Ersatzverkehre (Phase 5)",
+         "linkTarget": "_blank",
+         "size": 2001749
+        },
+        {
+         "ID": "2",
+         "path": "\\\\localhost\\mentzdv\\wwwroot\\ICS_Uploads\\100004526_KVV_ICSKVV\\Umgebungsplaene_Phase-5.pdf",
+         "fileName": "Umgebungsplaene_Phase-5.pdf",
+         "virtPath": "https://projekte.kvv-efa.de/ICS_Uploads/100004526_KVV_ICSKVV/Umgebungsplaene_Phase-5.pdf",
+         "linkText": "Umgebungspläne der Haltestellen",
+         "linkTarget": "_blank",
+         "size": 3105587
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "hints": [
+    {
+     "content": "Niederflurwagen",
+     "providerCode": "01",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00001_:.kvv-21-1-E.6.T3.13.s26",
+    "AVMSTripID": "38348#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "location": {
+    "id": "de:08212:1011:4:4",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 4(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001011",
+     "area": "4",
+     "platform": "4(U)",
+     "platformName": "Gleis 4(U)",
+     "plannedPlatformName": "Gleis 4(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:32:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:32:00Z",
+   "transportation": {
+    "id": "kvv:22301:E:H:s26",
+    "name": "S-Bahn S1",
+    "disassembledName": "S1",
+    "number": "S1",
+    "description": "Bad Herrenalb - Hochstetten",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "name": "Neureut Kirchfeld",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "17013",
+     "tripCode": 546,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S01_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001235",
+     "name": "Ettlingen Albgaubad",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, Klimaanlage",
+     "providerCode": "17",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S01_:.kvv-22-301-E.6.T3.220.s26",
+    "AVMSTripID": "17013-40041#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:1:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "1",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:32:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:32:00Z",
+   "departureTimeEstimated": "2026-11-22T11:32:00Z",
+   "transportation": {
+    "id": "kvv:21001:E:H:s26",
+    "name": "Straßenbahn 1",
+    "disassembledName": "1",
+    "number": "1",
+    "description": "Durlach - Neureut-Heide",
+    "product": {
+     "id": 0,
+     "class": 4,
+     "name": "Straßenbahn",
+     "iconId": 4
+    },
+    "operator": {
+     "code": "VBK",
+     "id": "02",
+     "name": "Verkehrsbetriebe Karlsruhe GmbH"
+    },
+    "destination": {
+     "name": "Heide",
+     "type": "stop"
+    },
+    "properties": {
+     "tripCode": 993,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00001_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7000802",
+     "name": "Durlach Bahnhof",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-10-27T06:42:00Z"
+     },
+     "priority": "normal",
+     "id": "100004526_KVV_ICSKVV",
+     "version": 4,
+     "type": "lineInfo",
+     "properties": {
+      "infoType": "lineInfo"
+     },
+     "infoLinks": [
+      {
+       "urlText": "Karlsruhe: Bauarbeiten im VBK-Netz (Phase 5)",
+       "url": "http://projekte.kvv-efa.de:80/cm/XSLT_CM_SHOWADDINFO_REQUEST?infoID=100004526_KVV_ICSKVV&seqID=4",
+       "subtitle": "Karlsruhe: Bauarbeiten im VBK-Netz (Phase 5)",
+       "title": "Linien: S12, 1, 2, 4, 5, 6, 21, 24, 26, 30, 31, 42, NL1, NL2, NL3, SEV",
+       "htmlText": "<p>(kue) Im Zeitraum nach den Herbstferien, somit<br />&nbsp;<br /><span style=\"color: #c30a37;\"><strong>von&nbsp;</strong></span><span style=\"color: #c30a37;\"><strong>Samstag</strong></span><span style=\"color: #c30a37;\"><strong>, 31.&nbsp;</strong></span><span style=\"color: #c30a37;\"><strong>Oktober </strong></span><span style=\"color: #c30a37;\"><strong>2026 (01:00 Uhr),</strong></span><br /><span style=\"color: #c30a37;\"><strong>bis Montag, 23. November 2026 (03:30 Uhr),</strong></span><br />&nbsp;<br />gilt Phase 5 der Bauarbeiten in der zweiten Jahresh&auml;lfte 2026.<br />&nbsp;<br /><strong>Grund:</strong> Gleis- und Weichenerneuerungen, Sanierungsarbeiten in der Waldstadt</p>\n<p><strong>Gesperrte Streckenabschnitte und somit kein Bahnverkehr zwischen:</strong><br />&nbsp;<br />&bull; Durlach Turmberg &uuml;ber Schlossplatz und Friedrichschule &ndash; Auer Stra&szlig;e&nbsp;<br />&bull; Wolfartsweier Nord &ndash; Z&uuml;ndh&uuml;tle &ndash; Auer Stra&szlig;e<br />&bull; Europ&auml;ische Schule &ndash; J&auml;gerhaus &ndash; F&auml;cherbad &ndash; Hirtenweg&nbsp;<br />&bull; Mathystra&szlig;e &ndash; Otto-Sachs-Stra&szlig;e &ndash; Lessingstra&szlig;e &ndash; Weinbrennerplatz<br />&nbsp;<br /><strong>Es ergeben sich folgende &Auml;nderungen der Linien (jeweils in beide Fahrtrichtungen):</strong><br />&nbsp;<br /><strong>S-Bahn</strong><br />&nbsp;<br />S4&nbsp;</p>\n<ul>\n<li>Zug 85472 Ab Heilbronn Pf&uuml;hlpark (ab 23:40 Uhr) sowie Zug 85541 Karlsruhe Albtalbahnhof (ab 01:16 Uhr); verkehren nur in N&auml;chten auf Montag bis Freitag<br />werden zwischen \"Durlacher Tor (Durlacher Allee)\" und \"R&uuml;ppurrer Tor (R&uuml;ppurrer Stra&szlig;e)\" &uuml;ber die Kapellenstra&szlig;e umgeleitet.</li>\n</ul>\n<p>S5&nbsp;</p>\n<ul>\n<li>Zug 84784 S&ouml;llingen Reetzstra&szlig;e (ab 01:02 Uhr); verkehrt nur in N&auml;chten von Montag bis Freitag:&nbsp;<br />Wird ab \"Durlacher Tor (Durlacher Allee)\" &uuml;ber die Kapellenstra&szlig;e zum \"R&uuml;ppurrer Tor (R&uuml;ppurrer Stra&szlig;e)\" umgeleitet.</li>\n</ul>\n<p>S12</p>\n<ul>\n<li>Ittersbach &ndash; Albtalbahnhof &ndash; Kolpingplatz &ndash; Karlstor (Karlstra&szlig;e und Kriegsstra&szlig;e) &ndash; R&uuml;ppurrer Tor (Kriegsstra&szlig;e) &ndash; S&uuml;dostbahn &ndash; Tullastra&szlig;e</li>\n</ul>\n<p><br /><strong>Tram</strong><br />&nbsp;<br />Linie 1</p>\n<ul>\n<li>Verkehrt von der Karlsruher Innenstadt kommend ab der Haltestelle \"Unterm&uuml;hlstra&szlig;e\" bis \"Durlach Bahnhof\"&nbsp;</li>\n</ul>\n<p>Linie 2</p>\n<ul>\n<li>&nbsp;Knielingen Nord &ndash; Yorckstra&szlig;e &ndash; Schillerstra&szlig;e &ndash; Weinbrennerplatz &ndash; K&uuml;hler Krug &ndash; Entenfang &ndash; Rheinhafen</li>\n</ul>\n<p>Linie 4</p>\n<ul>\n<li>Verkehrt regul&auml;r nur zwischen Hirtenweg und Oberreut</li>\n</ul>\n<p>Linie 5</p>\n<ul>\n<li>Verkehrt nur auf dem Abschnitt Tullastra&szlig;e &ndash; Karlstor/ Bundesgerichtshof &ndash; Europaplatz (oben)</li>\n</ul>\n<p>Linie 6</p>\n<ul>\n<li>Pendelverkehr zwischen Tivoli &ndash; Hauptbahnhof (Vorplatz) &ndash; ZKM &ndash; Arbeitsagentur</li>\n</ul>\n<p>Linie 8</p>\n<ul>\n<li>Die Linie 8 entf&auml;llt auf ihrem kompletten Laufweg</li>\n</ul>\n<p><strong>Nightliner</strong><br />&nbsp;<br />NL1</p>\n<ul>\n<li>Verkehrt auf dem regul&auml;ren Fahrweg nur zwischen Hirtenweg und Neureut-Heide&nbsp;<br />Kein Verkehr in Richtung Waldstadt &ndash; Europ&auml;ische Schule.</li>\n</ul>\n<p>NL2</p>\n<ul>\n<li>Von der Karlsruher Innenstadt kommend Umleitung ab Auer Stra&szlig;e bis Durlach Bahnhof&nbsp;<br />Zus&auml;tzlich Umleitung zwischen Ebertstra&szlig;e und Karlstor &uuml;ber Kolpingplatz und Mathystra&szlig;e</li>\n</ul>\n<p>NL3</p>\n<ul>\n<li>Wegen der Sperrung zwischen Turmberg und Auer Stra&szlig;e wird die Linie NL3 bis Durlach Bahnhof verl&auml;ngert. <br />Hierf&uuml;r nutzt sie zwischen Turmberg und Durlach Bahnhof den Linienweg der 31. <br />Die Haltestelle Turmberg wird nur in Fahrtrichtung Stupferich bedient. Anschlie&szlig;end verkehrt die Linie wieder auf ihrem regul&auml;ren Linienweg.</li>\n</ul>\n<p>&nbsp;<br /><strong>Schienenersatzverkehr (SEV)</strong></p>\n<p>Folgende Buslinien ersetzen die Bahnen:</p>\n<table style=\"border-collapse: collapse; width: 49.9505%; height: 143px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14</td>\n<td style=\"width: 77.0307%;\">Waldstadt Zentrum - Hirtenweg</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14X</td>\n<td style=\"width: 77.0307%;\">Waldstadt Zentrum - Durlacher Tor</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14N</td>\n<td style=\"width: 77.0307%;\">Europ&auml;ische Schule - Hirtenweg (Nachtverkehr)</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 15</td>\n<td style=\"width: 77.0307%;\">Europ&auml;ische Schule - Waldstadt Zentrum</td>\n</tr>\n</tbody>\n</table>\n<p>Hinweis: Die Fahrradmitnahme in den SEV-Bussen ist nicht m&ouml;glich.</p>\n<p>&nbsp;<br /><strong>&Auml;nderungen bei den Buslinien:</strong><br />&nbsp;<br />Bus 21:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e wird die Linie 21 &uuml;ber die bisherige Endhaltestelle Durlach Turmberg hinaus &uuml;ber die Haltestellen &bdquo;Ochsentorstra&szlig;e&ldquo; und &bdquo;An der Fayence&ldquo; bis \"Durlach Bahnhof\" umgeleitet.</li>\n</ul>\n<p>Bus 24:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e wird die Linie 24 zwischen \"Blattwiesenstra&szlig;e\" und \"Durlach Turmberg\" &uuml;ber \"Durlach Bahnhof\" entlang des Fahrwegs der Linie 31 umgeleitet.</li>\n</ul>\n<p>Bus 24A:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e und der daraus resultierenden Umleitung der Linie 24 wird diese Linie zwischen \"Durlach Turmberg\" (Steig C) und \"Durlach Bahnhof\" verst&auml;rkt.</li>\n</ul>\n<p>Linie 26:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e und der Gymnasiumstra&szlig;e wird die Linie 26 weitr&auml;umig &uuml;ber die Haltestelle &bdquo;Rommelstra&szlig;e&ldquo; umgeleitet.</li>\n</ul>\n<p>Linie 30:</p>\n<ul>\n<li>Alle Fahrten werden von der Haltestelle \"Elbinger Stra&szlig;e West\" bis zur \"Europ&auml;ischen Schule\" verl&auml;ngert.</li>\n</ul>\n<p>Linie 31:</p>\n<ul>\n<li>Umleitung in Richtung \"Durlach Bahnhof\" zwischen \"Waldstadt Zentrum\", \"F&auml;cherbad\" und \"Hallesche Allee\".</li>\n</ul>\n<p>Linie 42/42A:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Wolfartsweier Nord - Auer Stra&szlig;e wird die Linie 42 durch die zus&auml;tzliche Verst&auml;rkerlinie 42A erg&auml;nzt.<br />Somit ergeben sich zus&auml;tzliche Fahrtm&ouml;glichkeiten zwischen Durlach Bahnhof und Durlach-Aue.</li>\n</ul>\n<p><strong>Besonderheiten an den Haltestellen</strong></p>\n<p>Baustellenbedingt kann die Haltestelle &bdquo;<strong>Durlach Schlossplatz</strong>&ldquo; von den Linien 21, 23, 24, 26 und NL3 nicht bedient werden.</p>\n<p>&Uuml;bersicht der Abfahrtssteige an der Haltestelle \"<strong>Durlach Bahnhof</strong>\"<br />Steig A (am Kiosk): Fahrten &uuml;ber bzw. nach Turmberg (Linien 21, 24, 24A, 31, NL3 und 18)<br />Steig B: Fahrten zum Durlacher Tor bzw. nach Killisfeld (Linien 42 und 42A)<br />Steig C: Fahrten nach Ettlingen (Linie 107)<br />Steig D: Fahrten &uuml;ber Br&uuml;hlstra&szlig;e und Z&uuml;ndh&uuml;tle (Linien 24 und 24A)<br />Steig E: Express- und Schulfahrten (Linien 18 und 31X)<br />&nbsp;<br />Aufgrund von Umleitungen und zus&auml;tzlichem Umstieg auf Ersatzbusse planen Sie bitte mehr Fahrzeit ein.</p>",
+       "wapText": "Karlsruhe: Vom 31.10. bis 23.11.2026 Bauarbeiten im VBK-Netz (Phase 5)",
+       "additionalLinks": [
+        {
+         "id": "4",
+         "url": "https://www.kvv.de/fileadmin/user_upload/kvv/Dateien/Pressemitteilungen/Baustellen-Flyer_VBK_Phase-2-3-5_2026.pdf",
+         "urlText": "Baustellenflyer",
+         "subtitle": "Baustellenflyer",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        },
+        {
+         "id": "14",
+         "url": "https://www.kvv.de/fileadmin/user_upload/kvv/Dateien/Fahrplaene_Netzplaene/Schiene/2026-10-31_-_Bauarbeiten-in-der-zweiten-Jahreshaelfte__P5_.pdf",
+         "urlText": "Liniennetzplan (Phase 5)",
+         "subtitle": "Liniennetzplan (Phase 5)",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        },
+        {
+         "id": "5",
+         "url": "https://www.kvv.de/unternehmen/kvv-news/detail/bauarbeiten-in-der-waldstadt-in-durlach-und-wolfartsweier-sowie-in-der-gartenstrasse-brauerstrasse-1.html",
+         "urlText": "Weitere Informationen",
+         "subtitle": "Weitere Informationen",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        }
+       ],
+       "attachments": [
+        {
+         "ID": "1",
+         "path": "\\\\localhost\\mentzdv\\wwwroot\\ICS_Uploads\\100004526_KVV_ICSKVV\\Linienverlaufsplaene_Phase-5.pdf",
+         "fileName": "Linienverlaufsplaene_Phase-5.pdf",
+         "virtPath": "https://projekte.kvv-efa.de/ICS_Uploads/100004526_KVV_ICSKVV/Linienverlaufsplaene_Phase-5.pdf",
+         "linkText": "Fahrwege der Busse und Ersatzverkehre (Phase 5)",
+         "linkTarget": "_blank",
+         "size": 2001749
+        },
+        {
+         "ID": "2",
+         "path": "\\\\localhost\\mentzdv\\wwwroot\\ICS_Uploads\\100004526_KVV_ICSKVV\\Umgebungsplaene_Phase-5.pdf",
+         "fileName": "Umgebungsplaene_Phase-5.pdf",
+         "virtPath": "https://projekte.kvv-efa.de/ICS_Uploads/100004526_KVV_ICSKVV/Umgebungsplaene_Phase-5.pdf",
+         "linkText": "Umgebungspläne der Haltestellen",
+         "linkTarget": "_blank",
+         "size": 3105587
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "hints": [
+    {
+     "content": "Niederflurwagen",
+     "providerCode": "01",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00001_:.kvv-21-1-E.6.T3.62.s26",
+    "AVMSTripID": "38321#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "location": {
+    "id": "de:08212:1003:1:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "1",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:33:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:33:00Z",
+   "transportation": {
+    "id": "kvv:22301:E:H:s26",
+    "name": "S-Bahn S1",
+    "disassembledName": "S1",
+    "number": "S1",
+    "description": "Bad Herrenalb - Hochstetten",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "name": "Neureut Kirchfeld",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "17013",
+     "tripCode": 546,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S01_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001235",
+     "name": "Ettlingen Albgaubad",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, Klimaanlage",
+     "providerCode": "17",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S01_:.kvv-22-301-E.6.T3.220.s26",
+    "AVMSTripID": "17013-40041#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1011:94:4",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 4(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001011",
+     "area": "94",
+     "platform": "4(U)",
+     "platformName": "Gleis 4(U)",
+     "plannedPlatformName": "Gleis 4(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:34:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:34:00Z",
+   "departureTimeEstimated": "2026-11-22T11:34:00Z",
+   "transportation": {
+    "id": "kvv:22307:E:R:s26",
+    "name": "S-Bahn S7",
+    "disassembledName": "S7",
+    "number": "S7",
+    "description": "Achern - Karlsruhe",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "7000007",
+     "name": "KA Tullastraße/Alter Schlachthof",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "85570",
+     "tripCode": 67,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S07_:"
+    },
+    "origin": {
+     "id": "7433013",
+     "name": "Achern",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN, WC",
+     "providerCode": "42",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S07_:.kvv-22-307-E.17.T3.8.s26",
+    "AVMSTripID": "85570-1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1011:93:3",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 3(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001011",
+     "area": "93",
+     "platform": "3(U)",
+     "platformName": "Gleis 3(U)",
+     "plannedPlatformName": "Gleis 3(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:34:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:34:00Z",
+   "departureTimeEstimated": "2026-11-22T11:36:18Z",
+   "transportation": {
+    "id": "kvv:22304:E:H:s26",
+    "name": "S-Bahn S4",
+    "disassembledName": "S4",
+    "number": "S4",
+    "description": "Öhringen - Heilbronn - Karlsruhe",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "7001201",
+     "name": "Karlsruhe Albtalbahnhof",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "85428",
+     "tripCode": 1501,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S04_:"
+    },
+    "origin": {
+     "id": "5400173",
+     "name": "Heilbronn Pfühlpark",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN, WC, Klimaanlage",
+     "providerCode": "16",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S04_:.kvv-22-304-E.17.T3.217.s26",
+    "AVMSTripID": "85428-1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:2:2",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 2(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "2",
+     "platform": "2(U)",
+     "platformName": "Gleis 2(U)",
+     "plannedPlatformName": "Gleis 2(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:36:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:36:00Z",
+   "departureTimeEstimated": "2026-11-22T11:40:18Z",
+   "transportation": {
+    "id": "kvv:21012:E:R:s26",
+    "name": "S-Bahn S2",
+    "disassembledName": "S2",
+    "number": "S2",
+    "description": "Rheinstetten - Spöck",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "VBK",
+     "id": "02",
+     "name": "Verkehrsbetriebe Karlsruhe GmbH"
+    },
+    "destination": {
+     "name": "Reitschulschlag",
+     "type": "stop"
+    },
+    "properties": {
+     "tripCode": 321,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S02_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001501",
+     "name": "Mörsch Bach-West",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Niederflurwagen",
+     "providerCode": "02",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S02_:.kvv-21-12-E.14.T3.16.s26",
+    "AVMSTripID": "38938#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:91:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "91",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:37:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:37:00Z",
+   "departureTimeEstimated": "2026-11-22T11:40:36Z",
+   "transportation": {
+    "id": "kvv:22305:E:H:s26",
+    "name": "S-Bahn S5",
+    "disassembledName": "S5",
+    "number": "S5",
+    "description": "Pforzheim -  Wörth",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "6015514",
+     "name": "Wörth, Badepark",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "85058",
+     "tripCode": 5258,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S05_:"
+    },
+    "origin": {
+     "id": "7001626",
+     "name": "Pforzheim Hbf",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN, WC",
+     "providerCode": "42",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S05_:.kvv-22-305-E.18.T3.193.s26",
+    "AVMSTripID": "85058-2"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:92:2",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 2(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "92",
+     "platform": "2(U)",
+     "platformName": "Gleis 2(U)",
+     "plannedPlatformName": "Gleis 2(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:41:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:41:00Z",
+   "departureTimeEstimated": "2026-11-22T11:41:00Z",
+   "transportation": {
+    "id": "kvv:22305:E:R:s26",
+    "name": "S-Bahn S5",
+    "disassembledName": "S5",
+    "number": "S5",
+    "description": "Wörth - Pforzheim",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "7001617",
+     "name": "Söllingen (b. Karlsruhe)",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "84817",
+     "tripCode": 4448,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S05_:"
+    },
+    "origin": {
+     "id": "6015514",
+     "name": "Wörth, Badepark",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN",
+     "providerCode": "41",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S05_:.kvv-22-305-E.18.T3.57.s26",
+    "AVMSTripID": "84817-1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:1:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "1",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:42:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:42:00Z",
+   "departureTimeEstimated": "2026-11-22T11:42:00Z",
+   "transportation": {
+    "id": "kvv:21012:E:H:s26",
+    "name": "S-Bahn S2",
+    "disassembledName": "S2",
+    "number": "S2",
+    "description": "Spöck - Rheinstetten",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "VBK",
+     "id": "02",
+     "name": "Verkehrsbetriebe Karlsruhe GmbH"
+    },
+    "destination": {
+     "name": "Rheinstetten",
+     "type": "stop"
+    },
+    "properties": {
+     "tripCode": 1432,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S02_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7032296",
+     "name": "Spöck Richard-Hecht-Schule",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Niederflurwagen",
+     "providerCode": "02",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S02_:.kvv-21-12-E.14.T3.69.s26",
+    "AVMSTripID": "38959#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:2:2",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 2(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "2",
+     "platform": "2(U)",
+     "platformName": "Gleis 2(U)",
+     "plannedPlatformName": "Gleis 2(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:44:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:44:00Z",
+   "departureTimeEstimated": "2026-11-22T11:44:00Z",
+   "transportation": {
+    "id": "kvv:22301:E:R:s26",
+    "name": "S-Bahn S1",
+    "disassembledName": "S1",
+    "number": "S1",
+    "description": "Hochstetten - Bad Herrenalb",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "name": "Bad Herrenalb",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "37022",
+     "tripCode": 319,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S01_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001115",
+     "name": "Neureut Kirchfeld",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, Klimaanlage",
+     "providerCode": "17",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S01_:.kvv-22-301-E.6.T3.55.s26",
+    "AVMSTripID": "37022-39998#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "isCancelled": true,
+   "realtimeStatus": [
+    "TRIP_CANCELLED",
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1011:94:4",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 4(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "realtimeStatus": [
+      "TRIP_CANCELLED"
+     ],
+     "stopId": "7001011",
+     "area": "94",
+     "platform": "4(U)",
+     "platformName": "Gleis 4(U)",
+     "plannedPlatformName": "Gleis 4(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:44:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:44:00Z",
+   "transportation": {
+    "id": "kvv:22304:E:R:s26",
+    "name": "S-Bahn S4",
+    "disassembledName": "S4",
+    "number": "S4",
+    "description": "Karlsruhe - Heilbronn - Öhringen",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "7032092",
+     "name": "Flehingen",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "85517",
+     "tripCode": 820,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S04_:"
+    },
+    "origin": {
+     "id": "7001201",
+     "name": "Karlsruhe Albtalbahnhof",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Kurzfristiger Personalausfall",
+     "providerCode": "kvv22304ER_IncidentCall820_7001011_1",
+     "type": "RTIncidentCall",
+     "properties": {
+      "subnet": "kvv"
+     }
+    },
+    {
+     "content": "Stufenloses Fahrzeug, WLAN, WC, Klimaanlage",
+     "providerCode": "16",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S04_:.kvv-22-304-E.17.T3.59.s26",
+    "AVMSTripID": "85517-1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:2:2",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 2(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "2",
+     "platform": "2(U)",
+     "platformName": "Gleis 2(U)",
+     "plannedPlatformName": "Gleis 2(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:46:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:46:00Z",
+   "departureTimeEstimated": "2026-11-22T11:46:00Z",
+   "transportation": {
+    "id": "kvv:21001:E:R:s26",
+    "name": "Straßenbahn 1",
+    "disassembledName": "1",
+    "number": "1",
+    "description": "Neureut-Heide - Durlach",
+    "product": {
+     "id": 0,
+     "class": 4,
+     "name": "Straßenbahn",
+     "iconId": 4
+    },
+    "operator": {
+     "code": "VBK",
+     "id": "02",
+     "name": "Verkehrsbetriebe Karlsruhe GmbH"
+    },
+    "destination": {
+     "name": "Durlach Bahnhof",
+     "type": "stop"
+    },
+    "properties": {
+     "tripCode": 116,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00001_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7000013",
+     "name": "Neureut-Heide",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-10-27T06:42:00Z"
+     },
+     "priority": "normal",
+     "id": "100004526_KVV_ICSKVV",
+     "version": 4,
+     "type": "lineInfo",
+     "properties": {
+      "infoType": "lineInfo"
+     },
+     "infoLinks": [
+      {
+       "urlText": "Karlsruhe: Bauarbeiten im VBK-Netz (Phase 5)",
+       "url": "http://projekte.kvv-efa.de:80/cm/XSLT_CM_SHOWADDINFO_REQUEST?infoID=100004526_KVV_ICSKVV&seqID=4",
+       "subtitle": "Karlsruhe: Bauarbeiten im VBK-Netz (Phase 5)",
+       "title": "Linien: S12, 1, 2, 4, 5, 6, 21, 24, 26, 30, 31, 42, NL1, NL2, NL3, SEV",
+       "htmlText": "<p>(kue) Im Zeitraum nach den Herbstferien, somit<br />&nbsp;<br /><span style=\"color: #c30a37;\"><strong>von&nbsp;</strong></span><span style=\"color: #c30a37;\"><strong>Samstag</strong></span><span style=\"color: #c30a37;\"><strong>, 31.&nbsp;</strong></span><span style=\"color: #c30a37;\"><strong>Oktober </strong></span><span style=\"color: #c30a37;\"><strong>2026 (01:00 Uhr),</strong></span><br /><span style=\"color: #c30a37;\"><strong>bis Montag, 23. November 2026 (03:30 Uhr),</strong></span><br />&nbsp;<br />gilt Phase 5 der Bauarbeiten in der zweiten Jahresh&auml;lfte 2026.<br />&nbsp;<br /><strong>Grund:</strong> Gleis- und Weichenerneuerungen, Sanierungsarbeiten in der Waldstadt</p>\n<p><strong>Gesperrte Streckenabschnitte und somit kein Bahnverkehr zwischen:</strong><br />&nbsp;<br />&bull; Durlach Turmberg &uuml;ber Schlossplatz und Friedrichschule &ndash; Auer Stra&szlig;e&nbsp;<br />&bull; Wolfartsweier Nord &ndash; Z&uuml;ndh&uuml;tle &ndash; Auer Stra&szlig;e<br />&bull; Europ&auml;ische Schule &ndash; J&auml;gerhaus &ndash; F&auml;cherbad &ndash; Hirtenweg&nbsp;<br />&bull; Mathystra&szlig;e &ndash; Otto-Sachs-Stra&szlig;e &ndash; Lessingstra&szlig;e &ndash; Weinbrennerplatz<br />&nbsp;<br /><strong>Es ergeben sich folgende &Auml;nderungen der Linien (jeweils in beide Fahrtrichtungen):</strong><br />&nbsp;<br /><strong>S-Bahn</strong><br />&nbsp;<br />S4&nbsp;</p>\n<ul>\n<li>Zug 85472 Ab Heilbronn Pf&uuml;hlpark (ab 23:40 Uhr) sowie Zug 85541 Karlsruhe Albtalbahnhof (ab 01:16 Uhr); verkehren nur in N&auml;chten auf Montag bis Freitag<br />werden zwischen \"Durlacher Tor (Durlacher Allee)\" und \"R&uuml;ppurrer Tor (R&uuml;ppurrer Stra&szlig;e)\" &uuml;ber die Kapellenstra&szlig;e umgeleitet.</li>\n</ul>\n<p>S5&nbsp;</p>\n<ul>\n<li>Zug 84784 S&ouml;llingen Reetzstra&szlig;e (ab 01:02 Uhr); verkehrt nur in N&auml;chten von Montag bis Freitag:&nbsp;<br />Wird ab \"Durlacher Tor (Durlacher Allee)\" &uuml;ber die Kapellenstra&szlig;e zum \"R&uuml;ppurrer Tor (R&uuml;ppurrer Stra&szlig;e)\" umgeleitet.</li>\n</ul>\n<p>S12</p>\n<ul>\n<li>Ittersbach &ndash; Albtalbahnhof &ndash; Kolpingplatz &ndash; Karlstor (Karlstra&szlig;e und Kriegsstra&szlig;e) &ndash; R&uuml;ppurrer Tor (Kriegsstra&szlig;e) &ndash; S&uuml;dostbahn &ndash; Tullastra&szlig;e</li>\n</ul>\n<p><br /><strong>Tram</strong><br />&nbsp;<br />Linie 1</p>\n<ul>\n<li>Verkehrt von der Karlsruher Innenstadt kommend ab der Haltestelle \"Unterm&uuml;hlstra&szlig;e\" bis \"Durlach Bahnhof\"&nbsp;</li>\n</ul>\n<p>Linie 2</p>\n<ul>\n<li>&nbsp;Knielingen Nord &ndash; Yorckstra&szlig;e &ndash; Schillerstra&szlig;e &ndash; Weinbrennerplatz &ndash; K&uuml;hler Krug &ndash; Entenfang &ndash; Rheinhafen</li>\n</ul>\n<p>Linie 4</p>\n<ul>\n<li>Verkehrt regul&auml;r nur zwischen Hirtenweg und Oberreut</li>\n</ul>\n<p>Linie 5</p>\n<ul>\n<li>Verkehrt nur auf dem Abschnitt Tullastra&szlig;e &ndash; Karlstor/ Bundesgerichtshof &ndash; Europaplatz (oben)</li>\n</ul>\n<p>Linie 6</p>\n<ul>\n<li>Pendelverkehr zwischen Tivoli &ndash; Hauptbahnhof (Vorplatz) &ndash; ZKM &ndash; Arbeitsagentur</li>\n</ul>\n<p>Linie 8</p>\n<ul>\n<li>Die Linie 8 entf&auml;llt auf ihrem kompletten Laufweg</li>\n</ul>\n<p><strong>Nightliner</strong><br />&nbsp;<br />NL1</p>\n<ul>\n<li>Verkehrt auf dem regul&auml;ren Fahrweg nur zwischen Hirtenweg und Neureut-Heide&nbsp;<br />Kein Verkehr in Richtung Waldstadt &ndash; Europ&auml;ische Schule.</li>\n</ul>\n<p>NL2</p>\n<ul>\n<li>Von der Karlsruher Innenstadt kommend Umleitung ab Auer Stra&szlig;e bis Durlach Bahnhof&nbsp;<br />Zus&auml;tzlich Umleitung zwischen Ebertstra&szlig;e und Karlstor &uuml;ber Kolpingplatz und Mathystra&szlig;e</li>\n</ul>\n<p>NL3</p>\n<ul>\n<li>Wegen der Sperrung zwischen Turmberg und Auer Stra&szlig;e wird die Linie NL3 bis Durlach Bahnhof verl&auml;ngert. <br />Hierf&uuml;r nutzt sie zwischen Turmberg und Durlach Bahnhof den Linienweg der 31. <br />Die Haltestelle Turmberg wird nur in Fahrtrichtung Stupferich bedient. Anschlie&szlig;end verkehrt die Linie wieder auf ihrem regul&auml;ren Linienweg.</li>\n</ul>\n<p>&nbsp;<br /><strong>Schienenersatzverkehr (SEV)</strong></p>\n<p>Folgende Buslinien ersetzen die Bahnen:</p>\n<table style=\"border-collapse: collapse; width: 49.9505%; height: 143px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14</td>\n<td style=\"width: 77.0307%;\">Waldstadt Zentrum - Hirtenweg</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14X</td>\n<td style=\"width: 77.0307%;\">Waldstadt Zentrum - Durlacher Tor</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14N</td>\n<td style=\"width: 77.0307%;\">Europ&auml;ische Schule - Hirtenweg (Nachtverkehr)</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 15</td>\n<td style=\"width: 77.0307%;\">Europ&auml;ische Schule - Waldstadt Zentrum</td>\n</tr>\n</tbody>\n</table>\n<p>Hinweis: Die Fahrradmitnahme in den SEV-Bussen ist nicht m&ouml;glich.</p>\n<p>&nbsp;<br /><strong>&Auml;nderungen bei den Buslinien:</strong><br />&nbsp;<br />Bus 21:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e wird die Linie 21 &uuml;ber die bisherige Endhaltestelle Durlach Turmberg hinaus &uuml;ber die Haltestellen &bdquo;Ochsentorstra&szlig;e&ldquo; und &bdquo;An der Fayence&ldquo; bis \"Durlach Bahnhof\" umgeleitet.</li>\n</ul>\n<p>Bus 24:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e wird die Linie 24 zwischen \"Blattwiesenstra&szlig;e\" und \"Durlach Turmberg\" &uuml;ber \"Durlach Bahnhof\" entlang des Fahrwegs der Linie 31 umgeleitet.</li>\n</ul>\n<p>Bus 24A:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e und der daraus resultierenden Umleitung der Linie 24 wird diese Linie zwischen \"Durlach Turmberg\" (Steig C) und \"Durlach Bahnhof\" verst&auml;rkt.</li>\n</ul>\n<p>Linie 26:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e und der Gymnasiumstra&szlig;e wird die Linie 26 weitr&auml;umig &uuml;ber die Haltestelle &bdquo;Rommelstra&szlig;e&ldquo; umgeleitet.</li>\n</ul>\n<p>Linie 30:</p>\n<ul>\n<li>Alle Fahrten werden von der Haltestelle \"Elbinger Stra&szlig;e West\" bis zur \"Europ&auml;ischen Schule\" verl&auml;ngert.</li>\n</ul>\n<p>Linie 31:</p>\n<ul>\n<li>Umleitung in Richtung \"Durlach Bahnhof\" zwischen \"Waldstadt Zentrum\", \"F&auml;cherbad\" und \"Hallesche Allee\".</li>\n</ul>\n<p>Linie 42/42A:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Wolfartsweier Nord - Auer Stra&szlig;e wird die Linie 42 durch die zus&auml;tzliche Verst&auml;rkerlinie 42A erg&auml;nzt.<br />Somit ergeben sich zus&auml;tzliche Fahrtm&ouml;glichkeiten zwischen Durlach Bahnhof und Durlach-Aue.</li>\n</ul>\n<p><strong>Besonderheiten an den Haltestellen</strong></p>\n<p>Baustellenbedingt kann die Haltestelle &bdquo;<strong>Durlach Schlossplatz</strong>&ldquo; von den Linien 21, 23, 24, 26 und NL3 nicht bedient werden.</p>\n<p>&Uuml;bersicht der Abfahrtssteige an der Haltestelle \"<strong>Durlach Bahnhof</strong>\"<br />Steig A (am Kiosk): Fahrten &uuml;ber bzw. nach Turmberg (Linien 21, 24, 24A, 31, NL3 und 18)<br />Steig B: Fahrten zum Durlacher Tor bzw. nach Killisfeld (Linien 42 und 42A)<br />Steig C: Fahrten nach Ettlingen (Linie 107)<br />Steig D: Fahrten &uuml;ber Br&uuml;hlstra&szlig;e und Z&uuml;ndh&uuml;tle (Linien 24 und 24A)<br />Steig E: Express- und Schulfahrten (Linien 18 und 31X)<br />&nbsp;<br />Aufgrund von Umleitungen und zus&auml;tzlichem Umstieg auf Ersatzbusse planen Sie bitte mehr Fahrzeit ein.</p>",
+       "wapText": "Karlsruhe: Vom 31.10. bis 23.11.2026 Bauarbeiten im VBK-Netz (Phase 5)",
+       "additionalLinks": [
+        {
+         "id": "4",
+         "url": "https://www.kvv.de/fileadmin/user_upload/kvv/Dateien/Pressemitteilungen/Baustellen-Flyer_VBK_Phase-2-3-5_2026.pdf",
+         "urlText": "Baustellenflyer",
+         "subtitle": "Baustellenflyer",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        },
+        {
+         "id": "14",
+         "url": "https://www.kvv.de/fileadmin/user_upload/kvv/Dateien/Fahrplaene_Netzplaene/Schiene/2026-10-31_-_Bauarbeiten-in-der-zweiten-Jahreshaelfte__P5_.pdf",
+         "urlText": "Liniennetzplan (Phase 5)",
+         "subtitle": "Liniennetzplan (Phase 5)",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        },
+        {
+         "id": "5",
+         "url": "https://www.kvv.de/unternehmen/kvv-news/detail/bauarbeiten-in-der-waldstadt-in-durlach-und-wolfartsweier-sowie-in-der-gartenstrasse-brauerstrasse-1.html",
+         "urlText": "Weitere Informationen",
+         "subtitle": "Weitere Informationen",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        }
+       ],
+       "attachments": [
+        {
+         "ID": "1",
+         "path": "\\\\localhost\\mentzdv\\wwwroot\\ICS_Uploads\\100004526_KVV_ICSKVV\\Linienverlaufsplaene_Phase-5.pdf",
+         "fileName": "Linienverlaufsplaene_Phase-5.pdf",
+         "virtPath": "https://projekte.kvv-efa.de/ICS_Uploads/100004526_KVV_ICSKVV/Linienverlaufsplaene_Phase-5.pdf",
+         "linkText": "Fahrwege der Busse und Ersatzverkehre (Phase 5)",
+         "linkTarget": "_blank",
+         "size": 2001749
+        },
+        {
+         "ID": "2",
+         "path": "\\\\localhost\\mentzdv\\wwwroot\\ICS_Uploads\\100004526_KVV_ICSKVV\\Umgebungsplaene_Phase-5.pdf",
+         "fileName": "Umgebungsplaene_Phase-5.pdf",
+         "virtPath": "https://projekte.kvv-efa.de/ICS_Uploads/100004526_KVV_ICSKVV/Umgebungsplaene_Phase-5.pdf",
+         "linkText": "Umgebungspläne der Haltestellen",
+         "linkTarget": "_blank",
+         "size": 3105587
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "hints": [
+    {
+     "content": "Niederflurwagen",
+     "providerCode": "01",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00001_:.kvv-21-1-E.6.T3.14.s26",
+    "AVMSTripID": "38349#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1011:3:3",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 3(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001011",
+     "area": "3",
+     "platform": "3(U)",
+     "platformName": "Gleis 3(U)",
+     "plannedPlatformName": "Gleis 3(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:46:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:46:00Z",
+   "departureTimeEstimated": "2026-11-22T11:46:00Z",
+   "transportation": {
+    "id": "kvv:22301:E:R:s26",
+    "name": "S-Bahn S1",
+    "disassembledName": "S1",
+    "number": "S1",
+    "description": "Hochstetten - Bad Herrenalb",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "name": "Bad Herrenalb",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "37022",
+     "tripCode": 319,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S01_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001115",
+     "name": "Neureut Kirchfeld",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, Klimaanlage",
+     "providerCode": "17",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S01_:.kvv-22-301-E.6.T3.55.s26",
+    "AVMSTripID": "37022-39998#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:92:2",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 2(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "92",
+     "platform": "2(U)",
+     "platformName": "Gleis 2(U)",
+     "plannedPlatformName": "Gleis 2(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:51:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:51:00Z",
+   "departureTimeEstimated": "2026-11-22T11:51:00Z",
+   "transportation": {
+    "id": "kvv:22351:E:R:s26",
+    "name": "S-Bahn S51",
+    "disassembledName": "S51",
+    "number": "S51",
+    "description": "Germersheim - Pforzheim",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "7002008",
+     "name": "Berghausen (Baden)",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "84899",
+     "tripCode": 962,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S51_:"
+    },
+    "origin": {
+     "id": "6009085",
+     "name": "Germersheim, Bahnhof",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN",
+     "providerCode": "41",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S51_:.kvv-22-351-E.18.T3.11.s26",
+    "AVMSTripID": "84899-1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:1:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "1",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:52:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:52:00Z",
+   "departureTimeEstimated": "2026-11-22T11:52:00Z",
+   "transportation": {
+    "id": "kvv:21001:E:H:s26",
+    "name": "Straßenbahn 1",
+    "disassembledName": "1",
+    "number": "1",
+    "description": "Durlach - Neureut-Heide",
+    "product": {
+     "id": 0,
+     "class": 4,
+     "name": "Straßenbahn",
+     "iconId": 4
+    },
+    "operator": {
+     "code": "VBK",
+     "id": "02",
+     "name": "Verkehrsbetriebe Karlsruhe GmbH"
+    },
+    "destination": {
+     "name": "Heide",
+     "type": "stop"
+    },
+    "properties": {
+     "tripCode": 995,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00001_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7000802",
+     "name": "Durlach Bahnhof",
+     "type": "stop"
+    }
+   },
+   "infos": [
+    {
+     "timestamps": {
+      "creation": "2026-10-27T06:42:00Z"
+     },
+     "priority": "normal",
+     "id": "100004526_KVV_ICSKVV",
+     "version": 4,
+     "type": "lineInfo",
+     "properties": {
+      "infoType": "lineInfo"
+     },
+     "infoLinks": [
+      {
+       "urlText": "Karlsruhe: Bauarbeiten im VBK-Netz (Phase 5)",
+       "url": "http://projekte.kvv-efa.de:80/cm/XSLT_CM_SHOWADDINFO_REQUEST?infoID=100004526_KVV_ICSKVV&seqID=4",
+       "subtitle": "Karlsruhe: Bauarbeiten im VBK-Netz (Phase 5)",
+       "title": "Linien: S12, 1, 2, 4, 5, 6, 21, 24, 26, 30, 31, 42, NL1, NL2, NL3, SEV",
+       "htmlText": "<p>(kue) Im Zeitraum nach den Herbstferien, somit<br />&nbsp;<br /><span style=\"color: #c30a37;\"><strong>von&nbsp;</strong></span><span style=\"color: #c30a37;\"><strong>Samstag</strong></span><span style=\"color: #c30a37;\"><strong>, 31.&nbsp;</strong></span><span style=\"color: #c30a37;\"><strong>Oktober </strong></span><span style=\"color: #c30a37;\"><strong>2026 (01:00 Uhr),</strong></span><br /><span style=\"color: #c30a37;\"><strong>bis Montag, 23. November 2026 (03:30 Uhr),</strong></span><br />&nbsp;<br />gilt Phase 5 der Bauarbeiten in der zweiten Jahresh&auml;lfte 2026.<br />&nbsp;<br /><strong>Grund:</strong> Gleis- und Weichenerneuerungen, Sanierungsarbeiten in der Waldstadt</p>\n<p><strong>Gesperrte Streckenabschnitte und somit kein Bahnverkehr zwischen:</strong><br />&nbsp;<br />&bull; Durlach Turmberg &uuml;ber Schlossplatz und Friedrichschule &ndash; Auer Stra&szlig;e&nbsp;<br />&bull; Wolfartsweier Nord &ndash; Z&uuml;ndh&uuml;tle &ndash; Auer Stra&szlig;e<br />&bull; Europ&auml;ische Schule &ndash; J&auml;gerhaus &ndash; F&auml;cherbad &ndash; Hirtenweg&nbsp;<br />&bull; Mathystra&szlig;e &ndash; Otto-Sachs-Stra&szlig;e &ndash; Lessingstra&szlig;e &ndash; Weinbrennerplatz<br />&nbsp;<br /><strong>Es ergeben sich folgende &Auml;nderungen der Linien (jeweils in beide Fahrtrichtungen):</strong><br />&nbsp;<br /><strong>S-Bahn</strong><br />&nbsp;<br />S4&nbsp;</p>\n<ul>\n<li>Zug 85472 Ab Heilbronn Pf&uuml;hlpark (ab 23:40 Uhr) sowie Zug 85541 Karlsruhe Albtalbahnhof (ab 01:16 Uhr); verkehren nur in N&auml;chten auf Montag bis Freitag<br />werden zwischen \"Durlacher Tor (Durlacher Allee)\" und \"R&uuml;ppurrer Tor (R&uuml;ppurrer Stra&szlig;e)\" &uuml;ber die Kapellenstra&szlig;e umgeleitet.</li>\n</ul>\n<p>S5&nbsp;</p>\n<ul>\n<li>Zug 84784 S&ouml;llingen Reetzstra&szlig;e (ab 01:02 Uhr); verkehrt nur in N&auml;chten von Montag bis Freitag:&nbsp;<br />Wird ab \"Durlacher Tor (Durlacher Allee)\" &uuml;ber die Kapellenstra&szlig;e zum \"R&uuml;ppurrer Tor (R&uuml;ppurrer Stra&szlig;e)\" umgeleitet.</li>\n</ul>\n<p>S12</p>\n<ul>\n<li>Ittersbach &ndash; Albtalbahnhof &ndash; Kolpingplatz &ndash; Karlstor (Karlstra&szlig;e und Kriegsstra&szlig;e) &ndash; R&uuml;ppurrer Tor (Kriegsstra&szlig;e) &ndash; S&uuml;dostbahn &ndash; Tullastra&szlig;e</li>\n</ul>\n<p><br /><strong>Tram</strong><br />&nbsp;<br />Linie 1</p>\n<ul>\n<li>Verkehrt von der Karlsruher Innenstadt kommend ab der Haltestelle \"Unterm&uuml;hlstra&szlig;e\" bis \"Durlach Bahnhof\"&nbsp;</li>\n</ul>\n<p>Linie 2</p>\n<ul>\n<li>&nbsp;Knielingen Nord &ndash; Yorckstra&szlig;e &ndash; Schillerstra&szlig;e &ndash; Weinbrennerplatz &ndash; K&uuml;hler Krug &ndash; Entenfang &ndash; Rheinhafen</li>\n</ul>\n<p>Linie 4</p>\n<ul>\n<li>Verkehrt regul&auml;r nur zwischen Hirtenweg und Oberreut</li>\n</ul>\n<p>Linie 5</p>\n<ul>\n<li>Verkehrt nur auf dem Abschnitt Tullastra&szlig;e &ndash; Karlstor/ Bundesgerichtshof &ndash; Europaplatz (oben)</li>\n</ul>\n<p>Linie 6</p>\n<ul>\n<li>Pendelverkehr zwischen Tivoli &ndash; Hauptbahnhof (Vorplatz) &ndash; ZKM &ndash; Arbeitsagentur</li>\n</ul>\n<p>Linie 8</p>\n<ul>\n<li>Die Linie 8 entf&auml;llt auf ihrem kompletten Laufweg</li>\n</ul>\n<p><strong>Nightliner</strong><br />&nbsp;<br />NL1</p>\n<ul>\n<li>Verkehrt auf dem regul&auml;ren Fahrweg nur zwischen Hirtenweg und Neureut-Heide&nbsp;<br />Kein Verkehr in Richtung Waldstadt &ndash; Europ&auml;ische Schule.</li>\n</ul>\n<p>NL2</p>\n<ul>\n<li>Von der Karlsruher Innenstadt kommend Umleitung ab Auer Stra&szlig;e bis Durlach Bahnhof&nbsp;<br />Zus&auml;tzlich Umleitung zwischen Ebertstra&szlig;e und Karlstor &uuml;ber Kolpingplatz und Mathystra&szlig;e</li>\n</ul>\n<p>NL3</p>\n<ul>\n<li>Wegen der Sperrung zwischen Turmberg und Auer Stra&szlig;e wird die Linie NL3 bis Durlach Bahnhof verl&auml;ngert. <br />Hierf&uuml;r nutzt sie zwischen Turmberg und Durlach Bahnhof den Linienweg der 31. <br />Die Haltestelle Turmberg wird nur in Fahrtrichtung Stupferich bedient. Anschlie&szlig;end verkehrt die Linie wieder auf ihrem regul&auml;ren Linienweg.</li>\n</ul>\n<p>&nbsp;<br /><strong>Schienenersatzverkehr (SEV)</strong></p>\n<p>Folgende Buslinien ersetzen die Bahnen:</p>\n<table style=\"border-collapse: collapse; width: 49.9505%; height: 143px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14</td>\n<td style=\"width: 77.0307%;\">Waldstadt Zentrum - Hirtenweg</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14X</td>\n<td style=\"width: 77.0307%;\">Waldstadt Zentrum - Durlacher Tor</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 14N</td>\n<td style=\"width: 77.0307%;\">Europ&auml;ische Schule - Hirtenweg (Nachtverkehr)</td>\n</tr>\n<tr>\n<td style=\"width: 22.9694%;\">SEV 15</td>\n<td style=\"width: 77.0307%;\">Europ&auml;ische Schule - Waldstadt Zentrum</td>\n</tr>\n</tbody>\n</table>\n<p>Hinweis: Die Fahrradmitnahme in den SEV-Bussen ist nicht m&ouml;glich.</p>\n<p>&nbsp;<br /><strong>&Auml;nderungen bei den Buslinien:</strong><br />&nbsp;<br />Bus 21:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e wird die Linie 21 &uuml;ber die bisherige Endhaltestelle Durlach Turmberg hinaus &uuml;ber die Haltestellen &bdquo;Ochsentorstra&szlig;e&ldquo; und &bdquo;An der Fayence&ldquo; bis \"Durlach Bahnhof\" umgeleitet.</li>\n</ul>\n<p>Bus 24:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e wird die Linie 24 zwischen \"Blattwiesenstra&szlig;e\" und \"Durlach Turmberg\" &uuml;ber \"Durlach Bahnhof\" entlang des Fahrwegs der Linie 31 umgeleitet.</li>\n</ul>\n<p>Bus 24A:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e und der daraus resultierenden Umleitung der Linie 24 wird diese Linie zwischen \"Durlach Turmberg\" (Steig C) und \"Durlach Bahnhof\" verst&auml;rkt.</li>\n</ul>\n<p>Linie 26:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Durlach Turmberg &ndash; Auer Stra&szlig;e und der Gymnasiumstra&szlig;e wird die Linie 26 weitr&auml;umig &uuml;ber die Haltestelle &bdquo;Rommelstra&szlig;e&ldquo; umgeleitet.</li>\n</ul>\n<p>Linie 30:</p>\n<ul>\n<li>Alle Fahrten werden von der Haltestelle \"Elbinger Stra&szlig;e West\" bis zur \"Europ&auml;ischen Schule\" verl&auml;ngert.</li>\n</ul>\n<p>Linie 31:</p>\n<ul>\n<li>Umleitung in Richtung \"Durlach Bahnhof\" zwischen \"Waldstadt Zentrum\", \"F&auml;cherbad\" und \"Hallesche Allee\".</li>\n</ul>\n<p>Linie 42/42A:</p>\n<ul>\n<li>Aufgrund der Sperrung des Streckenabschnitts Wolfartsweier Nord - Auer Stra&szlig;e wird die Linie 42 durch die zus&auml;tzliche Verst&auml;rkerlinie 42A erg&auml;nzt.<br />Somit ergeben sich zus&auml;tzliche Fahrtm&ouml;glichkeiten zwischen Durlach Bahnhof und Durlach-Aue.</li>\n</ul>\n<p><strong>Besonderheiten an den Haltestellen</strong></p>\n<p>Baustellenbedingt kann die Haltestelle &bdquo;<strong>Durlach Schlossplatz</strong>&ldquo; von den Linien 21, 23, 24, 26 und NL3 nicht bedient werden.</p>\n<p>&Uuml;bersicht der Abfahrtssteige an der Haltestelle \"<strong>Durlach Bahnhof</strong>\"<br />Steig A (am Kiosk): Fahrten &uuml;ber bzw. nach Turmberg (Linien 21, 24, 24A, 31, NL3 und 18)<br />Steig B: Fahrten zum Durlacher Tor bzw. nach Killisfeld (Linien 42 und 42A)<br />Steig C: Fahrten nach Ettlingen (Linie 107)<br />Steig D: Fahrten &uuml;ber Br&uuml;hlstra&szlig;e und Z&uuml;ndh&uuml;tle (Linien 24 und 24A)<br />Steig E: Express- und Schulfahrten (Linien 18 und 31X)<br />&nbsp;<br />Aufgrund von Umleitungen und zus&auml;tzlichem Umstieg auf Ersatzbusse planen Sie bitte mehr Fahrzeit ein.</p>",
+       "wapText": "Karlsruhe: Vom 31.10. bis 23.11.2026 Bauarbeiten im VBK-Netz (Phase 5)",
+       "additionalLinks": [
+        {
+         "id": "4",
+         "url": "https://www.kvv.de/fileadmin/user_upload/kvv/Dateien/Pressemitteilungen/Baustellen-Flyer_VBK_Phase-2-3-5_2026.pdf",
+         "urlText": "Baustellenflyer",
+         "subtitle": "Baustellenflyer",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        },
+        {
+         "id": "14",
+         "url": "https://www.kvv.de/fileadmin/user_upload/kvv/Dateien/Fahrplaene_Netzplaene/Schiene/2026-10-31_-_Bauarbeiten-in-der-zweiten-Jahreshaelfte__P5_.pdf",
+         "urlText": "Liniennetzplan (Phase 5)",
+         "subtitle": "Liniennetzplan (Phase 5)",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        },
+        {
+         "id": "5",
+         "url": "https://www.kvv.de/unternehmen/kvv-news/detail/bauarbeiten-in-der-waldstadt-in-durlach-und-wolfartsweier-sowie-in-der-gartenstrasse-brauerstrasse-1.html",
+         "urlText": "Weitere Informationen",
+         "subtitle": "Weitere Informationen",
+         "properties": {
+          "linkTarget": "_blank"
+         }
+        }
+       ],
+       "attachments": [
+        {
+         "ID": "1",
+         "path": "\\\\localhost\\mentzdv\\wwwroot\\ICS_Uploads\\100004526_KVV_ICSKVV\\Linienverlaufsplaene_Phase-5.pdf",
+         "fileName": "Linienverlaufsplaene_Phase-5.pdf",
+         "virtPath": "https://projekte.kvv-efa.de/ICS_Uploads/100004526_KVV_ICSKVV/Linienverlaufsplaene_Phase-5.pdf",
+         "linkText": "Fahrwege der Busse und Ersatzverkehre (Phase 5)",
+         "linkTarget": "_blank",
+         "size": 2001749
+        },
+        {
+         "ID": "2",
+         "path": "\\\\localhost\\mentzdv\\wwwroot\\ICS_Uploads\\100004526_KVV_ICSKVV\\Umgebungsplaene_Phase-5.pdf",
+         "fileName": "Umgebungsplaene_Phase-5.pdf",
+         "virtPath": "https://projekte.kvv-efa.de/ICS_Uploads/100004526_KVV_ICSKVV/Umgebungsplaene_Phase-5.pdf",
+         "linkText": "Umgebungspläne der Haltestellen",
+         "linkTarget": "_blank",
+         "size": 3105587
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "hints": [
+    {
+     "content": "Niederflurwagen",
+     "providerCode": "01",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00001_:.kvv-21-1-E.6.T3.63.s26",
+    "AVMSTripID": "38322#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1011:4:4",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 4(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001011",
+     "area": "4",
+     "platform": "4(U)",
+     "platformName": "Gleis 4(U)",
+     "plannedPlatformName": "Gleis 4(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:52:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:52:00Z",
+   "departureTimeEstimated": "2026-11-22T11:52:00Z",
+   "transportation": {
+    "id": "kvv:22301:E:H:s26",
+    "name": "S-Bahn S1",
+    "disassembledName": "S1",
+    "number": "S1",
+    "description": "Bad Herrenalb - Hochstetten",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "name": "Hochstetten",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "37015",
+     "tripCode": 699,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S01_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001306",
+     "name": "Bad Herrenalb",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, Klimaanlage",
+     "providerCode": "17",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S01_:.kvv-22-301-E.6.T3.216.s26",
+    "AVMSTripID": "37015-40060#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:1:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "1",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:53:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:53:00Z",
+   "departureTimeEstimated": "2026-11-22T11:53:00Z",
+   "transportation": {
+    "id": "kvv:22301:E:H:s26",
+    "name": "S-Bahn S1",
+    "disassembledName": "S1",
+    "number": "S1",
+    "description": "Bad Herrenalb - Hochstetten",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "name": "Hochstetten",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "37015",
+     "tripCode": 699,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S01_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001306",
+     "name": "Bad Herrenalb",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, Klimaanlage",
+     "providerCode": "17",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S01_:.kvv-22-301-E.6.T3.216.s26",
+    "AVMSTripID": "37015-40060#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1011:94:4",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Pyramide U)",
+    "disassembledName": "Gleis 4(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001011",
+     "area": "94",
+     "platform": "4(U)",
+     "platformName": "Gleis 4(U)",
+     "plannedPlatformName": "Gleis 4(U)"
+    },
+    "parent": {
+     "id": "de:08212:1011",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Pyramide U)",
+     "disassembledName": "Marktplatz (Pyramide U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001011"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:54:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:54:00Z",
+   "departureTimeEstimated": "2026-11-22T11:54:00Z",
+   "transportation": {
+    "id": "kvv:22308:E:R:s26",
+    "name": "S-Bahn S8",
+    "disassembledName": "S8",
+    "number": "S8",
+    "description": "Freudenstadt - Karlsruhe",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "7000007",
+     "name": "KA Tullastraße/Alter Schlachthof",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "85636",
+     "tripCode": 184,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S08_:"
+    },
+    "origin": {
+     "id": "5004510",
+     "name": "Bondorf",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN, WC",
+     "providerCode": "42",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S08_:.kvv-22-308-E.17.T3.34.s26",
+    "AVMSTripID": "85636-1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:2:2",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 2(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "2",
+     "platform": "2(U)",
+     "platformName": "Gleis 2(U)",
+     "plannedPlatformName": "Gleis 2(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:56:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:56:00Z",
+   "departureTimeEstimated": "2026-11-22T11:56:00Z",
+   "transportation": {
+    "id": "kvv:21012:E:R:s26",
+    "name": "S-Bahn S2",
+    "disassembledName": "S2",
+    "number": "S2",
+    "description": "Rheinstetten - Spöck",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "VBK",
+     "id": "02",
+     "name": "Verkehrsbetriebe Karlsruhe GmbH"
+    },
+    "destination": {
+     "name": "Blankenloch",
+     "type": "stop"
+    },
+    "properties": {
+     "tripCode": 253,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S02_:",
+     "attributes": [
+      "PLAN_LOWFLOORVEHICLE",
+      "PLAN_WHEELCHAIRACCESS"
+     ]
+    },
+    "origin": {
+     "id": "7001501",
+     "name": "Mörsch Bach-West",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Niederflurwagen",
+     "providerCode": "02",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S02_:.kvv-21-12-E.14.T3.17.s26",
+    "AVMSTripID": "38990#!ADD!#vbk#",
+    "PlanLowFloorVehicle": "1",
+    "PlanWheelChairAccess": "1"
+   }
+  },
+  {
+   "realtimeStatus": [
+    "MONITORED"
+   ],
+   "isRealtimeControlled": true,
+   "location": {
+    "id": "de:08212:1003:91:1",
+    "isGlobalId": true,
+    "name": "KA Marktplatz (Kaiserstraße U)",
+    "disassembledName": "Gleis 1(U)",
+    "type": "platform",
+    "pointType": "TRACK",
+    "properties": {
+     "stopId": "7001003",
+     "area": "91",
+     "platform": "1(U)",
+     "platformName": "Gleis 1(U)",
+     "plannedPlatformName": "Gleis 1(U)"
+    },
+    "parent": {
+     "id": "de:08212:1003",
+     "isGlobalId": true,
+     "name": "KA Marktplatz (Kaiserstraße U)",
+     "disassembledName": "Marktplatz (Kaiserstraße U)",
+     "type": "stop",
+     "parent": {
+      "id": "placeID:8212000:15",
+      "name": "Karlsruhe",
+      "type": "locality"
+     },
+     "properties": {
+      "stopId": "7001003"
+     }
+    }
+   },
+   "departureTimePlanned": "2026-11-22T11:57:00Z",
+   "departureTimeBaseTimetable": "2026-11-22T11:57:00Z",
+   "departureTimeEstimated": "2026-11-22T11:57:00Z",
+   "transportation": {
+    "id": "kvv:22305:E:H:s26",
+    "name": "S-Bahn S5",
+    "disassembledName": "S5",
+    "number": "S5",
+    "description": "Pforzheim -  Wörth",
+    "product": {
+     "id": 11,
+     "class": 1,
+     "name": "S-Bahn",
+     "iconId": 2
+    },
+    "operator": {
+     "code": "AVG",
+     "id": "01",
+     "name": "Albtal-Verkehrs-Gesellschaft mbH"
+    },
+    "destination": {
+     "id": "7000107",
+     "name": "Knielingen Rheinbergstraße",
+     "type": "stop"
+    },
+    "properties": {
+     "trainName": "S-Bahn",
+     "trainType": "S",
+     "trainNumber": "84976",
+     "tripCode": 5153,
+     "lineDisplay": "LINE",
+     "globalId": "de:kvv:00S05_:"
+    },
+    "origin": {
+     "id": "7001626",
+     "name": "Pforzheim Hbf",
+     "type": "stop"
+    }
+   },
+   "hints": [
+    {
+     "content": "Stufenloses Fahrzeug, WLAN, WC",
+     "providerCode": "42",
+     "type": "VehicleType",
+     "properties": {
+      "subnet": "kvv"
+     }
+    }
+   ],
+   "properties": {
+    "RealtimeTripId": "de:kvv:00S05_:.kvv-22-305-E.18.T3.199.s26",
+    "AVMSTripID": "84976-1"
+   }
+  }
+ ]
+}

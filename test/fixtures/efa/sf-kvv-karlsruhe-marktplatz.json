@@ -1,0 +1,64 @@
+{
+ "version": "11.0.6.72",
+ "systemMessages": [
+  {
+   "type": "error",
+   "module": "BROKER",
+   "code": -8011,
+   "text": ""
+  }
+ ],
+ "locations": [
+  {
+   "id": "de:08212:1011",
+   "isGlobalId": true,
+   "name": "Karlsruhe, Marktplatz (Pyramide U)",
+   "disassembledName": "Marktplatz (Pyramide U)",
+   "type": "stop",
+   "matchQuality": 1000,
+   "isBest": true,
+   "parent": {
+    "id": "placeID:8212000:15",
+    "name": "Karlsruhe",
+    "type": "locality"
+   },
+   "properties": {
+    "stopId": "7001011",
+    "mainLocality": "Karlsruhe"
+   }
+  },
+  {
+   "id": "de:08212:1003",
+   "isGlobalId": true,
+   "name": "Karlsruhe, Marktplatz (Kaiserstraße U)",
+   "disassembledName": "Marktplatz (Kaiserstraße U)",
+   "type": "stop",
+   "matchQuality": 1000,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:8212000:15",
+    "name": "Karlsruhe",
+    "type": "locality"
+   },
+   "properties": {
+    "stopId": "7001003",
+    "mainLocality": "Karlsruhe"
+   }
+  },
+  {
+   "id": "streetID:1500001114::8212000:-1:Marktplatz:Karlsruhe:Marktplatz::Marktplatz: 76133:ANY:DIVA_STREET:935526:5723651:MRCV:b_w:0",
+   "name": "Karlsruhe, Marktplatz",
+   "disassembledName": "Marktplatz",
+   "streetName": "Marktplatz",
+   "postCode": " 76133",
+   "type": "street",
+   "matchQuality": 1000,
+   "isBest": false,
+   "parent": {
+    "id": "placeID:8212000:-1",
+    "name": "Karlsruhe",
+    "type": "locality"
+   }
+  }
+ ]
+}

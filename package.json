@@ -1,8 +1,8 @@
 {
-  "name": "gladys-integration-template-js",
+  "name": "gladys-efa",
   "version": "1.0.0",
   "private": true,
-  "description": "Official starter template to build an external integration for Gladys Assistant with the JavaScript SDK.",
+  "description": "Real-time departures of German and Austrian EFA transport networks (VRR, VVS, KVV…) in Gladys Assistant.",
   "type": "module",
   "main": "index.js",
   "scripts": {

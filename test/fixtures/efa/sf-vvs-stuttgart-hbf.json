@@ -1,0 +1,42 @@
+{
+ "version": "11.0.6.72",
+ "systemMessages": [
+  {
+   "type": "message",
+   "module": "BROKER",
+   "code": -8010,
+   "text": "Any - input uniquely verified"
+  }
+ ],
+ "locations": [
+  {
+   "id": "de:08111:6118",
+   "isGlobalId": true,
+   "name": "Stuttgart, Hauptbahnhof",
+   "disassembledName": "Hauptbahnhof",
+   "type": "stop",
+   "matchQuality": 1000,
+   "isBest": true,
+   "parent": {
+    "id": "placeID:8111000:51",
+    "name": "Stuttgart",
+    "type": "locality"
+   },
+   "properties": {
+    "stopId": "5006118",
+    "downloads": [
+     {
+      "type": "SM",
+      "url": "vvs/uhbf.pdf",
+      "size": 1002
+     },
+     {
+      "type": "SM",
+      "url": "vvs/me_plaene/ME_Hbf.pdf",
+      "size": 888
+     }
+    ]
+   }
+  }
+ ]
+}
